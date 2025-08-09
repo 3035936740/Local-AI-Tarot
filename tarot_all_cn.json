@@ -1,0 +1,4790 @@
+{
+	"elements": {
+		"fire": {
+            "name_cn": "火",
+			"minor": "Wands",
+			"minorCN": "权杖",
+			"genderCN": "阳性",
+			"gender": "masculine",
+			"colorsCN": ["红色", "橙色"],
+			"colors": ["red","orange"],
+			"zodiacCN": ["白羊座", "狮子座", "射手座"],
+			"zodiac": ["Aries", "Leo", "Sagittarius"],
+			"animals": "爬行动物、昆虫、蜥蜴",
+			"expression": "我行动",
+			"attribute": "生命活力",
+			"meaning": "激情、创造力、生命力、成长、性欲、幽默、愤怒、灵性、能量、动机"
+		},
+		"earth": {
+            "name_cn": "土",
+			"minor": "Pentacles",
+			"minorCN": "星币",
+			"genderCN": "阴性",
+			"gender": "feminine",
+			"colorsCN": ["绿色", "棕色"],
+			"colors": ["green","brown"],
+			"zodiacCN": ["金牛座", "处女座", "摩羯座"],
+			"zodiac": ["Taurus","Virgo","Capricorn"],
+			"animals": "陆地哺乳动物",
+			"expression": "我存在",
+			"attribute": "物质资源",
+			"meaning": "金钱、财富、家庭、物质财产、健康、实际事务、稳定、踏实、坚固"
+		},
+		"air": {
+            "name_cn": "风",
+			"minor": "Swords",
+			"minorCN": "宝剑",
+			"genderCN": "阳性",
+			"gender": "masculine",
+			"colorsCN": ["白色", "黄色"],
+			"colors": ["white","yellow"],
+			"zodiacCN": ["双子座", "天秤座", "水瓶座"],
+			"zodiac": ["Gemini","Libra","Aquarius"],
+			"animals": "有翼生物",
+			"expression": "我思考",
+			"attribute": "心智力量",
+			"meaning": "思想、诚实、沟通、清晰、逻辑、智力、洞察力、理性、正直"
+		},
+		"water": {
+            "name_cn": "水",
+			"minor": "Cups",
+			"minorCN": "圣杯",
+			"genderCN": "阴性",
+			"gender": "feminine",
+			"colorsCN": ["蓝色", "紫色"],
+			"colors": ["blue","purple"],
+			"zodiacCN": ["巨蟹座", "天蝎座", "双鱼座"],
+			"zodiac": ["Cancer","Scorpio","Pisces"],
+			"animals": "水生生物",
+			"expression": "我感受",
+			"attribute": "心灵事务",
+			"meaning": "情绪、爱情、同情、感受、直觉、流动性、关系、家庭"
+		},
+        "aether": {
+            "name_cn": "以太",
+            "minor": "Major Arcana",
+            "minorCN": "大阿卡那",
+            "genderCN": "中性",
+            "gender": "neutral",
+            "colorsCN": ["紫色", "黑色"],
+            "colors": ["purple", "black"],
+            "zodiacCN": ["所有星座"],
+            "zodiac": ["all"],
+            "animals": "万物生灵",
+            "expression": "我创造",
+            "attribute": "宇宙意识",
+            "meaning": "潜能、纯粹的能量、开端、自由、灵性、无限可能性、统一、超脱、超越"
+        }
+	},
+	"zodiacs": {
+		"Cancer": {
+			"zodiacCN": "巨蟹座",
+			"seasonCN": "夏季",
+			"zodiac": "Cancer",
+			"season": "summer",
+			"element": "water",
+			"elementCN": "水",
+			"nature": "安全感",
+			"astrologyModalityCN": "基本宫",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "月亮",
+			"rulingBodyTraditional": null
+		},
+		"Scorpio": {
+			"zodiacCN": "天蝎座",
+			"seasonCN": "秋季",
+			"zodiac": "Scorpio",
+			"season": "fall",
+			"element": "water",
+			"elementCN": "水",
+			"nature": "力量",
+			"astrologyModalityCN": "固定宫",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "冥王星",
+			"rulingBodyTraditional": "火星"
+		},
+		"Pisces": {
+			"zodiacCN": "双鱼座",
+			"seasonCN": "冬季",
+			"zodiac": "Pisces",
+			"season": "winter",
+			"element": "water",
+			"elementCN": "水",
+			"nature": "连接",
+			"astrologyModalityCN": "变动宫",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "海王星",
+			"rulingBodyTraditional": "木星"
+		},
+		"Gemini": {
+			"zodiacCN": "双子座",
+			"seasonCN": "春季",
+			"zodiac": "Gemini",
+			"season": "spring",
+			"element": "air",
+			"elementCN": "风",
+			"nature": "好奇心",
+			"astrologyModalityCN": "变动宫",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "水星",
+			"rulingBodyTraditional": null
+		},
+		"Libra": {
+			"zodiacCN": "天秤座",
+			"seasonCN": "秋季",
+			"zodiac": "Libra",
+			"season": "fall",
+			"element": "air",
+			"elementCN": "风",
+			"nature": "和谐",
+			"astrologyModalityCN": "基本宫",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "金星",
+			"rulingBodyTraditional": null
+		},
+		"Aquarius": {
+			"zodiacCN": "水瓶座",
+			"seasonCN": "冬季",
+			"zodiac": "Aquarius",
+			"season": "winter",
+			"element": "air",
+			"elementCN": "风",
+			"nature": "创新",
+			"astrologyModalityCN": "固定宫",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "天王星",
+			"rulingBodyTraditional": "土星"
+		},
+		"Aries": {
+			"zodiacCN": "白羊座",
+            "seasonCN": "春季",
+			"zodiac": "Aries",
+			"season": "spring",
+			"element": "fire",
+			"elementCN": "火",
+			"nature": "创造",
+			"astrologyModalityCN": "基本宫",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "火星",
+			"rulingBodyTraditional": null
+		},
+		"Leo": {
+			"zodiacCN": "狮子座",
+			"seasonCN": "夏季",
+			"zodiac": "Leo",
+			"season": "summer",
+			"element": "fire",
+			"elementCN": "火",
+			"nature": "表达",
+			"astrologyModalityCN": "固定宫",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "太阳",
+			"rulingBodyTraditional": null
+		},
+		"Sagittarius": {
+			"zodiacCN": "射手座",
+			"seasonCN": "秋季",
+			"zodiac": "Sagittarius",
+			"season": "fall",
+			"element": "fire",
+			"elementCN": "火",
+			"nature": "智慧",
+			"astrologyModalityCN": "变动宫",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "木星",
+			"rulingBodyTraditional": null
+		},
+		"Taurus": {
+			"zodiacCN": "金牛座",
+			"seasonCN": "春季",
+			"zodiac": "Taurus",
+			"season": "spring",
+			"element": "earth",
+			"elementCN": "土",
+			"nature": "丰盛",
+			"astrologyModalityCN": "固定宫",
+			"astrologyModality": "fixed",
+			"rulingBodyModern": "金星",
+			"rulingBodyTraditional": null
+		},
+		"Virgo": {
+			"zodiacCN": "处女座",
+			"seasonCN": "夏季",
+			"zodiac": "Virgo",
+			"season": "summer",
+			"element": "earth",
+			"elementCN": "土",
+			"nature": "分析",
+			"astrologyModalityCN": "变动宫",
+			"astrologyModality": "mutable",
+			"rulingBodyModern": "水星",
+			"rulingBodyTraditional": null
+		},
+		"Capricorn": {
+			"zodiacCN": "摩羯座",
+            "seasonCN": "冬季",
+			"zodiac": "Capricorn",
+			"season": "winter",
+			"element": "earth",
+			"elementCN": "土",
+			"nature": "野心",
+			"astrologyModalityCN": "基本宫",
+			"astrologyModality": "cardinal",
+			"rulingBodyModern": "土星",
+			"rulingBodyTraditional": null
+		}
+	},
+	"courtElementalCorrespondence": {
+		"page": {
+            "nameCN": "侍者",
+			"element": "earth",
+			"elementCN": "土",
+			"meaning": "经验不足，渴望稳定"
+		},
+		"knight": {
+            "nameCN": "骑士",
+			"element": "fire",
+			"elementCN": "火",
+			"meaning": "燃烧的、压倒性的激情"
+		},
+		"queen": {
+            "nameCN": "王后",
+			"element": "water",
+			"elementCN": "水",
+			"meaning": "流动的直觉与内在完美"
+		},
+		"king": {
+            "nameCN": "国王",
+			"element": "air",
+			"elementCN": "风",
+			"meaning": "战略性、理智的沟通"
+		}
+	},
+	"astrologyModality": {
+		"cardinal": {
+            "name_cn": "基本宫",
+			"card": "queen",
+			"cardCN": "皇后",
+			"attribute": "开启季节的星座",
+			"meaning": "开创者、主动进取、果断坚决，有时略显激进",
+			"fire": {
+				"zodiacCN": "白羊座",
+				"seasonCN": "春季",
+				"zodiac": "Aries",
+				"season": "spring"
+			},
+			"earth": {
+				"zodiacCN": "摩羯座",
+				"seasonCN": "冬季",
+				"zodiac": "Capricorn",
+				"season": "winter"
+			},
+			"air": {
+				"zodiacCN": "天秤座",
+				"seasonCN": "秋季",
+				"zodiac": "Libra",
+				"season": "fall"
+			},
+			"water": {
+				"zodiacCN": "巨蟹座",
+				"seasonCN": "夏季",
+				"zodiac": "Cancer",
+				"season": "summer"
+			}
+		},
+		"fixed": {
+            "name_cn": "固定宫",
+			"card": "knight",
+			"cardCN": "骑士",
+			"attribute": "季节中期的星座",
+			"meaning": "专注、稳定、可靠、坚定执着，有时略显固执",
+			"fire": {
+				"zodiacCN": "狮子座",
+				"seasonCN": "夏季",
+				"zodiac": "Leo",
+				"season": "summer"
+			},
+			"earth": {
+				"zodiacCN": "金牛座",
+				"seasonCN": "春季",
+				"zodiac": "Taurus",
+				"season": "spring"
+			},
+			"air": {
+				"zodiacCN": "水瓶座",
+				"seasonCN": "冬季",
+				"zodiac": "Aquarius",
+				"season": "winter"
+			},
+			"water": {
+				"zodiacCN": "天蝎座",
+				"seasonCN": "秋季",
+				"zodiac": "Scorpio",
+				"season": "fall"
+			}
+		},
+		"mutable": {
+            "name_cn": "变动宫",
+			"card": "king",
+			"cardCN": "国王",
+			"attribute": "季节末期的星座",
+			"meaning": "适应力强、灵活变通、善于沟通，有时略显叛逆",
+			"fire": {
+				"zodiacCN": "射手座",
+				"seasonCN": "秋季",
+				"zodiac": "Sagittarius",
+				"season": "fall"
+			},
+			"earth": {
+				"zodiacCN": "处女座",
+				"seasonCN": "夏季",
+				"zodiac": "Virgo",
+				"season": "summer"
+			},
+			"air": {
+				"zodiacCN": "双子座",
+				"seasonCN": "春季",
+				"zodiac": "Gemini",
+				"season": "spring"
+			},
+			"water": {
+				"zodiacCN": "双鱼座",
+				"seasonCN": "冬季",
+				"zodiac": "Pisces",
+				"season": "winter"
+			}
+		}
+	},
+	"cards": {
+		"The Fool": {
+			"id": 0,
+			"card_name_cn": "愚者",
+			"upright": "innocence, new beginnings, free spirit",
+			"upright_cn": "天真、新的开始、自由精神",
+			"reversed": "recklessness, taken advantage of, inconsideration",
+			"reversed_cn": "鲁莽、被利用、考虑不周",
+			"first_element": "aether",
+			"first_element_cn": "以太",
+			"second_element": "air",
+			"second_element_cn": "风"
+		},
+		"The Magician": {
+            "id": 1,
+            "card_name_cn": "魔术师",
+            "upright": "willpower, desire, creation, manifestation",
+            "upright_cn": "意志力、欲望、创造、显化",
+            "reversed": "trickery, illusions, out of touch",
+            "reversed_cn": "诡计、幻觉、脱离现实",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "air",
+            "second_element_cn": "风"
+        },
+		"The High Priestess": {
+            "id": 2,
+            "card_name_cn": "女祭司",
+            "upright": "intuitive, unconscious, inner voice",
+            "upright_cn": "直觉、潜意识、内在声音",
+            "reversed": "lack of center, lost inner voice, repressed feelings",
+            "reversed_cn": "缺乏中心、迷失内在声音、压抑情感",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "The Empress": {
+            "id": 3,
+            "card_name_cn": "皇后",
+            "upright": "motherhood, fertility, nature",
+            "upright_cn": "母性、丰饶、自然",
+            "reversed": "dependence, smothering, emptiness, nosiness",
+            "reversed_cn": "依赖、窒息的爱、空虚、好管闲事",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "The Emperor": {
+            "id": 4,
+            "card_name_cn": "皇帝",
+            "upright": "authority, structure, control, fatherhood",
+            "upright_cn": "权威、结构、控制、父性",
+            "reversed": "tyranny, rigidity, coldness",
+            "reversed_cn": "暴政、僵化、冷漠",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "The Hierophant": {
+            "id": 5,
+            "card_name_cn": "教皇",
+            "upright": "tradition, conformity, morality, ethics",
+            "upright_cn": "传统、顺从、道德、伦理",
+            "reversed": "rebellion, subversiveness, new approaches",
+            "reversed_cn": "反叛、颠覆、新方法",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "The Lovers": {
+            "id": 6,
+            "card_name_cn": "恋人",
+            "upright": "partnerships, duality, union",
+            "upright_cn": "伴侣关系、二元性、结合",
+            "reversed": "loss of balance, one-sidedness, disharmony",
+            "reversed_cn": "失衡、单方面、不和谐",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "air",
+            "second_element_cn": "风"
+        },
+        "The Chariot": {
+            "id": 7,
+            "card_name_cn": "战车",
+            "upright": "direction, control, willpower",
+            "upright_cn": "方向、控制、意志力",
+            "reversed": "lack of control, lack of direction, aggression",
+            "reversed_cn": "失控、迷失方向、侵略性",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "Strength": {
+            "id": 8,
+            "card_name_cn": "力量",
+            "upright": "inner strength, bravery, compassion, focus",
+            "upright_cn": "内在力量、勇气、同情、专注",
+            "reversed": "self doubt, weakness, insecurity",
+            "reversed_cn": "自我怀疑、软弱、不安",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "The Hermit": {
+            "id": 9,
+            "card_name_cn": "隐者",
+            "upright": "contemplation, search for truth, inner guidance",
+            "upright_cn": "沉思、寻求真理、内在指引",
+            "reversed": "loneliness, isolation, lost your way",
+            "reversed_cn": "孤独、孤立、迷失方向",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "Wheel of Fortune": {
+            "id": 10,
+            "card_name_cn": "命运之轮",
+            "upright": "change, cycles, inevitable fate",
+            "upright_cn": "变化、循环、不可避免的命运",
+            "reversed": "no control, clinging to control, bad luck",
+            "reversed_cn": "无法控制、紧抓控制、厄运",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "Justice": {
+            "id": 11,
+            "card_name_cn": "正义",
+            "upright": "cause and effect, clarity, truth",
+            "upright_cn": "因果、清晰、真理",
+            "reversed": "dishonesty, unaccountability, unfairness",
+            "reversed_cn": "不诚实、不负责任、不公",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "air",
+            "second_element_cn": "风"
+        },
+        "The Hanged Man": {
+            "id": 12,
+            "card_name_cn": "倒吊人",
+            "upright": "sacrifice, release, martyrdom",
+            "upright_cn": "牺牲、释放、殉道",
+            "reversed": "stalling, needless sacrifice, fear of sacrifice",
+            "reversed_cn": "拖延、无谓牺牲、害怕牺牲",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "Death": {
+            "id": 13,
+            "card_name_cn": "死神",
+            "upright": "end of cycle, beginnings, change, metamorphosis",
+            "upright_cn": "循环结束、新的开始、改变、蜕变",
+            "reversed": "fear of change, holding on, stagnation, decay",
+            "reversed_cn": "害怕改变、执着不放、停滞、腐朽",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "Temperance": {
+            "id": 14,
+            "card_name_cn": "节制",
+            "upright": "middle path, patience, finding meaning",
+            "upright_cn": "中庸之道、耐心、寻找意义",
+            "reversed": "extremes, excess, lack of balance",
+            "reversed_cn": "极端、过度、失衡",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "The Devil": {
+            "id": 15,
+            "card_name_cn": "恶魔",
+            "upright": "addiction, materialism, playfulness",
+            "upright_cn": "成瘾、物质主义、玩乐",
+            "reversed": "freedom, release, restoring control",
+            "reversed_cn": "自由、释放、重获控制",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "The Tower": {
+            "id": 16,
+            "card_name_cn": "高塔",
+            "upright": "sudden upheaval, broken pride, disaster",
+            "upright_cn": "突然剧变、骄傲破碎、灾难",
+            "reversed": "disaster avoided, delayed disaster, fear of suffering",
+            "reversed_cn": "避免灾难、延迟的灾难、害怕受苦",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "The Star": {
+            "id": 17,
+            "card_name_cn": "星星",
+            "upright": "hope, faith, rejuvenation",
+            "upright_cn": "希望、信念、新生",
+            "reversed": "faithlessness, discouragement, insecurity",
+            "reversed_cn": "缺乏信念、气馁、不安",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "air",
+            "second_element_cn": "风"
+        },
+        "The Moon": {
+            "id": 18,
+            "card_name_cn": "月亮",
+            "upright": "unconscious, illusions, intuition",
+            "upright_cn": "潜意识、幻象、直觉",
+            "reversed": "confusion, fear, misinterpretation",
+            "reversed_cn": "困惑、恐惧、误解",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "The Sun": {
+            "id": 19,
+            "card_name_cn": "太阳",
+            "upright": "joy, success, celebration, positivity",
+            "upright_cn": "喜悦、成功、庆祝、积极",
+            "reversed": "negativity, depression, sadness",
+            "reversed_cn": "消极、抑郁、悲伤",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "Judgment": {
+            "id": 20,
+            "card_name_cn": "审判",
+            "upright": "reflection, reckoning, awakening",
+            "upright_cn": "反思、清算、觉醒",
+            "reversed": "lack of self awareness, doubt, self loathing",
+            "reversed_cn": "缺乏自我认知、怀疑、自我厌恶",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "The World": {
+            "id": 21,
+            "card_name_cn": "世界",
+            "upright": "fulfillment, harmony, completion",
+            "upright_cn": "圆满、和谐、完成",
+            "reversed": "incompletion, no closure",
+            "reversed_cn": "未完成、没有终结",
+            "first_element": "aether",
+            "first_element_cn": "以太",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+		"Ace of Wands": {
+            "id": 22,
+            "card_name_cn": "权杖王牌",
+            "upright": "creation, willpower, inspiration, desire",
+            "upright_cn": "创造、意志力、灵感、渴望",
+            "reversed": "lack of energy, lack of passion, boredom",
+            "reversed_cn": "缺乏能量、缺乏激情、无聊",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Two of Wands": {
+            "id": 23,
+            "card_name_cn": "权杖二",
+            "upright": "planning, making decisions, leaving home",
+            "upright_cn": "规划、做出决定、离开舒适区",
+            "reversed": "fear of change, playing safe, bad planning",
+            "reversed_cn": "害怕改变、保守行事、糟糕计划",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Three of Wands": {
+            "id": 24,
+            "card_name_cn": "权杖三",
+            "upright": "looking ahead, expansion, rapid growth",
+            "upright_cn": "展望未来、扩张、快速增长",
+            "reversed": "obstacles, delays, frustration",
+            "reversed_cn": "阻碍、延迟、挫败",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Four of Wands": {
+            "id": 25,
+            "card_name_cn": "权杖四",
+            "upright": "community, home, celebration",
+            "upright_cn": "社群、家庭、庆祝",
+            "reversed": "lack of support, transience, home conflicts",
+            "reversed_cn": "缺乏支持、短暂无常、家庭冲突",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Five of Wands": {
+            "id": 26,
+            "card_name_cn": "权杖五",
+            "upright": "competition, rivalry, conflict",
+            "upright_cn": "竞争、对抗、冲突",
+            "reversed": "avoiding conflict, respecting differences",
+            "reversed_cn": "避免冲突、尊重差异",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Six of Wands": {
+            "id": 27,
+            "card_name_cn": "权杖六",
+            "upright": "victory, success, public reward",
+            "upright_cn": "胜利、成功、公众认可",
+            "reversed": "excess pride, lack of recognition, punishment",
+            "reversed_cn": "过度骄傲、缺乏认可、惩罚",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Seven of Wands": {
+            "id": 28,
+            "card_name_cn": "权杖七",
+            "upright": "perseverance, defensive, maintaining control",
+            "upright_cn": "坚持、防御、保持控制",
+            "reversed": "give up, destroyed confidence, overwhelmed",
+            "reversed_cn": "放弃、信心崩溃、不堪重负",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Eight of Wands": {
+            "id": 29,
+            "card_name_cn": "权杖八",
+            "upright": "rapid action, movement, quick decisions",
+            "upright_cn": "快速行动、进展迅速、果断决策",
+            "reversed": "panic, waiting, slowdown",
+            "reversed_cn": "惊慌、等待、放缓",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Nine of Wands": {
+            "id": 30,
+            "card_name_cn": "权杖九",
+            "upright": "resilience, grit, last stand",
+            "upright_cn": "韧性、毅力、背水一战",
+            "reversed": "exhaustion, fatigue, questioning motivations",
+            "reversed_cn": "精疲力竭、疲劳、质疑动机",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Ten of Wands": {
+            "id": 31,
+            "card_name_cn": "权杖十",
+            "upright": "accomplishment, responsibility, burden",
+            "upright_cn": "成就、责任、负担",
+            "reversed": "inability to delegate, overstressed, burnt out",
+            "reversed_cn": "不善授权、压力过大、精疲力尽",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Page of Wands": {
+            "id": 32,
+            "card_name_cn": "权杖侍从",
+            "upright": "exploration, excitement, freedom",
+            "upright_cn": "探索、兴奋、自由",
+            "reversed": "lack of direction, procrastination, creating conflict",
+            "reversed_cn": "缺乏方向、拖延、制造冲突",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "Knight of Wands": {
+            "id": 33,
+            "card_name_cn": "权杖骑士",
+            "upright": "action, adventure, fearlessness",
+            "upright_cn": "行动、冒险、无畏",
+            "reversed": "anger, impulsiveness, recklessness",
+            "reversed_cn": "愤怒、冲动、鲁莽",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "Queen of Wands": {
+            "id": 34,
+            "card_name_cn": "权杖皇后",
+            "upright": "courage, determination, joy",
+            "upright_cn": "勇气、决心、喜悦",
+            "reversed": "selfishness, jealousy, insecurities",
+            "reversed_cn": "自私、嫉妒、不安",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "King of Wands": {
+            "id": 35,
+            "card_name_cn": "权杖国王",
+            "upright": "big picture, leader, overcoming challenges",
+            "upright_cn": "大局观、领导力、克服挑战",
+            "reversed": "impulsive, overbearing, unachievable expectations",
+            "reversed_cn": "冲动、专横、不切实际的期望",
+            "first_element": "fire",
+            "first_element_cn": "火",
+            "second_element": "air",
+            "second_element_cn": "风"
+        },
+		"Ace of Cups": {
+            "id": 36,
+            "card_name_cn": "圣杯王牌",
+            "upright": "new feelings, spirituality, intuition",
+            "upright_cn": "新情感、灵性成长、直觉觉醒",
+            "reversed": "emotional loss, blocked creativity, emptiness",
+            "reversed_cn": "情感缺失、创意受阻、内心空虚",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Two of Cups": {
+            "id": 37,
+            "card_name_cn": "圣杯二",
+            "upright": "unity, partnership, connection",
+            "upright_cn": "灵魂共鸣、完美契合、心灵联结",
+            "reversed": "imbalance, broken communication, tension",
+            "reversed_cn": "能量失衡、沟通断裂、关系紧张",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Three of Cups": {
+            "id": 38,
+            "card_name_cn": "圣杯三",
+            "upright": "friendship, community, happiness",
+            "upright_cn": "挚友欢聚、团体和谐、情感丰收",
+            "reversed": "overindulgence, gossip, isolation",
+            "reversed_cn": "放纵无度、流言蜚语、社交孤立",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Four of Cups": {
+            "id": 39,
+            "card_name_cn": "圣杯四",
+            "upright": "apathy, contemplation, disconnectedness",
+            "upright_cn": "情感倦怠、深度自省、抽离现实",
+            "reversed": "sudden awareness, choosing happiness, acceptance",
+            "reversed_cn": "顿悟觉醒、选择喜悦、接纳当下",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Five of Cups": {
+            "id": 40,
+            "card_name_cn": "圣杯五",
+            "upright": "loss, grief, self-pity",
+            "upright_cn": "重大失落、深切哀伤、自怜倾向",
+            "reversed": "acceptance, moving on, finding peace",
+            "reversed_cn": "接纳现实、走出阴霾、重获平静",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Six of Cups": {
+            "id": 41,
+            "card_name_cn": "圣杯六",
+            "upright": "familiarity, happy memories, healing",
+            "upright_cn": "童年记忆、温馨往事、情感疗愈",
+            "reversed": "moving forward, leaving home, independence",
+            "reversed_cn": "突破过往、离家远行、情感独立",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Seven of Cups": {
+            "id": 42,
+            "card_name_cn": "圣杯七",
+            "upright": "searching for purpose, choices, daydreaming",
+            "upright_cn": "追寻真意、多重选择、幻想漫游",
+            "reversed": "lack of purpose, diversion, confusion",
+            "reversed_cn": "目标缺失、逃避现实、精神混乱",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Eight of Cups": {
+            "id": 43,
+            "card_name_cn": "圣杯八",
+            "upright": "walking away, disillusionment, leaving behind",
+            "upright_cn": "决然离去、幻灭觉醒、断舍离",
+            "reversed": "avoidance, fear of change, fear of loss",
+            "reversed_cn": "逃避问题、恐惧改变、患得患失",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Nine of Cups": {
+            "id": 44,
+            "card_name_cn": "圣杯九",
+            "upright": "satisfaction, emotional stability, luxury",
+            "upright_cn": "心愿得偿、情感富足、精神盛宴",
+            "reversed": "lack of inner joy, smugness, dissatisfaction",
+            "reversed_cn": "内心枯竭、自我陶醉、永不满足",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Ten of Cups": {
+            "id": 45,
+            "card_name_cn": "圣杯十",
+            "upright": "inner happiness, fulfillment, dreams coming true",
+            "upright_cn": "天伦之乐、灵魂圆满、美梦成真",
+            "reversed": "shattered dreams, broken family, domestic disharmony",
+            "reversed_cn": "理想幻灭、家庭破碎、情感失和",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Page of Cups": {
+            "id": 46,
+            "card_name_cn": "圣杯侍从",
+            "upright": "happy surprise, dreamer, sensitivity",
+            "upright_cn": "意外惊喜、纯真造梦者、心灵感应",
+            "reversed": "emotional immaturity, insecurity, disappointment",
+            "reversed_cn": "情感幼稚、安全感缺失、期待落空",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "Knight of Cups": {
+            "id": 47,
+            "card_name_cn": "圣杯骑士",
+            "upright": "following the heart, idealist, romantic",
+            "upright_cn": "追随本心、唯美主义、浪漫诗人",
+            "reversed": "moodiness, disappointment",
+            "reversed_cn": "情绪反复、理想破灭",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "Queen of Cups": {
+            "id": 48,
+            "card_name_cn": "圣杯皇后",
+            "upright": "compassion, calm, comfort",
+            "upright_cn": "慈悲为怀、静水流深、温柔港湾",
+            "reversed": "martyrdom, insecurity, dependence",
+            "reversed_cn": "自我牺牲、情感依附、安全感匮乏",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "King of Cups": {
+            "id": 49,
+            "card_name_cn": "圣杯国王",
+            "upright": "compassion, control, balance",
+            "upright_cn": "大爱无疆、收放自如、刚柔并济",
+            "reversed": "coldness, moodiness, bad advice",
+            "reversed_cn": "情感冻结、喜怒无常、错误指引",
+            "first_element": "water",
+            "first_element_cn": "水",
+            "second_element": "air",
+            "second_element_cn": "风"
+        },
+		 "Ace of Swords": {
+            "id": 50,
+            "card_name_cn": "宝剑王牌",
+            "upright": "breakthrough, clarity, sharp mind",
+            "upright_cn": "思维突破、洞若观火、心智锐利",
+            "reversed": "confusion, brutality, chaos",
+            "reversed_cn": "思维混乱、言语暴力、理性崩塌",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Two of Swords": {
+            "id": 51,
+            "card_name_cn": "宝剑二",
+            "upright": "difficult choices, indecision, stalemate",
+            "upright_cn": "两难抉择、悬而未决、理性僵局",
+            "reversed": "lesser of two evils, no right choice, confusion",
+            "reversed_cn": "两害相权、无解难题、认知迷雾",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Three of Swords": {
+            "id": 52,
+            "card_name_cn": "宝剑三",
+            "upright": "heartbreak, suffering, grief",
+            "upright_cn": "心碎刺骨、锥心之痛、理性哀伤",
+            "reversed": "recovery, forgiveness, moving on",
+            "reversed_cn": "伤口愈合、宽恕解脱、破茧重生",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Four of Swords": {
+            "id": 53,
+            "card_name_cn": "宝剑四",
+            "upright": "rest, restoration, contemplation",
+            "upright_cn": "思维休眠、能量修复、深度冥想",
+            "reversed": "restlessness, burnout, stress",
+            "reversed_cn": "思维过载、心力交瘁、神经紧绷",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Five of Swords": {
+            "id": 54,
+            "card_name_cn": "宝剑五",
+            "upright": "unbridled ambition, win at all costs, sneakiness",
+            "upright_cn": "野心膨胀、不择手段、智谋诡计",
+            "reversed": "lingering resentment, desire to reconcile, forgiveness",
+            "reversed_cn": "心结难解、渴望和解、理性宽恕",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Six of Swords": {
+            "id": 55,
+            "card_name_cn": "宝剑六",
+            "upright": "transition, leaving behind, moving on",
+            "upright_cn": "思维过渡、告别过去、理性前行",
+            "reversed": "emotional baggage, unresolved issues, resisting transition",
+            "reversed_cn": "执念难消、心结未解、抗拒成长",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Seven of Swords": {
+            "id": 56,
+            "card_name_cn": "宝剑七",
+            "upright": "deception, trickery, tactics and strategy",
+            "upright_cn": "思维博弈、计谋周旋、策略突围",
+            "reversed": "coming clean, rethinking approach, deception",
+            "reversed_cn": "坦诚相待、反思策略、自我欺骗",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Eight of Swords": {
+            "id": 57,
+            "card_name_cn": "宝剑八",
+            "upright": "imprisonment, entrapment, self-victimization",
+            "upright_cn": "思维牢笼、自我设限、认知困境",
+            "reversed": "self acceptance, new perspective, freedom",
+            "reversed_cn": "接纳自我、视角转换、破局重生",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Nine of Swords": {
+            "id": 58,
+            "card_name_cn": "宝剑九",
+            "upright": "anxiety, hopelessness, trauma",
+            "upright_cn": "思维梦魇、理性崩溃、深夜焦虑",
+            "reversed": "hope, reaching out, despair",
+            "reversed_cn": "曙光初现、寻求帮助、至暗时刻",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Ten of Swords": {
+            "id": 59,
+            "card_name_cn": "宝剑十",
+            "upright": "failure, collapse, defeat",
+            "upright_cn": "思维绝境、信念崩塌、理性终结",
+            "reversed": "can't get worse, only upwards, inevitable end",
+            "reversed_cn": "否极泰来、触底反弹、宿命终结",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Page of Swords": {
+            "id": 60,
+            "card_name_cn": "宝剑侍从",
+            "upright": "curiosity, restlessness, mental energy",
+            "upright_cn": "思维敏锐、求知若渴、灵感迸发",
+            "reversed": "deception, manipulation, all talk",
+            "reversed_cn": "巧言令色、心机算计、纸上谈兵",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "Knight of Swords": {
+            "id": 61,
+            "card_name_cn": "宝剑骑士",
+            "upright": "action, impulsiveness, defending beliefs",
+            "upright_cn": "思维迅捷、锐意进取、捍卫真理",
+            "reversed": "no direction, disregard for consequences, unpredictability",
+            "reversed_cn": "莽撞冒进、不计后果、反复无常",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "Queen of Swords": {
+            "id": 62,
+            "card_name_cn": "宝剑皇后",
+            "upright": "complexity, perceptiveness, clear mindedness",
+            "upright_cn": "思维缜密、洞察秋毫、冰雪聪明",
+            "reversed": "cold hearted, cruel, bitterness",
+            "reversed_cn": "铁石心肠、尖酸刻薄、理性冷酷",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "King of Swords": {
+            "id": 63,
+            "card_name_cn": "宝剑国王",
+            "upright": "head over heart, discipline, truth",
+            "upright_cn": "理性至上、运筹帷幄、明辨真伪",
+            "reversed": "manipulative, cruel, weakness",
+            "reversed_cn": "操纵人心、冷酷无情、外强中干",
+            "first_element": "air",
+            "first_element_cn": "风",
+            "second_element": "air",
+            "second_element_cn": "风"
+        },
+		"Ace of Pentacles": {
+            "id": 64,
+            "card_name_cn": "星币王牌",
+            "upright": "opportunity, prosperity, new venture",
+            "upright_cn": "财富机遇、丰饶之始、实业新篇",
+            "reversed": "lost opportunity, missed chance, bad investment",
+            "reversed_cn": "错失良机、投资失误、财运流失",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Two of Pentacles": {
+            "id": 65,
+            "card_name_cn": "星币二",
+            "upright": "balancing decisions, priorities, adapting to change",
+            "upright_cn": "收支平衡、资源调配、应变自如",
+            "reversed": "loss of balance, disorganized, overwhelmed",
+            "reversed_cn": "财政失衡、手忙脚乱、疲于应付",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Three of Pentacles": {
+            "id": 66,
+            "card_name_cn": "星币三",
+            "upright": "teamwork, collaboration, building",
+            "upright_cn": "匠人精神、团队协作、实业筑基",
+            "reversed": "lack of teamwork, disorganized, group conflict",
+            "reversed_cn": "各自为政、管理混乱、团队失和",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Four of Pentacles": {
+            "id": 67,
+            "card_name_cn": "星币四",
+            "upright": "conservation, frugality, security",
+            "upright_cn": "稳健理财、节俭持家、固守财富",
+            "reversed": "greediness, stinginess, possessiveness",
+            "reversed_cn": "守财成癖、锱铢必较、占有成狂",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Five of Pentacles": {
+            "id": 68,
+            "card_name_cn": "星币五",
+            "upright": "need, poverty, insecurity",
+            "upright_cn": "经济困顿、流离失所、生存危机",
+            "reversed": "recovery, charity, improvement",
+            "reversed_cn": "绝处逢生、慈善援助、境况改善",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Six of Pentacles": {
+            "id": 69,
+            "card_name_cn": "星币六",
+            "upright": "charity, generosity, sharing",
+            "upright_cn": "财富共享、乐善好施、精准资助",
+            "reversed": "strings attached, stinginess, power and domination",
+            "reversed_cn": "附带条件、吝啬小气、金钱操控",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Seven of Pentacles": {
+            "id": 70,
+            "card_name_cn": "星币七",
+            "upright": "hard work, perseverance, diligence",
+            "upright_cn": "勤耕不辍、耐心守成、投资未来",
+            "reversed": "work without results, distractions, lack of rewards",
+            "reversed_cn": "徒劳无功、三心二意、回报失衡",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Eight of Pentacles": {
+            "id": 71,
+            "card_name_cn": "星币八",
+            "upright": "apprenticeship, passion, high standards",
+            "upright_cn": "工匠精神、精益求精、技艺磨砺",
+            "reversed": "lack of passion, uninspired, no motivation",
+            "reversed_cn": "敷衍了事、灵感枯竭、消极怠工",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Nine of Pentacles": {
+            "id": 72,
+            "card_name_cn": "星币九",
+            "upright": "fruits of labor, rewards, luxury",
+            "upright_cn": "硕果累累、优渥生活、自在享乐",
+            "reversed": "reckless spending, living beyond means, false success",
+            "reversed_cn": "挥霍无度、入不敷出、虚假繁荣",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Ten of Pentacles": {
+            "id": 73,
+            "card_name_cn": "星币十",
+            "upright": "legacy, culmination, inheritance",
+            "upright_cn": "家族基业、世代传承、圆满成就",
+            "reversed": "fleeting success, lack of stability, lack of resources",
+            "reversed_cn": "昙花一现、根基不稳、资源枯竭",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": null,
+            "second_element_cn": null
+        },
+        "Page of Pentacles": {
+            "id": 74,
+            "card_name_cn": "星币侍从",
+            "upright": "ambition, desire, diligence",
+            "upright_cn": "务实求学、蓄势待发、脚踏实地",
+            "reversed": "lack of commitment, greediness, laziness",
+            "reversed_cn": "好高骛远、急功近利、懈怠拖延",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": "earth",
+            "second_element_cn": "土"
+        },
+        "Knight of Pentacles": {
+            "id": 75,
+            "card_name_cn": "星币骑士",
+            "upright": "efficiency, hard work, responsibility",
+            "upright_cn": "稳健前行、勤勉可靠、使命必达",
+            "reversed": "laziness, obsessiveness, work without reward",
+            "reversed_cn": "消极怠工、钻牛角尖、劳而无获",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": "fire",
+            "second_element_cn": "火"
+        },
+        "Queen of Pentacles": {
+            "id": 76,
+            "card_name_cn": "星币皇后",
+            "upright": "practicality, creature comforts, financial security",
+            "upright_cn": "持家有道、滋养万物、富足安稳",
+            "reversed": "self-centeredness, jealousy, smothering",
+            "reversed_cn": "自私自利、嫉妒攀比、过度掌控",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": "water",
+            "second_element_cn": "水"
+        },
+        "King of Pentacles": {
+            "id": 77,
+            "card_name_cn": "星币国王",
+            "upright": "abundance, prosperity, security",
+            "upright_cn": "商业帝国、富甲一方、基业长青",
+            "reversed": "greed, indulgence, sensuality",
+            "reversed_cn": "利欲熏心、奢靡无度、沉迷享乐",
+            "first_element": "earth",
+            "first_element_cn": "土",
+            "second_element": "air",
+            "second_element_cn": "风"
+        }
+	},
+	"spreads": {
+        "celticCross": {
+            "name": "Celtic Cross",
+            "name_cn": "凯尔特十字",
+            "card_count": 10,
+            "description_cn": "最经典的塔罗牌阵之一，提供对问题的全面分析",
+            "description": "The most comprehensive classic spread for in-depth analysis",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Present Situation",
+                    "name_cn": "现状",
+                    "description": "Represents the current circumstances surrounding the question",
+                    "description_cn": "代表问题当前的状况"
+                },
+                {
+                    "position": 2,
+                    "name": "Challenge",
+                    "name_cn": "挑战",
+                    "description": "The immediate challenge or obstacle facing the querent",
+                    "description_cn": "问卜者面临的主要挑战或障碍"
+                },
+                {
+                    "position": 3,
+                    "name": "Subconscious",
+                    "name_cn": "潜意识",
+                    "description": "Underlying influences or subconscious factors",
+                    "description_cn": "潜在的潜意识影响因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Past",
+                    "name_cn": "过去",
+                    "description": "Recent past events influencing the situation",
+                    "description_cn": "近期影响现状的过去事件"
+                },
+                {
+                    "position": 5,
+                    "name": "Goals",
+                    "name_cn": "目标",
+                    "description": "Hopes, fears, or goals related to the situation",
+                    "description_cn": "与现状相关的希望、恐惧或目标"
+                },
+                {
+                    "position": 6,
+                    "name": "Future",
+                    "name_cn": "未来",
+                    "description": "Likely outcome if current path continues",
+                    "description_cn": "如果保持现状可能的发展方向"
+                },
+                {
+                    "position": 7,
+                    "name": "Self",
+                    "name_cn": "自我",
+                    "description": "Querent's attitude or position in the matter",
+                    "description_cn": "问卜者在此事中的态度或立场"
+                },
+                {
+                    "position": 8,
+                    "name": "Environment",
+                    "name_cn": "环境",
+                    "description": "External influences from people or circumstances",
+                    "description_cn": "来自他人或环境的外部影响"
+                },
+                {
+                    "position": 9,
+                    "name": "Hopes/Fears",
+                    "name_cn": "希望与恐惧",
+                    "description": "Querent's hidden hopes or fears about the situation",
+                    "description_cn": "问卜者对状况隐藏的希望或恐惧"
+                },
+                {
+                    "position": 10,
+                    "name": "Outcome",
+                    "name_cn": "结果",
+                    "description": "Final outcome or long-term consequences",
+                    "description_cn": "最终结果或长期影响"
+                }
+            ],
+            "elements": ["earth", "air", "fire", "water"],
+            "elements_cn": ["土", "风", "火", "水"],
+            "suitable_for": ["complex issues", "life decisions"],
+            "suitable_for_cn": ["复杂问题", "人生决策"]
+        },
+        "threeCard": {
+            "name": "Three-Card Spread",
+            "name_cn": "三牌阵",
+            "card_count": 3,
+            "description": "Simple spread for past-present-future or situation-action-outcome readings",
+            "description_cn": "简单的过去-现在-未来或现状-行动-结果牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past/Situation",
+                    "name_cn": "过去/现状",
+                    "description": "Past influences or current situation",
+                    "description_cn": "过去的影响或当前状况"
+                },
+                {
+                    "position": 2,
+                    "name": "Present/Action",
+                    "name_cn": "现在/行动",
+                    "description": "Present circumstances or recommended action",
+                    "description_cn": "当前状况或建议行动"
+                },
+                {
+                    "position": 3,
+                    "name": "Future/Outcome",
+                    "name_cn": "未来/结果",
+                    "description": "Likely outcome or future development",
+                    "description_cn": "可能的结果或未来发展"
+                }
+            ],
+            "elements": ["air", "fire"],
+            "elements_cn": ["风", "火"],
+            "suitable_for": ["quick readings", "daily guidance"],
+            "suitable_for_cn": ["快速占卜", "每日指引"]
+        },
+        "relationshipSpread": {
+            "name": "Relationship Spread",
+            "name_cn": "感情关系阵",
+            "card_count": 7,
+            "description": "Specialized spread for examining relationships and emotional connections",
+            "description_cn": "专门用于分析感情关系和情感连接的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Your Feelings",
+                    "name_cn": "你的感受",
+                    "description": "How you truly feel about the relationship",
+                    "description_cn": "你对这段关系的真实感受"
+                },
+                {
+                    "position": 2,
+                    "name": "Partner's Feelings",
+                    "name_cn": "对方感受",
+                    "description": "How your partner feels about the relationship",
+                    "description_cn": "对方对这段关系的感受"
+                },
+                {
+                    "position": 3,
+                    "name": "Connection",
+                    "name_cn": "连接",
+                    "description": "The nature of your emotional/spiritual connection",
+                    "description_cn": "你们情感/精神连接的本质"
+                },
+                {
+                    "position": 4,
+                    "name": "Strengths",
+                    "name_cn": "优势",
+                    "description": "Strengths of the relationship",
+                    "description_cn": "这段关系的优势"
+                },
+                {
+                    "position": 5,
+                    "name": "Challenges",
+                    "name_cn": "挑战",
+                    "description": "Current challenges in the relationship",
+                    "description_cn": "关系中的当前挑战"
+                },
+                {
+                    "position": 6,
+                    "name": "Advice",
+                    "name_cn": "建议",
+                    "description": "Advice for nurturing the relationship",
+                    "description_cn": "滋养这段关系的建议"
+                },
+                {
+                    "position": 7,
+                    "name": "Potential Outcome",
+                    "name_cn": "潜在结果",
+                    "description": "Possible future of the relationship",
+                    "description_cn": "关系的可能未来"
+                }
+            ],
+            "elements": ["water", "fire"],
+            "elements_cn": ["水", "火"],
+            "suitable_for": ["romantic relationships", "emotional matters"],
+            "suitable_for_cn": ["恋爱关系", "情感问题"]
+        },
+        "careerPath": {
+            "name": "Career Path Spread",
+            "name_cn": "职业道路阵",
+            "card_count": 6,
+            "description": "Spread for career guidance and professional development",
+            "description_cn": "用于职业指导和职业发展的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Current Position",
+                    "name_cn": "当前职位",
+                    "description": "Your current professional situation",
+                    "description_cn": "你当前的职业状况"
+                },
+                {
+                    "position": 2,
+                    "name": "Strengths",
+                    "name_cn": "优势",
+                    "description": "Your professional strengths and assets",
+                    "description_cn": "你的职业优势和资源"
+                },
+                {
+                    "position": 3,
+                    "name": "Challenges",
+                    "name_cn": "挑战",
+                    "description": "Obstacles or difficulties in your career path",
+                    "description_cn": "职业道路上的障碍或困难"
+                },
+                {
+                    "position": 4,
+                    "name": "Opportunities",
+                    "name_cn": "机遇",
+                    "description": "Potential opportunities coming your way",
+                    "description_cn": "即将到来的潜在机遇"
+                },
+                {
+                    "position": 5,
+                    "name": "Advice",
+                    "name_cn": "建议",
+                    "description": "Guidance for professional growth",
+                    "description_cn": "职业成长建议"
+                },
+                {
+                    "position": 6,
+                    "name": "Future Potential",
+                    "name_cn": "未来潜力",
+                    "description": "Long-term career possibilities",
+                    "description_cn": "长期职业可能性"
+                }
+            ],
+            "elements": ["earth", "air"],
+            "elements_cn": ["土", "风"],
+            "suitable_for": ["career decisions", "job changes"],
+            "suitable_for_cn": ["职业决策", "工作变动"]
+        },
+        "horseshoeSpread": {
+            "name": "Horseshoe Spread",
+            "name_cn": "马蹄铁阵",
+            "card_count": 7,
+            "description": "Versatile spread providing insight into past, present and future influences",
+            "description_cn": "多功能牌阵，揭示过去、现在和未来的影响",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past",
+                    "name_cn": "过去",
+                    "description": "Past influences affecting the situation",
+                    "description_cn": "影响现状的过去因素"
+                },
+                {
+                    "position": 2,
+                    "name": "Present",
+                    "name_cn": "现在",
+                    "description": "Current state of affairs",
+                    "description_cn": "当前事态"
+                },
+                {
+                    "position": 3,
+                    "name": "Future",
+                    "name_cn": "未来",
+                    "description": "Immediate future developments",
+                    "description_cn": "近期未来发展"
+                },
+                {
+                    "position": 4,
+                    "name": "Advice",
+                    "name_cn": "建议",
+                    "description": "Recommended course of action",
+                    "description_cn": "建议采取的行动"
+                },
+                {
+                    "position": 5,
+                    "name": "External Influences",
+                    "name_cn": "外部影响",
+                    "description": "People or circumstances affecting the situation",
+                    "description_cn": "影响现状的人或环境"
+                },
+                {
+                    "position": 6,
+                    "name": "Hopes/Fears",
+                    "name_cn": "希望/恐惧",
+                    "description": "Querent's hidden hopes or fears",
+                    "description_cn": "问卜者隐藏的希望或恐惧"
+                },
+                {
+                    "position": 7,
+                    "name": "Outcome",
+                    "name_cn": "结果",
+                    "description": "Likely outcome if current path continues",
+                    "description_cn": "如果保持现状的可能结果"
+                }
+            ],
+            "elements": ["earth", "air", "fire", "water"],
+            "elements_cn": ["土", "风", "火", "水"],
+            "suitable_for": ["general questions", "complex situations"],
+            "suitable_for_cn": ["一般问题", "复杂情况"]
+        },
+		"timeFlow": {
+            "name": "Time Flow Spread",
+            "name_cn": "时间流牌阵",
+            "card_count": 3,
+            "description": "Simple past-present-future reading showing temporal progression",
+            "description_cn": "展示时间流动的过去-现在-未来基础牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past",
+                    "name_cn": "过去",
+                    "description": "Root causes and past influences",
+                    "description_cn": "根源原因与过去影响"
+                },
+                {
+                    "position": 2,
+                    "name": "Present",
+                    "name_cn": "现在",
+                    "description": "Current situation and challenges",
+                    "description_cn": "现状与当前挑战"
+                },
+                {
+                    "position": 3,
+                    "name": "Future",
+                    "name_cn": "未来",
+                    "description": "Potential outcomes and developments",
+                    "description_cn": "潜在结果与发展"
+                }
+            ],
+            "elements": ["air", "water"],
+            "elements_cn": ["风", "水"]
+        },
+        "sacredTriangle": {
+            "name": "Sacred Triangle Spread",
+            "name_cn": "圣三角牌阵",
+            "card_count": 3,
+            "description": "Reveals mind-body-spirit connections in decision making",
+            "description_cn": "揭示决策中的理性-行动-灵性关联",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Mind",
+                    "name_cn": "理性",
+                    "description": "Logical analysis and thoughts",
+                    "description_cn": "逻辑分析与思维层面"
+                },
+                {
+                    "position": 2,
+                    "name": "Body",
+                    "name_cn": "行动",
+                    "description": "Practical actions and manifestations",
+                    "description_cn": "实际行动与显化层面"
+                },
+                {
+                    "position": 3,
+                    "name": "Spirit",
+                    "name_cn": "灵性",
+                    "description": "Higher purpose and spiritual guidance",
+                    "description_cn": "更高目的与灵性指引"
+                }
+            ],
+            "elements": ["air", "fire", "water"],
+            "elements_cn": ["风", "火", "水"]
+        },
+        "elementalCross": {
+            "name": "Elemental Cross Spread",
+            "name_cn": "四元素牌阵",
+            "card_count": 5,
+            "description": "Balanced reading through four elemental perspectives plus center",
+            "description_cn": "通过四元素视角加中心位的平衡解读",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Earth",
+                    "name_cn": "土元素",
+                    "description": "Material and practical aspects",
+                    "description_cn": "物质与实际层面"
+                },
+                {
+                    "position": 2,
+                    "name": "Air",
+                    "name_cn": "风元素",
+                    "description": "Mental and communicative aspects",
+                    "description_cn": "思维与沟通层面"
+                },
+                {
+                    "position": 3,
+                    "name": "Fire",
+                    "name_cn": "火元素",
+                    "description": "Energetic and creative aspects",
+                    "description_cn": "能量与创造层面"
+                },
+                {
+                    "position": 4,
+                    "name": "Water",
+                    "name_cn": "水元素",
+                    "description": "Emotional and intuitive aspects",
+                    "description_cn": "情感与直觉层面"
+                },
+                {
+                    "position": 5,
+                    "name": "Center",
+                    "name_cn": "中心",
+                    "description": "Synthesis of all elements",
+                    "description_cn": "所有元素的综合"
+                }
+            ],
+            "elements": ["earth", "air", "fire", "water"],
+            "elements_cn": ["土", "风", "火", "水"]
+        },
+        "loversPyramid": {
+            "name": "Lovers' Pyramid Spread",
+            "name_cn": "恋人金字塔牌阵",
+            "card_count": 4,
+            "description": "Examines relationship dynamics through pyramid structure",
+            "description_cn": "通过金字塔结构分析恋人互动模式",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Foundation",
+                    "name_cn": "基础",
+                    "description": "Core connection between partners",
+                    "description_cn": "伴侣间的核心连接"
+                },
+                {
+                    "position": 2,
+                    "name": "Challenges",
+                    "name_cn": "挑战",
+                    "description": "Current obstacles to overcome",
+                    "description_cn": "需要克服的当前障碍"
+                },
+                {
+                    "position": 3,
+                    "name": "Emotions",
+                    "name_cn": "情感",
+                    "description": "Emotional exchange in relationship",
+                    "description_cn": "关系中的情感交流"
+                },
+                {
+                    "position": 4,
+                    "name": "Summit",
+                    "name_cn": "顶峰",
+                    "description": "Highest potential of the relationship",
+                    "description_cn": "关系的最高潜力"
+                }
+            ],
+            "elements": ["water", "fire"],
+            "elements_cn": ["水", "火"]
+        },
+        "weeklyForecast": {
+            "name": "Weekly Forecast Spread",
+            "name_cn": "周运势牌阵",
+            "card_count": 7,
+            "description": "Daily guidance for each day of the coming week",
+            "description_cn": "为未来七天提供每日指引",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Monday",
+                    "name_cn": "周一",
+                    "description": "Energy and themes for Monday",
+                    "description_cn": "周一的能量与主题"
+                },
+                {
+                    "position": 2,
+                    "name": "Tuesday",
+                    "name_cn": "周二",
+                    "description": "Energy and themes for Tuesday",
+                    "description_cn": "周二的能量与主题"
+                },
+                {
+                    "position": 3,
+                    "name": "Wednesday",
+                    "name_cn": "周三",
+                    "description": "Energy and themes for Wednesday",
+                    "description_cn": "周三的能量与主题"
+                },
+                {
+                    "position": 4,
+                    "name": "Thursday",
+                    "name_cn": "周四",
+                    "description": "Energy and themes for Thursday",
+                    "description_cn": "周四的能量与主题"
+                },
+                {
+                    "position": 5,
+                    "name": "Friday",
+                    "name_cn": "周五",
+                    "description": "Energy and themes for Friday",
+                    "description_cn": "周五的能量与主题"
+                },
+                {
+                    "position": 6,
+                    "name": "Saturday",
+                    "name_cn": "周六",
+                    "description": "Energy and themes for Saturday",
+                    "description_cn": "周六的能量与主题"
+                },
+                {
+                    "position": 7,
+                    "name": "Sunday",
+                    "name_cn": "周日",
+                    "description": "Energy and themes for Sunday",
+                    "description_cn": "周日的能量与主题"
+                }
+            ],
+            "elements": ["earth", "air", "fire", "water"],
+            "elements_cn": ["土", "风", "火", "水"]
+        },
+        "hexagramSpread": {
+            "name": "Hexagram Spread",
+            "name_cn": "六芒星牌阵",
+            "card_count": 6,
+            "description": "Powerful spread using sacred geometry for multidimensional insight",
+            "description_cn": "运用神圣几何的多维度洞察牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Upper Point",
+                    "name_cn": "上顶点",
+                    "description": "Spiritual aspirations and higher purpose",
+                    "description_cn": "精神追求与更高目标"
+                },
+                {
+                    "position": 2,
+                    "name": "Upper Left",
+                    "name_cn": "左上点",
+                    "description": "Mental processes and communication",
+                    "description_cn": "思维过程与沟通"
+                },
+                {
+                    "position": 3,
+                    "name": "Upper Right",
+                    "name_cn": "右上点",
+                    "description": "Physical energy and action",
+                    "description_cn": "身体能量与行动"
+                },
+                {
+                    "position": 4,
+                    "name": "Lower Left",
+                    "name_cn": "左下点",
+                    "description": "Emotional undercurrents",
+                    "description_cn": "情感暗流"
+                },
+                {
+                    "position": 5,
+                    "name": "Lower Right",
+                    "name_cn": "右下点",
+                    "description": "Material resources and support",
+                    "description_cn": "物质资源与支持"
+                },
+                {
+                    "position": 6,
+                    "name": "Lower Point",
+                    "name_cn": "下顶点",
+                    "description": "Subconscious influences",
+                    "description_cn": "潜意识影响"
+                }
+            ],
+            "elements": ["earth", "air", "fire", "water"],
+            "elements_cn": ["土", "风", "火", "水"]
+        },
+		"mindBodySpirit": {
+            "name": "Mind-Body-Spirit Spread",
+            "name_cn": "身心灵牌阵",
+            "card_count": 3,
+            "description": "Balanced reading for holistic self-awareness",
+            "description_cn": "用于整体自我认知的平衡牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Mind",
+                    "name_cn": "心智",
+                    "description": "Current mental state and thoughts",
+                    "description_cn": "当前心智状态与思维模式"
+                },
+                {
+                    "position": 2,
+                    "name": "Body",
+                    "name_cn": "身体",
+                    "description": "Physical health and energy levels",
+                    "description_cn": "身体健康状况与能量水平"
+                },
+                {
+                    "position": 3,
+                    "name": "Spirit",
+                    "name_cn": "灵性",
+                    "description": "Spiritual connection and intuition",
+                    "description_cn": "灵性连接与直觉指引"
+                }
+            ],
+            "elements": ["air", "earth", "water"],
+            "elements_cn": ["风", "土", "水"]
+        },
+        "coreIssue": {
+            "name": "Core Issue Spread",
+            "name_cn": "直指核心牌阵",
+            "card_count": 5,
+            "description": "Penetrates to the heart of any matter with laser focus",
+            "description_cn": "精准聚焦问题本质的穿透式牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Surface Issue",
+                    "name_cn": "表面问题",
+                    "description": "What appears to be the problem",
+                    "description_cn": "表象层的问题呈现"
+                },
+                {
+                    "position": 2,
+                    "name": "Root Cause",
+                    "name_cn": "根本原因",
+                    "description": "Underlying source of the issue",
+                    "description_cn": "问题的深层根源"
+                },
+                {
+                    "position": 3,
+                    "name": "Blockage",
+                    "name_cn": "阻碍",
+                    "description": "What's preventing resolution",
+                    "description_cn": "阻碍问题解决的因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Solution",
+                    "name_cn": "解决方案",
+                    "description": "Recommended path forward",
+                    "description_cn": "建议的解决路径"
+                },
+                {
+                    "position": 5,
+                    "name": "Outcome",
+                    "name_cn": "结果",
+                    "description": "Potential result if solution is applied",
+                    "description_cn": "采取行动后的可能结果"
+                }
+            ],
+            "elements": ["fire", "earth"],
+            "elements_cn": ["火", "土"]
+        },
+        "loveCross": {
+            "name": "Love Cross Spread",
+            "name_cn": "爱情大十字",
+            "card_count": 7,
+            "description": "Comprehensive relationship analysis with cross formation",
+            "description_cn": "十字结构的全方位感情分析牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Heart Center",
+                    "name_cn": "情感核心",
+                    "description": "Core emotional connection",
+                    "description_cn": "核心情感连接状态"
+                },
+                {
+                    "position": 2,
+                    "name": "Past Influences",
+                    "name_cn": "过去影响",
+                    "description": "Historical patterns affecting present",
+                    "description_cn": "影响现状的历史模式"
+                },
+                {
+                    "position": 3,
+                    "name": "Present Dynamics",
+                    "name_cn": "当前互动",
+                    "description": "Current relationship energy",
+                    "description_cn": "当前关系能量流动"
+                },
+                {
+                    "position": 4,
+                    "name": "Future Potential",
+                    "name_cn": "未来潜力",
+                    "description": "Possible developments",
+                    "description_cn": "关系发展的可能性"
+                },
+                {
+                    "position": 5,
+                    "name": "External Factors",
+                    "name_cn": "外部因素",
+                    "description": "Outside influences on relationship",
+                    "description_cn": "影响关系的外部因素"
+                },
+                {
+                    "position": 6,
+                    "name": "Hopes/Fears",
+                    "name_cn": "希望/恐惧",
+                    "description": "Subconscious expectations",
+                    "description_cn": "潜意识中的期待与担忧"
+                },
+                {
+                    "position": 7,
+                    "name": "True Foundation",
+                    "name_cn": "真实基础",
+                    "description": "Actual stability of relationship",
+                    "description_cn": "关系的真实稳定性"
+                }
+            ],
+            "elements": ["water", "fire"],
+            "elements_cn": ["水", "火"]
+        },
+        "soulmateSearch": {
+            "name": "Soulmate Search Spread",
+            "name_cn": "寻找对象牌阵",
+            "card_count": 6,
+            "description": "Guidance for attracting ideal romantic partner",
+            "description_cn": "寻找理想伴侣的指引牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Readyness",
+                    "name_cn": "准备状态",
+                    "description": "Your readiness for relationship",
+                    "description_cn": "你对恋情的准备程度"
+                },
+                {
+                    "position": 2,
+                    "name": "Blocks",
+                    "name_cn": "阻碍",
+                    "description": "What's preventing connection",
+                    "description_cn": "阻碍你遇见伴侣的因素"
+                },
+                {
+                    "position": 3,
+                    "name": "Meeting Place",
+                    "name_cn": "相遇地点",
+                    "description": "Where/when to meet potential partners",
+                    "description_cn": "可能遇见对象的时间地点"
+                },
+                {
+                    "position": 4,
+                    "name": "Qualities to Attract",
+                    "name_cn": "吸引特质",
+                    "description": "What to cultivate in yourself",
+                    "description_cn": "你需要培养的吸引力特质"
+                },
+                {
+                    "position": 5,
+                    "name": "Signs to Recognize",
+                    "name_cn": "识别标志",
+                    "description": "How to recognize the right person",
+                    "description_cn": "如何识别合适的人选"
+                },
+                {
+                    "position": 6,
+                    "name": "Timing",
+                    "name_cn": "时机",
+                    "description": "When connection may occur",
+                    "description_cn": "可能相遇的时间框架"
+                }
+            ],
+            "elements": ["water", "air"],
+            "elements_cn": ["水", "风"]
+        },
+        "choiceBetweenTwo": {
+            "name": "Choice Between Two Spread",
+            "name_cn": "二选一牌阵",
+            "card_count": 7,
+            "description": "Clarifies decisions between two options",
+            "description_cn": "用于两个选项间的决策分析",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Option A Overview",
+                    "name_cn": "选项A总览",
+                    "description": "Core nature of first choice",
+                    "description_cn": "第一个选择的核心本质"
+                },
+                {
+                    "position": 2,
+                    "name": "Option A Pros",
+                    "name_cn": "选项A优势",
+                    "description": "Benefits of first choice",
+                    "description_cn": "第一个选择的有利因素"
+                },
+                {
+                    "position": 3,
+                    "name": "Option A Cons",
+                    "name_cn": "选项A劣势",
+                    "description": "Drawbacks of first choice",
+                    "description_cn": "第一个选择的不利因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Option B Overview",
+                    "name_cn": "选项B总览",
+                    "description": "Core nature of second choice",
+                    "description_cn": "第二个选择的核心本质"
+                },
+                {
+                    "position": 5,
+                    "name": "Option B Pros",
+                    "name_cn": "选项B优势",
+                    "description": "Benefits of second choice",
+                    "description_cn": "第二个选择的有利因素"
+                },
+                {
+                    "position": 6,
+                    "name": "Option B Cons",
+                    "name_cn": "选项B劣势",
+                    "description": "Drawbacks of second choice",
+                    "description_cn": "第二个选择的不利因素"
+                },
+                {
+                    "position": 7,
+                    "name": "Higher Wisdom",
+                    "name_cn": "更高指引",
+                    "description": "What your soul truly needs",
+                    "description_cn": "你灵魂真正需要的方向"
+                }
+            ],
+            "elements": ["air", "fire"],
+            "elements_cn": ["风", "火"]
+        },
+        "venusSpread": {
+            "name": "Venus Spread",
+            "name_cn": "维纳斯牌阵",
+            "card_count": 5,
+            "description": "Channeling Venusian energy for love and beauty matters",
+            "description_cn": "调用金星能量处理爱情与美丽事务",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Heart's Desire",
+                    "name_cn": "心中渴望",
+                    "description": "What you truly want in love",
+                    "description_cn": "你在爱情中真正的渴望"
+                },
+                {
+                    "position": 2,
+                    "name": "Magnetic Attraction",
+                    "name_cn": "磁性吸引",
+                    "description": "Your most attractive qualities",
+                    "description_cn": "你最具吸引力的特质"
+                },
+                {
+                    "position": 3,
+                    "name": "Creative Expression",
+                    "name_cn": "创意表达",
+                    "description": "How to express your beauty",
+                    "description_cn": "如何展现你的美丽"
+                },
+                {
+                    "position": 4,
+                    "name": "Relationship Lessons",
+                    "name_cn": "关系课题",
+                    "description": "What you're learning through relationships",
+                    "description_cn": "你通过关系学习的课题"
+                },
+                {
+                    "position": 5,
+                    "name": "Venus Blessing",
+                    "name_cn": "金星祝福",
+                    "description": "Divine gift available to you",
+                    "description_cn": "你可获得的金星恩赐"
+                }
+            ],
+            "elements": ["water", "earth"],
+            "elements_cn": ["水", "土"]
+        },
+		"loveTree": {
+            "name": "Love Tree Spread",
+            "name_cn": "爱情树牌阵",
+            "card_count": 5,
+            "description": "Growth-oriented spread showing relationship development stages",
+            "description_cn": "展示感情发展阶段的成长型牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Roots",
+                    "name_cn": "根基",
+                    "description": "Foundation of the relationship",
+                    "description_cn": "感情关系的基础"
+                },
+                {
+                    "position": 2,
+                    "name": "Trunk",
+                    "name_cn": "主干",
+                    "description": "Current strength and stability",
+                    "description_cn": "当前的稳定性与力量"
+                },
+                {
+                    "position": 3,
+                    "name": "Branches",
+                    "name_cn": "枝干",
+                    "description": "Areas of expansion and growth",
+                    "description_cn": "发展与成长的领域"
+                },
+                {
+                    "position": 4,
+                    "name": "Leaves",
+                    "name_cn": "树叶",
+                    "description": "Visible expressions of love",
+                    "description_cn": "爱的外在表现"
+                },
+                {
+                    "position": 5,
+                    "name": "Fruits",
+                    "name_cn": "果实",
+                    "description": "Potential future harvest",
+                    "description_cn": "未来可能的收获"
+                }
+            ],
+            "elements": ["earth", "water"],
+            "elements_cn": ["土", "水"]
+        },
+        "trueLove": {
+            "name": "True Love Spread",
+            "name_cn": "真命天子牌阵",
+            "card_count": 6,
+            "description": "Identifies characteristics of destined partner and meeting conditions",
+            "description_cn": "识别命定伴侣特质及相遇条件",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Soul Contract",
+                    "name_cn": "灵魂契约",
+                    "description": "Karmic connection between you",
+                    "description_cn": "你们之间的业力联系"
+                },
+                {
+                    "position": 2,
+                    "name": "Key Traits",
+                    "name_cn": "关键特质",
+                    "description": "Essential qualities of your destined partner",
+                    "description_cn": "命定伴侣的核心特质"
+                },
+                {
+                    "position": 3,
+                    "name": "Preparation",
+                    "name_cn": "准备状态",
+                    "description": "What you need to prepare before meeting",
+                    "description_cn": "相遇前你需要做的准备"
+                },
+                {
+                    "position": 4,
+                    "name": "Divine Timing",
+                    "name_cn": "神圣时机",
+                    "description": "Ideal time frame for meeting",
+                    "description_cn": "相遇的理想时间框架"
+                },
+                {
+                    "position": 5,
+                    "name": "Recognition Signs",
+                    "name_cn": "识别标志",
+                    "description": "How you'll recognize each other",
+                    "description_cn": "你们如何识别彼此"
+                },
+                {
+                    "position": 6,
+                    "name": "Sacred Lesson",
+                    "name_cn": "神圣课题",
+                    "description": "Soul lesson this relationship brings",
+                    "description_cn": "这段关系带来的灵魂课题"
+                }
+            ],
+            "elements": ["water", "fire"],
+            "elements_cn": ["水", "火"]
+        },
+        "gypsyOracle": {
+            "name": "Gypsy Oracle Spread",
+            "name_cn": "吉普赛预言牌阵",
+            "card_count": 9,
+            "description": "Traditional Romany spread for comprehensive life reading",
+            "description_cn": "吉普赛传统综合运势牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Heart Center",
+                    "name_cn": "核心状态",
+                    "description": "Your current emotional center",
+                    "description_cn": "你当前的情感核心状态"
+                },
+                {
+                    "position": 2,
+                    "name": "Hidden Influences",
+                    "name_cn": "隐藏影响",
+                    "description": "Unseen factors affecting you",
+                    "description_cn": "影响你的隐形因素"
+                },
+                {
+                    "position": 3,
+                    "name": "Past Echoes",
+                    "name_cn": "过去回响",
+                    "description": "Karmic patterns from past",
+                    "description_cn": "来自过去的业力模式"
+                },
+                {
+                    "position": 4,
+                    "name": "Present Path",
+                    "name_cn": "当前道路",
+                    "description": "Your immediate life direction",
+                    "description_cn": "你当前的生活方向"
+                },
+                {
+                    "position": 5,
+                    "name": "Future Horizon",
+                    "name_cn": "未来视野",
+                    "description": "Probable 3-month outlook",
+                    "description_cn": "未来三个月的可能发展"
+                },
+                {
+                    "position": 6,
+                    "name": "Obstacles",
+                    "name_cn": "障碍",
+                    "description": "Challenges to overcome",
+                    "description_cn": "需要克服的挑战"
+                },
+                {
+                    "position": 7,
+                    "name": "Allies",
+                    "name_cn": "助力",
+                    "description": "Support available to you",
+                    "description_cn": "你可获得的帮助"
+                },
+                {
+                    "position": 8,
+                    "name": "Unexpected Gift",
+                    "name_cn": "意外礼物",
+                    "description": "Surprise blessing coming your way",
+                    "description_cn": "即将到来的意外祝福"
+                },
+                {
+                    "position": 9,
+                    "name": "Final Wisdom",
+                    "name_cn": "终极智慧",
+                    "description": "Key message from the Universe",
+                    "description_cn": "宇宙传递的关键讯息"
+                }
+            ],
+            "elements": ["earth", "air", "fire", "water"],
+            "elements_cn": ["土", "风", "火", "水"]
+        },
+        "wealthTree": {
+            "name": "Wealth Tree Spread",
+            "name_cn": "财富之树牌阵",
+            "card_count": 7,
+            "description": "Holistic view of financial energy and abundance flow",
+            "description_cn": "全面分析财富能量流动的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Financial Roots",
+                    "name_cn": "财富根基",
+                    "description": "Your money mindset foundation",
+                    "description_cn": "你的金钱观基础"
+                },
+                {
+                    "position": 2,
+                    "name": "Income Streams",
+                    "name_cn": "收入来源",
+                    "description": "Current financial inflows",
+                    "description_cn": "当前的收入渠道"
+                },
+                {
+                    "position": 3,
+                    "name": "Blocked Energy",
+                    "name_cn": "能量阻塞",
+                    "description": "What restricts abundance",
+                    "description_cn": "限制财富流动的因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Fertile Soil",
+                    "name_cn": "肥沃土壤",
+                    "description": "Opportunities for growth",
+                    "description_cn": "可发展的财富机会"
+                },
+                {
+                    "position": 5,
+                    "name": "Pruning Needs",
+                    "name_cn": "修剪需求",
+                    "description": "What to release financially",
+                    "description_cn": "需要舍弃的财务习惯"
+                },
+                {
+                    "position": 6,
+                    "name": "Seasonal Cycle",
+                    "name_cn": "季节周期",
+                    "description": "Current financial season",
+                    "description_cn": "当前的财富周期阶段"
+                },
+                {
+                    "position": 7,
+                    "name": "Future Harvest",
+                    "name_cn": "未来收获",
+                    "description": "Potential 6-month outcome",
+                    "description_cn": "半年内的可能收获"
+                }
+            ],
+            "elements": ["earth", "fire"],
+            "elements_cn": ["土", "火"]
+        },
+        "threeOptionChoice": {
+            "name": "Three-Option Choice Spread",
+            "name_cn": "三选一牌阵",
+            "card_count": 10,
+            "description": "Detailed comparison of three possible paths",
+            "description_cn": "三个选项的详细对比分析",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Option A Core",
+                    "name_cn": "选项A核心",
+                    "description": "Essence of first choice",
+                    "description_cn": "第一个选择的本质"
+                },
+                {
+                    "position": 2,
+                    "name": "Option A Outcome",
+                    "name_cn": "选项A结果",
+                    "description": "Likely result of first choice",
+                    "description_cn": "第一个选择的可能结果"
+                },
+                {
+                    "position": 3,
+                    "name": "Option B Core",
+                    "name_cn": "选项B核心",
+                    "description": "Essence of second choice",
+                    "description_cn": "第二个选择的本质"
+                },
+                {
+                    "position": 4,
+                    "name": "Option B Outcome",
+                    "name_cn": "选项B结果",
+                    "description": "Likely result of second choice",
+                    "description_cn": "第二个选择的可能结果"
+                },
+                {
+                    "position": 5,
+                    "name": "Option C Core",
+                    "name_cn": "选项C核心",
+                    "description": "Essence of third choice",
+                    "description_cn": "第三个选择的本质"
+                },
+                {
+                    "position": 6,
+                    "name": "Option C Outcome",
+                    "name_cn": "选项C结果",
+                    "description": "Likely result of third choice",
+                    "description_cn": "第三个选择的可能结果"
+                },
+                {
+                    "position": 7,
+                    "name": "Hidden Factor",
+                    "name_cn": "隐藏因素",
+                    "description": "Unconsidered aspect affecting all options",
+                    "description_cn": "影响所有选项的未考虑因素"
+                },
+                {
+                    "position": 8,
+                    "name": "Soul's Preference",
+                    "name_cn": "灵魂偏好",
+                    "description": "Your higher self's inclination",
+                    "description_cn": "你更高自我的倾向"
+                },
+                {
+                    "position": 9,
+                    "name": "Practical Advice",
+                    "name_cn": "实践建议",
+                    "description": "Action steps for decision",
+                    "description_cn": "决策后的行动建议"
+                },
+                {
+                    "position": 10,
+                    "name": "Long-term Impact",
+                    "name_cn": "长期影响",
+                    "description": "1-year consequences of choice",
+                    "description_cn": "选择后一年的长期影响"
+                }
+            ],
+            "elements": ["air", "earth"],
+            "elements_cn": ["风", "土"]
+        },
+		"careerCrossroads": {
+            "name": "Career Crossroads Spread",
+            "name_cn": "职业十字路口牌阵",
+            "card_count": 8,
+            "description": "Guidance for career decisions and professional growth",
+            "description_cn": "为职业决策和专业成长提供指引",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Current Position",
+                    "name_cn": "当前位置",
+                    "description": "Your present career situation",
+                    "description_cn": "你目前的职业状况"
+                },
+                {
+                    "position": 2,
+                    "name": "Strengths",
+                    "name_cn": "优势",
+                    "description": "Your professional assets",
+                    "description_cn": "你的职业优势"
+                },
+                {
+                    "position": 3,
+                    "name": "Challenges",
+                    "name_cn": "挑战",
+                    "description": "Obstacles in your path",
+                    "description_cn": "你面临的职业障碍"
+                },
+                {
+                    "position": 4,
+                    "name": "Opportunities",
+                    "name_cn": "机会",
+                    "description": "Potential growth areas",
+                    "description_cn": "潜在的发展机会"
+                },
+                {
+                    "position": 5,
+                    "name": "Passion Alignment",
+                    "name_cn": "热情匹配",
+                    "description": "How your work aligns with your passions",
+                    "description_cn": "工作与热情的匹配度"
+                },
+                {
+                    "position": 6,
+                    "name": "Financial Prospects",
+                    "name_cn": "财务前景",
+                    "description": "Monetary potential",
+                    "description_cn": "财务方面的潜力"
+                },
+                {
+                    "position": 7,
+                    "name": "Long-term Path",
+                    "name_cn": "长期道路",
+                    "description": "Where this path could lead in 5 years",
+                    "description_cn": "五年内可能的发展方向"
+                },
+                {
+                    "position": 8,
+                    "name": "Higher Purpose",
+                    "name_cn": "更高目标",
+                    "description": "Soul lesson through this career",
+                    "description_cn": "这个职业道路的灵魂课题"
+                }
+            ],
+            "elements": ["earth", "fire"],
+            "elements_cn": ["土", "火"]
+        },
+        "shadowWork": {
+            "name": "Shadow Work Spread",
+            "name_cn": "阴影工作牌阵",
+            "card_count": 6,
+            "description": "Reveals subconscious patterns and hidden aspects of self",
+            "description_cn": "揭示潜意识模式和自我的隐藏面向",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Conscious Self",
+                    "name_cn": "意识自我",
+                    "description": "How you perceive yourself",
+                    "description_cn": "你如何看待自己"
+                },
+                {
+                    "position": 2,
+                    "name": "Shadow Aspect",
+                    "name_cn": "阴影面向",
+                    "description": "Repressed or denied qualities",
+                    "description_cn": "被压抑或否认的特质"
+                },
+                {
+                    "position": 3,
+                    "name": "Origin",
+                    "name_cn": "起源",
+                    "description": "Root cause of this shadow",
+                    "description_cn": "这个阴影的根源"
+                },
+                {
+                    "position": 4,
+                    "name": "Manifestation",
+                    "name_cn": "表现方式",
+                    "description": "How it shows in your life",
+                    "description_cn": "它在生活中的表现方式"
+                },
+                {
+                    "position": 5,
+                    "name": "Integration Path",
+                    "name_cn": "整合路径",
+                    "description": "How to healthily integrate this aspect",
+                    "description_cn": "如何健康地整合这个面向"
+                },
+                {
+                    "position": 6,
+                    "name": "Transformed Gift",
+                    "name_cn": "转化礼物",
+                    "description": "Positive potential after integration",
+                    "description_cn": "整合后的积极潜力"
+                }
+            ],
+            "elements": ["water", "earth"],
+            "elements_cn": ["水", "土"]
+        },
+        "spiritualAwakening": {
+            "name": "Spiritual Awakening Spread",
+            "name_cn": "灵性觉醒牌阵",
+            "card_count": 7,
+            "description": "Tracks spiritual development and awakening stages",
+            "description_cn": "追踪灵性发展和觉醒阶段",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Current Stage",
+                    "name_cn": "当前阶段",
+                    "description": "Where you are in your awakening",
+                    "description_cn": "你当前的觉醒阶段"
+                },
+                {
+                    "position": 2,
+                    "name": "Catalyst",
+                    "name_cn": "催化剂",
+                    "description": "What triggered your awakening",
+                    "description_cn": "触发你觉醒的因素"
+                },
+                {
+                    "position": 3,
+                    "name": "Challenge",
+                    "name_cn": "挑战",
+                    "description": "Current spiritual test",
+                    "description_cn": "当前的灵性考验"
+                },
+                {
+                    "position": 4,
+                    "name": "Lesson",
+                    "name_cn": "课题",
+                    "description": "What you're meant to learn",
+                    "description_cn": "你需要学习的课题"
+                },
+                {
+                    "position": 5,
+                    "name": "Guidance",
+                    "name_cn": "指引",
+                    "description": "Message from your guides",
+                    "description_cn": "来自指导灵的信息"
+                },
+                {
+                    "position": 6,
+                    "name": "Next Phase",
+                    "name_cn": "下一阶段",
+                    "description": "Coming stage of development",
+                    "description_cn": "即将到来的发展阶段"
+                },
+                {
+                    "position": 7,
+                    "name": "Ultimate Gift",
+                    "name_cn": "终极礼物",
+                    "description": "Soul's purpose in this awakening",
+                    "description_cn": "这次觉醒的灵魂目的"
+                }
+            ],
+            "elements": ["air", "fire"],
+            "elements_cn": ["风", "火"]
+        },
+        "karmicRelationships": {
+            "name": "Karmic Relationships Spread",
+            "name_cn": "业力关系牌阵",
+            "card_count": 5,
+            "description": "Examines past life connections and karmic lessons",
+            "description_cn": "检视前世连接和业力课题",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past Life Connection",
+                    "name_cn": "前世连接",
+                    "description": "Nature of your past life bond",
+                    "description_cn": "你们前世关系的性质"
+                },
+                {
+                    "position": 2,
+                    "name": "Unfinished Business",
+                    "name_cn": "未完成课题",
+                    "description": "Karmic debt between you",
+                    "description_cn": "你们之间的业力债务"
+                },
+                {
+                    "position": 3,
+                    "name": "Current Lesson",
+                    "name_cn": "当前课题",
+                    "description": "What you're learning now",
+                    "description_cn": "你们现在要学习的课题"
+                },
+                {
+                    "position": 4,
+                    "name": "Soul Contract",
+                    "name_cn": "灵魂契约",
+                    "description": "Higher purpose of this relationship",
+                    "description_cn": "这段关系的更高目的"
+                },
+                {
+                    "position": 5,
+                    "name": "Evolutionary Path",
+                    "name_cn": "进化路径",
+                    "description": "How this relationship helps your soul grow",
+                    "description_cn": "这段关系如何帮助灵魂成长"
+                }
+            ],
+            "elements": ["water", "earth"],
+            "elements_cn": ["水", "土"]
+        },
+        "newMoonManifestation": {
+            "name": "New Moon Manifestation Spread",
+            "name_cn": "新月显化牌阵",
+            "card_count": 6,
+            "description": "Powerful spread for setting intentions at new moon",
+            "description_cn": "新月时设定意图的强大牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Seed Intention",
+                    "name_cn": "种子意图",
+                    "description": "Core desire to manifest",
+                    "description_cn": "要显化的核心愿望"
+                },
+                {
+                    "position": 2,
+                    "name": "Alignment Check",
+                    "name_cn": "对齐检查",
+                    "description": "How aligned this is with your highest good",
+                    "description_cn": "与你的最高善是否一致"
+                },
+                {
+                    "position": 3,
+                    "name": "Blockers",
+                    "name_cn": "阻碍",
+                    "description": "What's preventing manifestation",
+                    "description_cn": "阻碍显化的因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Supporting Energy",
+                    "name_cn": "支持能量",
+                    "description": "Forces helping your manifestation",
+                    "description_cn": "帮助显化的力量"
+                },
+                {
+                    "position": 5,
+                    "name": "Action Step",
+                    "name_cn": "行动步骤",
+                    "description": "Concrete step toward manifestation",
+                    "description_cn": "实现显化的具体行动"
+                },
+                {
+                    "position": 6,
+                    "name": "Potential Outcome",
+                    "name_cn": "潜在结果",
+                    "description": "Likely result if you follow through",
+                    "description_cn": "坚持行动的潜在结果"
+                }
+            ],
+            "elements": ["fire", "air"],
+            "elements_cn": ["火", "风"]
+        },
+		"problemSolving": {
+            "name": "Problem Solving Spread",
+            "name_cn": "问题解决牌阵",
+            "card_count": 7,
+            "description": "Systematic approach to analyze and resolve complex issues",
+            "description_cn": "系统分析解决复杂问题的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Core Issue",
+                    "name_cn": "核心问题",
+                    "description": "Heart of the matter",
+                    "description_cn": "问题的本质核心"
+                },
+                {
+                    "position": 2,
+                    "name": "Root Cause",
+                    "name_cn": "根本原因",
+                    "description": "Underlying source of the problem",
+                    "description_cn": "问题的深层根源"
+                },
+                {
+                    "position": 3,
+                    "name": "Blind Spot",
+                    "name_cn": "盲点",
+                    "description": "What you're not seeing",
+                    "description_cn": "你未察觉的因素"
+                },
+                {
+                    "position": 4,
+                    "name": "External Factors",
+                    "name_cn": "外部因素",
+                    "description": "Environmental influences",
+                    "description_cn": "环境影响因素"
+                },
+                {
+                    "position": 5,
+                    "name": "Possible Solution A",
+                    "name_cn": "解决方案A",
+                    "description": "First potential resolution path",
+                    "description_cn": "第一种解决路径"
+                },
+                {
+                    "position": 6,
+                    "name": "Possible Solution B",
+                    "name_cn": "解决方案B",
+                    "description": "Second potential resolution path",
+                    "description_cn": "第二种解决路径"
+                },
+                {
+                    "position": 7,
+                    "name": "Highest Outcome",
+                    "name_cn": "最佳结果",
+                    "description": "Ideal resolution when aligned with wisdom",
+                    "description_cn": "符合智慧的最佳解决方案"
+                }
+            ],
+            "elements": ["air", "earth"],
+            "elements_cn": ["风", "土"]
+        },
+        "inspirationCorrespondence": {
+            "name": "Inspiration Correspondence Spread",
+            "name_cn": "灵感对应牌阵",
+            "card_count": 6,
+            "description": "Reveals energetic exchange between two people creatively",
+            "description_cn": "揭示两人之间的创意能量交流",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Your Inspiration",
+                    "name_cn": "你的灵感",
+                    "description": "What you bring to the collaboration",
+                    "description_cn": "你为合作带来的灵感"
+                },
+                {
+                    "position": 2,
+                    "name": "Their Inspiration",
+                    "name_cn": "对方的灵感",
+                    "description": "What they bring to the collaboration",
+                    "description_cn": "对方为合作带来的灵感"
+                },
+                {
+                    "position": 3,
+                    "name": "Creative Spark",
+                    "name_cn": "创意火花",
+                    "description": "Magic that happens when you combine",
+                    "description_cn": "双方结合产生的创意魔法"
+                },
+                {
+                    "position": 4,
+                    "name": "Blockage",
+                    "name_cn": "阻碍",
+                    "description": "What stifles the creative flow",
+                    "description_cn": "抑制创意流动的因素"
+                },
+                {
+                    "position": 5,
+                    "name": "Untapped Potential",
+                    "name_cn": "未开发潜力",
+                    "description": "What you haven't explored yet",
+                    "description_cn": "尚未探索的合作潜力"
+                },
+                {
+                    "position": 6,
+                    "name": "Divine Message",
+                    "name_cn": "神圣讯息",
+                    "description": "Guidance for this creative partnership",
+                    "description_cn": "对这个创意合作的指引"
+                }
+            ],
+            "elements": ["air", "fire"],
+            "elements_cn": ["风", "火"]
+        },
+        "loveStar": {
+            "name": "Love Star Spread",
+            "name_cn": "爱之星牌阵",
+            "card_count": 8,
+            "description": "Five-pointed star spread examining all love dimensions",
+            "description_cn": "五角星形状的全面爱情分析牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Physical Attraction",
+                    "name_cn": "身体吸引",
+                    "description": "Bodily chemistry and sensuality",
+                    "description_cn": "身体层面的化学反应"
+                },
+                {
+                    "position": 2,
+                    "name": "Emotional Connection",
+                    "name_cn": "情感连接",
+                    "description": "Heart-to-heart bonding",
+                    "description_cn": "心与心的情感纽带"
+                },
+                {
+                    "position": 3,
+                    "name": "Mental Stimulation",
+                    "name_cn": "心智刺激",
+                    "description": "Intellectual compatibility",
+                    "description_cn": "智力层面的契合度"
+                },
+                {
+                    "position": 4,
+                    "name": "Spiritual Alignment",
+                    "name_cn": "灵性契合",
+                    "description": "Soul-level resonance",
+                    "description_cn": "灵魂层面的共鸣"
+                },
+                {
+                    "position": 5,
+                    "name": "Karmic Lesson",
+                    "name_cn": "业力课题",
+                    "description": "Destined learning through this relationship",
+                    "description_cn": "这段关系注定的学习课题"
+                },
+                {
+                    "position": 6,
+                    "name": "Hidden Gift",
+                    "name_cn": "隐藏礼物",
+                    "description": "Unexpected blessing this love brings",
+                    "description_cn": "这份爱带来的意外礼物"
+                },
+                {
+                    "position": 7,
+                    "name": "Challenge",
+                    "name_cn": "挑战",
+                    "description": "Greatest test for this relationship",
+                    "description_cn": "关系面临的最大考验"
+                },
+                {
+                    "position": 8,
+                    "name": "Evolutionary Potential",
+                    "name_cn": "进化潜力",
+                    "description": "How this love can transform you",
+                    "description_cn": "这份爱带来的成长潜力"
+                }
+            ],
+            "elements": ["water", "fire", "earth"],
+            "elements_cn": ["水", "火", "土"]
+        },
+        "marriageSpread": {
+            "name": "Marriage Spread",
+            "name_cn": "婚姻牌阵",
+            "card_count": 9,
+            "description": "In-depth analysis for existing or potential marriages",
+            "description_cn": "针对现有或潜在婚姻的深度分析",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Foundation Stone",
+                    "name_cn": "基石",
+                    "description": "What the marriage is built upon",
+                    "description_cn": "婚姻建立的基础"
+                },
+                {
+                    "position": 2,
+                    "name": "Shared Vision",
+                    "name_cn": "共同愿景",
+                    "description": "Mutual goals and dreams",
+                    "description_cn": "共同的目标与梦想"
+                },
+                {
+                    "position": 3,
+                    "name": "Communication Bridge",
+                    "name_cn": "沟通桥梁",
+                    "description": "How you express and listen",
+                    "description_cn": "双方的表达与倾听方式"
+                },
+                {
+                    "position": 4,
+                    "name": "Intimacy Garden",
+                    "name_cn": "亲密花园",
+                    "description": "State of emotional and physical closeness",
+                    "description_cn": "情感与身体的亲密状态"
+                },
+                {
+                    "position": 5,
+                    "name": "Challenge Desert",
+                    "name_cn": "挑战沙漠",
+                    "description": "Driest/hardest aspect to navigate",
+                    "description_cn": "最难应对的挑战领域"
+                },
+                {
+                    "position": 6,
+                    "name": "Nurturing Waters",
+                    "name_cn": "滋养之水",
+                    "description": "What keeps the relationship alive",
+                    "description_cn": "维系关系的滋养元素"
+                },
+                {
+                    "position": 7,
+                    "name": "Family Roots",
+                    "name_cn": "家族根源",
+                    "description": "Influence from family systems",
+                    "description_cn": "家族系统带来的影响"
+                },
+                {
+                    "position": 8,
+                    "name": "Sacred Contract",
+                    "name_cn": "神圣契约",
+                    "description": "Higher purpose of this union",
+                    "description_cn": "这段婚姻的更高目的"
+                },
+                {
+                    "position": 9,
+                    "name": "Golden Anniversary",
+                    "name_cn": "金婚愿景",
+                    "description": "Long-term potential in 20+ years",
+                    "description_cn": "20年后的长期发展潜力"
+                }
+            ],
+            "elements": ["water", "earth", "fire"],
+            "elements_cn": ["水", "土", "火"]
+        },
+        "loversTree": {
+            "name": "Lovers Tree Spread",
+            "name_cn": "恋人树牌阵",
+            "card_count": 6,
+            "description": "Romantic version of Celtic Cross for relationship dynamics",
+            "description_cn": "凯尔特十字的浪漫关系变体牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Roots of Attraction",
+                    "name_cn": "吸引根源",
+                    "description": "What drew you together initially",
+                    "description_cn": "最初吸引彼此的原因"
+                },
+                {
+                    "position": 2,
+                    "name": "Crossing Currents",
+                    "name_cn": "交叉电流",
+                    "description": "Present energies affecting the relationship",
+                    "description_cn": "影响关系的当前能量"
+                },
+                {
+                    "position": 3,
+                    "name": "Crowning Leaves",
+                    "name_cn": "树冠枝叶",
+                    "description": "Best potential of this relationship",
+                    "description_cn": "这段关系的最佳潜力"
+                },
+                {
+                    "position": 4,
+                    "name": "Fertile Ground",
+                    "name_cn": "肥沃土壤",
+                    "description": "What nourishes your love",
+                    "description_cn": "滋养爱情的因素"
+                },
+                {
+                    "position": 5,
+                    "name": "Bird's Nest",
+                    "name_cn": "鸟巢",
+                    "description": "How you create security together",
+                    "description_cn": "共同建立安全感的方式"
+                },
+                {
+                    "position": 6,
+                    "name": "Blossoming Fruit",
+                    "name_cn": "盛开果实",
+                    "description": "Next stage of growth coming",
+                    "description_cn": "即将到来的成长阶段"
+                }
+            ],
+            "elements": ["water", "earth"],
+            "elements_cn": ["水", "土"]
+        },
+		"soulPath": {
+            "name": "Soul Path Spread",
+            "name_cn": "灵魂之路牌阵",
+            "card_count": 5,
+            "description": "Reveals your soul's purpose and life direction",
+            "description_cn": "揭示灵魂目标与人生方向的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Soul Gift",
+                    "name_cn": "灵魂天赋",
+                    "description": "Your unique spiritual gift to share",
+                    "description_cn": "你与众不同的灵性天赋"
+                },
+                {
+                    "position": 2,
+                    "name": "Karmic Lesson",
+                    "name_cn": "业力课题",
+                    "description": "Core lesson you're here to learn",
+                    "description_cn": "此生需要学习的核心课题"
+                },
+                {
+                    "position": 3,
+                    "name": "Growth Edge",
+                    "name_cn": "成长边界",
+                    "description": "Where you need to expand currently",
+                    "description_cn": "当前需要突破的成长边界"
+                },
+                {
+                    "position": 4,
+                    "name": "Spiritual Allies",
+                    "name_cn": "灵性盟友",
+                    "description": "Guides/helpers supporting your path",
+                    "description_cn": "支持你道路的指导灵/帮手"
+                },
+                {
+                    "position": 5,
+                    "name": "Destiny Glimpse",
+                    "name_cn": "命运预览",
+                    "description": "Potential future if you follow your path",
+                    "description_cn": "遵循灵魂道路的潜在未来"
+                }
+            ],
+            "elements": ["aether", "water"],
+            "elements_cn": ["以太", "水"]
+        },
+        "moonCycle": {
+            "name": "Moon Cycle Spread",
+            "name_cn": "月亮周期牌阵",
+            "card_count": 8,
+            "description": "Tracks lunar phases for manifestation and release",
+            "description_cn": "配合月相进行显化与释放的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "New Moon Seed",
+                    "name_cn": "新月种子",
+                    "description": "What to plant at new moon",
+                    "description_cn": "新月时播种的意图"
+                },
+                {
+                    "position": 2,
+                    "name": "Waxing Energy",
+                    "name_cn": "上弦月能量",
+                    "description": "How to nurture your intention",
+                    "description_cn": "如何培育你的意图"
+                },
+                {
+                    "position": 3,
+                    "name": "Full Moon Bloom",
+                    "name_cn": "满月绽放",
+                    "description": "What comes to fruition",
+                    "description_cn": "即将显化的成果"
+                },
+                {
+                    "position": 4,
+                    "name": "Waning Release",
+                    "name_cn": "下弦月释放",
+                    "description": "What to let go of",
+                    "description_cn": "需要释放的事物"
+                },
+                {
+                    "position": 5,
+                    "name": "Shadow Work",
+                    "name_cn": "阴影工作",
+                    "description": "Dark moon introspection focus",
+                    "description_cn": "黑月期间的内省重点"
+                },
+                {
+                    "position": 6,
+                    "name": "Celestial Support",
+                    "name_cn": "天体支持",
+                    "description": "Cosmic energies assisting you",
+                    "description_cn": "协助你的宇宙能量"
+                },
+                {
+                    "position": 7,
+                    "name": "Lunar Lesson",
+                    "name_cn": "月亮课题",
+                    "description": "Wisdom this cycle brings",
+                    "description_cn": "本月相周期带来的智慧"
+                },
+                {
+                    "position": 8,
+                    "name": "Next Cycle Prep",
+                    "name_cn": "下周期准备",
+                    "description": "How to prepare for coming moon",
+                    "description_cn": "为下一个月相周期做准备"
+                }
+            ],
+            "elements": ["water", "aether"],
+            "elements_cn": ["水", "以太"]
+        },
+        "chakraBalance": {
+            "name": "Chakra Balance Spread",
+            "name_cn": "脉轮平衡牌阵",
+            "card_count": 7,
+            "description": "Assesses energy flow through the seven main chakras",
+            "description_cn": "评估七大脉轮能量流动的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Root Chakra",
+                    "name_cn": "海底轮",
+                    "description": "Grounding and survival energy",
+                    "description_cn": "根基与生存能量状态"
+                },
+                {
+                    "position": 2,
+                    "name": "Sacral Chakra",
+                    "name_cn": "本我轮",
+                    "description": "Creativity and emotional flow",
+                    "description_cn": "创造力与情感流动"
+                },
+                {
+                    "position": 3,
+                    "name": "Solar Plexus",
+                    "name_cn": "太阳神经丛",
+                    "description": "Personal power and will",
+                    "description_cn": "个人力量与意志力"
+                },
+                {
+                    "position": 4,
+                    "name": "Heart Chakra",
+                    "name_cn": "心轮",
+                    "description": "Love and connection",
+                    "description_cn": "爱与连接能力"
+                },
+                {
+                    "position": 5,
+                    "name": "Throat Chakra",
+                    "name_cn": "喉轮",
+                    "description": "Communication and truth",
+                    "description_cn": "沟通与真实表达"
+                },
+                {
+                    "position": 6,
+                    "name": "Third Eye",
+                    "name_cn": "眉心轮",
+                    "description": "Intuition and vision",
+                    "description_cn": "直觉与洞察力"
+                },
+                {
+                    "position": 7,
+                    "name": "Crown Chakra",
+                    "name_cn": "顶轮",
+                    "description": "Spiritual connection",
+                    "description_cn": "灵性连接状态"
+                }
+            ],
+            "elements": ["aether", "fire", "water", "earth", "air"],
+            "elements_cn": ["以太", "火", "水", "土", "风"]
+        },
+        "dragonSpread": {
+            "name": "Dragon Spread",
+            "name_cn": "龙之牌阵",
+            "card_count": 4,
+            "description": "Taps into dragon energy for protection and transformation",
+            "description_cn": "连接龙能量获取保护与蜕变的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Dragon's Eye",
+                    "name_cn": "龙之眼",
+                    "description": "What needs to be seen clearly",
+                    "description_cn": "需要被清晰看见的部分"
+                },
+                {
+                    "position": 2,
+                    "name": "Dragon's Fire",
+                    "name_cn": "龙之焰",
+                    "description": "What to burn away or transform",
+                    "description_cn": "需要燃烧转化的事物"
+                },
+                {
+                    "position": 3,
+                    "name": "Dragon's Wing",
+                    "name_cn": "龙之翼",
+                    "description": "How to rise above current situation",
+                    "description_cn": "如何超越当前处境"
+                },
+                {
+                    "position": 4,
+                    "name": "Dragon's Treasure",
+                    "name_cn": "龙之宝",
+                    "description": "Hidden gift awaiting discovery",
+                    "description_cn": "等待发现的隐藏礼物"
+                }
+            ],
+            "elements": ["fire", "aether"],
+            "elements_cn": ["火", "以太"]
+        },
+        "ancestralWisdom": {
+            "name": "Ancestral Wisdom Spread",
+            "name_cn": "先祖智慧牌阵",
+            "card_count": 5,
+            "description": "Connects with ancestral guidance and inherited patterns",
+            "description_cn": "连接祖先智慧与家族模式的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Root Blessing",
+                    "name_cn": "根源祝福",
+                    "description": "Positive inheritance from ancestors",
+                    "description_cn": "来自祖先的积极传承"
+                },
+                {
+                    "position": 2,
+                    "name": "Karmic Thread",
+                    "name_cn": "业力之线",
+                    "description": "Unfinished family business",
+                    "description_cn": "未完成的家族业力"
+                },
+                {
+                    "position": 3,
+                    "name": "Wisdom Keeper",
+                    "name_cn": "智慧守护者",
+                    "description": "Which ancestor has messages",
+                    "description_cn": "传递讯息的祖先身份"
+                },
+                {
+                    "position": 4,
+                    "name": "Healing Needed",
+                    "name_cn": "需要疗愈",
+                    "description": "Where to break negative patterns",
+                    "description_cn": "需要切断的负面模式"
+                },
+                {
+                    "position": 5,
+                    "name": "Legacy Path",
+                    "name_cn": "传承之路",
+                    "description": "How to honor your lineage",
+                    "description_cn": "荣耀家族传承的方式"
+                }
+            ],
+            "elements": ["earth", "water"],
+            "elements_cn": ["土", "水"]
+        },
+		"creativeSpark": {
+            "name": "Creative Spark Spread",
+            "name_cn": "创意火花牌阵",
+            "card_count": 6,
+            "description": "Ignites creative potential and removes artistic blocks",
+            "description_cn": "激发创意潜能并破除创作瓶颈的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Inner Muse",
+                    "name_cn": "内在缪斯",
+                    "description": "Your unique creative voice",
+                    "description_cn": "你独特的创作声音"
+                },
+                {
+                    "position": 2,
+                    "name": "Inspiration Well",
+                    "name_cn": "灵感源泉",
+                    "description": "Where to draw inspiration from",
+                    "description_cn": "获取灵感的来源方向"
+                },
+                {
+                    "position": 3,
+                    "name": "Resistance",
+                    "name_cn": "创作阻力",
+                    "description": "What's blocking your creativity",
+                    "description_cn": "阻碍创造力的因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Alchemy Tool",
+                    "name_cn": "转化工具",
+                    "description": "Method to transform blocks into fuel",
+                    "description_cn": "将阻力转化为动力的方法"
+                },
+                {
+                    "position": 5,
+                    "name": "Unexpected Gift",
+                    "name_cn": "意外馈赠",
+                    "description": "Surprise element to incorporate",
+                    "description_cn": "可融入的意外元素"
+                },
+                {
+                    "position": 6,
+                    "name": "Creative Birth",
+                    "name_cn": "创意分娩",
+                    "description": "How the project wants to manifest",
+                    "description_cn": "项目希望呈现的最终形态"
+                }
+            ],
+            "elements": ["fire", "air"],
+            "elements_cn": ["火", "风"]
+        },
+        "innerChildHealing": {
+            "name": "Inner Child Healing Spread",
+            "name_cn": "内在小孩疗愈牌阵",
+            "card_count": 5,
+            "description": "Reparents and heals childhood wounds",
+            "description_cn": "疗愈童年创伤的亲子对话牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Wounded Child",
+                    "name_cn": "受伤小孩",
+                    "description": "Core childhood wound",
+                    "description_cn": "核心童年创伤"
+                },
+                {
+                    "position": 2,
+                    "name": "Unmet Need",
+                    "name_cn": "未满足需求",
+                    "description": "What the child still craves",
+                    "description_cn": "内在小孩仍渴望的需求"
+                },
+                {
+                    "position": 3,
+                    "name": "Healing Balm",
+                    "name_cn": "疗愈良药",
+                    "description": "How to comfort your inner child",
+                    "description_cn": "安抚内在小孩的方式"
+                },
+                {
+                    "position": 4,
+                    "name": "Adult Self",
+                    "name_cn": "成人自我",
+                    "description": "Your current resources for healing",
+                    "description_cn": "你现有的疗愈资源"
+                },
+                {
+                    "position": 5,
+                    "name": "Playful Spirit",
+                    "name_cn": "玩乐精神",
+                    "description": "How to reconnect with joy",
+                    "description_cn": "重拾快乐本真的途径"
+                }
+            ],
+            "elements": ["water", "earth"],
+            "elements_cn": ["水", "土"]
+        },
+        "mercuryRetrograde": {
+            "name": "Mercury Retrograde Spread",
+            "name_cn": "水逆生存牌阵",
+            "card_count": 5,
+            "description": "Navigates communication chaos during Mercury retrograde",
+            "description_cn": "水逆期间应对沟通混乱的生存指南",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Retrograde Lesson",
+                    "name_cn": "水逆课题",
+                    "description": "Core lesson this retrograde brings",
+                    "description_cn": "本次水逆带来的核心课题"
+                },
+                {
+                    "position": 2,
+                    "name": "Tech Caution",
+                    "name_cn": "科技警示",
+                    "description": "Electronic devices to double-check",
+                    "description_cn": "需要重点检查的电子设备"
+                },
+                {
+                    "position": 3,
+                    "name": "Communication Trap",
+                    "name_cn": "沟通陷阱",
+                    "description": "Misunderstanding hotspot",
+                    "description_cn": "最容易产生误解的领域"
+                },
+                {
+                    "position": 4,
+                    "name": "Unexpected Gift",
+                    "name_cn": "意外礼物",
+                    "description": "Positive aspect of this retrograde",
+                    "description_cn": "本次水逆的积极面"
+                },
+                {
+                    "position": 5,
+                    "name": "Retrograde Toolkit",
+                    "name_cn": "水逆工具包",
+                    "description": "How to stay grounded",
+                    "description_cn": "保持镇定的具体方法"
+                }
+            ],
+            "elements": ["air", "earth"],
+            "elements_cn": ["风", "土"]
+        },
+        "sacredUnion": {
+            "name": "Sacred Union Spread",
+            "name_cn": "神圣结合牌阵",
+            "card_count": 7,
+            "description": "Explores twin flame/soulmate connections beyond romance",
+            "description_cn": "超越爱情的双生火焰/灵魂伴侣能量分析",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Soul Recognition",
+                    "name_cn": "灵魂识别",
+                    "description": "How you recognize each other",
+                    "description_cn": "你们相互识别的灵魂特征"
+                },
+                {
+                    "position": 2,
+                    "name": "Mirror Effect",
+                    "name_cn": "镜像效应",
+                    "description": "What this connection reflects back",
+                    "description_cn": "这段关系映照出的内在课题"
+                },
+                {
+                    "position": 3,
+                    "name": "Sacred Contract",
+                    "name_cn": "神圣契约",
+                    "description": "Soul agreement between you",
+                    "description_cn": "你们之间的灵魂约定"
+                },
+                {
+                    "position": 4,
+                    "name": "Alchemical Fire",
+                    "name_cn": "炼金之火",
+                    "description": "Transformational potential",
+                    "description_cn": "关系带来的转化潜力"
+                },
+                {
+                    "position": 5,
+                    "name": "Union Purpose",
+                    "name_cn": "结合目的",
+                    "description": "Higher purpose of this connection",
+                    "description_cn": "这段连接的更高使命"
+                },
+                {
+                    "position": 6,
+                    "name": "Current Phase",
+                    "name_cn": "当前阶段",
+                    "description": "Stage of the relationship journey",
+                    "description_cn": "关系旅程的当前阶段"
+                },
+                {
+                    "position": 7,
+                    "name": "Divine Timing",
+                    "name_cn": "神圣时机",
+                    "description": "Next phase activation signals",
+                    "description_cn": "进入下一阶段的征兆"
+                }
+            ],
+            "elements": ["fire", "aether"],
+            "elements_cn": ["火", "以太"]
+        },
+        "darkMoon": {
+            "name": "Dark Moon Spread",
+            "name_cn": "黑月牌阵",
+            "card_count": 4,
+            "description": "Shadow work during the moon's darkest phase",
+            "description_cn": "月相黑暗期的深度阴影工作牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Buried Truth",
+                    "name_cn": "埋葬真相",
+                    "description": "What you've been avoiding",
+                    "description_cn": "你一直在逃避的真相"
+                },
+                {
+                    "position": 2,
+                    "name": "Shadow Gift",
+                    "name_cn": "阴影礼物",
+                    "description": "Strength hidden in your darkness",
+                    "description_cn": "隐藏在阴影中的力量"
+                },
+                {
+                    "position": 3,
+                    "name": "Initiation",
+                    "name_cn": "启蒙仪式",
+                    "description": "Rite of passage this darkness offers",
+                    "description_cn": "这段黑暗期提供的成长仪式"
+                },
+                {
+                    "position": 4,
+                    "name": "Emergence",
+                    "name_cn": "破茧重生",
+                    "description": "How to step back into light",
+                    "description_cn": "重新回归光明的途径"
+                }
+            ],
+            "elements": ["water", "aether"],
+            "elements_cn": ["水", "以太"]
+        },
+		"timePortal": {
+            "name": "Time Portal Spread",
+            "name_cn": "时空之门牌阵",
+            "card_count": 6,
+            "description": "Accesses past/future timelines for karmic resolution",
+            "description_cn": "连接过去/未来时间线解决业力问题的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past Echo",
+                    "name_cn": "过去回响",
+                    "description": "Unresolved event affecting present",
+                    "description_cn": "影响当下的未解决事件"
+                },
+                {
+                    "position": 2,
+                    "name": "Parallel Self",
+                    "name_cn": "平行自我",
+                    "description": "Alternate timeline with key wisdom",
+                    "description_cn": "携带关键智慧的另一时间线自我"
+                },
+                {
+                    "position": 3,
+                    "name": "Quantum Leap",
+                    "name_cn": "量子跳跃",
+                    "description": "Opportunity for timeline shift",
+                    "description_cn": "转换时间线的契机"
+                },
+                {
+                    "position": 4,
+                    "name": "Future Beacon",
+                    "name_cn": "未来信标",
+                    "description": "Probable future needing attention",
+                    "description_cn": "需要关注的潜在未来"
+                },
+                {
+                    "position": 5,
+                    "name": "Temporal Anchor",
+                    "name_cn": "时间锚点",
+                    "description": "How to stay grounded during shifts",
+                    "description_cn": "时空转换中的稳定方法"
+                },
+                {
+                    "position": 6,
+                    "name": "Akashic Gift",
+                    "name_cn": "阿卡西礼物",
+                    "description": "Soul record insight for resolution",
+                    "description_cn": "来自灵魂记录的解决之道"
+                }
+            ],
+            "elements": ["aether", "air"],
+            "elements_cn": ["以太", "风"]
+        },
+        "reikiEnergy": {
+            "name": "Reiki Energy Spread",
+            "name_cn": "灵气能量牌阵",
+            "card_count": 5,
+            "description": "Combines tarot with Reiki energy healing principles",
+            "description_cn": "融合塔罗与灵气疗愈原则的能量牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Energy Block",
+                    "name_cn": "能量阻塞",
+                    "description": "Main chakra/energy blockage",
+                    "description_cn": "主要脉轮/能量阻塞点"
+                },
+                {
+                    "position": 2,
+                    "name": "Sacred Symbol",
+                    "name_cn": "神圣符号",
+                    "description": "Reiki symbol needed for healing",
+                    "description_cn": "疗愈需要的灵气符号"
+                },
+                {
+                    "position": 3,
+                    "name": "Distance Healing",
+                    "name_cn": "远程疗愈",
+                    "description": "Past/parallel life needing energy work",
+                    "description_cn": "需要能量疗愈的往世/平行人生"
+                },
+                {
+                    "position": 4,
+                    "name": "Earth Connection",
+                    "name_cn": "大地连接",
+                    "description": "How to ground healing energy",
+                    "description_cn": "扎根疗愈能量的方式"
+                },
+                {
+                    "position": 5,
+                    "name": "Celestial Channel",
+                    "name_cn": "天界通道",
+                    "description": "Higher guidance for energy flow",
+                    "description_cn": "能量流动的更高指引"
+                }
+            ],
+            "elements": ["aether", "earth"],
+            "elements_cn": ["以太", "土"]
+        },
+        "witchesCircle": {
+            "name": "Witch's Circle Spread",
+            "name_cn": "女巫圆阵",
+            "card_count": 8,
+            "description": "Sacred circle casting for ritual magic preparation",
+            "description_cn": "用于仪式魔法准备的圆形结界牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "North - Earth",
+                    "name_cn": "北方-土元素",
+                    "description": "Material resources needed",
+                    "description_cn": "需要的物质资源"
+                },
+                {
+                    "position": 2,
+                    "name": "East - Air",
+                    "name_cn": "东方-风元素",
+                    "description": "Mental preparations required",
+                    "description_cn": "必要的精神准备"
+                },
+                {
+                    "position": 3,
+                    "name": "South - Fire",
+                    "name_cn": "南方-火元素",
+                    "description": "Energy work focus",
+                    "description_cn": "能量工作重点"
+                },
+                {
+                    "position": 4,
+                    "name": "West - Water",
+                    "name_cn": "西方-水元素",
+                    "description": "Emotional alignment",
+                    "description_cn": "情感校准方向"
+                },
+                {
+                    "position": 5,
+                    "name": "Above - Divine",
+                    "name_cn": "上方-神性",
+                    "description": "Celestial blessings available",
+                    "description_cn": "可获得的天界祝福"
+                },
+                {
+                    "position": 6,
+                    "name": "Below - Underworld",
+                    "name_cn": "下方-冥界",
+                    "description": "Ancestral support present",
+                    "description_cn": "存在的祖先支持"
+                },
+                {
+                    "position": 7,
+                    "name": "Within - Core",
+                    "name_cn": "中心-核心",
+                    "description": "Personal power level",
+                    "description_cn": "个人能量状态"
+                },
+                {
+                    "position": 8,
+                    "name": "Without - Outcome",
+                    "name_cn": "外围-结果",
+                    "description": "Ritual potential outcome",
+                    "description_cn": "仪式可能成果"
+                }
+            ],
+            "elements": ["earth", "air", "fire", "water", "aether"],
+            "elements_cn": ["土", "风", "火", "水", "以太"]
+        },
+        "neuralPathways": {
+            "name": "Neural Pathways Spread",
+            "name_cn": "神经通路牌阵",
+            "card_count": 5,
+            "description": "Rewires subconscious thought patterns using tarot",
+            "description_cn": "运用塔罗重构潜意识思维模式的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Current Neural Loop",
+                    "name_cn": "当前神经回路",
+                    "description": "Dominant thought pattern",
+                    "description_cn": "主导性思维模式"
+                },
+                {
+                    "position": 2,
+                    "name": "Trigger Point",
+                    "name_cn": "触发点",
+                    "description": "What activates this pattern",
+                    "description_cn": "触发该模式的关键因素"
+                },
+                {
+                    "position": 3,
+                    "name": "Neuroplasticity Key",
+                    "name_cn": "神经可塑性钥匙",
+                    "description": "How to rewire the brain",
+                    "description_cn": "重塑大脑的方法"
+                },
+                {
+                    "position": 4,
+                    "name": "New Pathway",
+                    "name_cn": "新通路",
+                    "description": "Healthier thought alternative",
+                    "description_cn": "更健康的替代思维"
+                },
+                {
+                    "position": 5,
+                    "name": "Synaptic Gift",
+                    "name_cn": "突触礼物",
+                    "description": "Unexpected benefit of change",
+                    "description_cn": "改变带来的意外收获"
+                }
+            ],
+            "elements": ["air", "fire"],
+            "elements_cn": ["风", "火"]
+        },
+        "holographicUniverse": {
+            "name": "Holographic Universe Spread",
+            "name_cn": "全息宇宙牌阵",
+            "card_count": 7,
+            "description": "Reads energy signatures across parallel realities",
+            "description_cn": "解读平行现实能量特征的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Prime Reality",
+                    "name_cn": "主现实",
+                    "description": "Your current timeline focus",
+                    "description_cn": "你当前的时间线焦点"
+                },
+                {
+                    "position": 2,
+                    "name": "Echo Self",
+                    "name_cn": "回声自我",
+                    "description": "Version in closest parallel reality",
+                    "description_cn": "最接近的平行现实版本"
+                },
+                {
+                    "position": 3,
+                    "name": "Quantum Entanglement",
+                    "name_cn": "量子纠缠",
+                    "description": "What connects the versions",
+                    "description_cn": "不同版本间的连接点"
+                },
+                {
+                    "position": 4,
+                    "name": "Reality Leap",
+                    "name_cn": "现实跳跃",
+                    "description": "Possible timeline shift",
+                    "description_cn": "可能的时间线转换"
+                },
+                {
+                    "position": 5,
+                    "name": "Holographic Message",
+                    "name_cn": "全息讯息",
+                    "description": "Wisdom from other realities",
+                    "description_cn": "来自其他现实的智慧"
+                },
+                {
+                    "position": 6,
+                    "name": "Fractal Pattern",
+                    "name_cn": "分形模式",
+                    "description": "Repeating theme across realities",
+                    "description_cn": "跨现实重复出现的主题"
+                },
+                {
+                    "position": 7,
+                    "name": "Unified Field",
+                    "name_cn": "统一场域",
+                    "description": "How to integrate the insights",
+                    "description_cn": "整合这些洞见的方法"
+                }
+            ],
+            "elements": ["aether", "air", "fire"],
+            "elements_cn": ["以太", "风", "火"]
+        },
+		"cosmicEgg": {
+            "name": "Cosmic Egg Spread",
+            "name_cn": "宇宙之卵牌阵",
+            "card_count": 7,
+            "description": "Explores personal transformation through cosmic rebirth symbolism",
+            "description_cn": "通过宇宙重生符号探索个人蜕变的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Shell Cracks",
+                    "name_cn": "蛋壳裂缝",
+                    "description": "Where old structures are breaking down",
+                    "description_cn": "旧有结构正在瓦解的领域"
+                },
+                {
+                    "position": 2,
+                    "name": "Yolk Nourishment",
+                    "name_cn": "蛋黄滋养",
+                    "description": "Essential nutrients for transformation",
+                    "description_cn": "转化所需的核心养分"
+                },
+                {
+                    "position": 3,
+                    "name": "Albumen Protection",
+                    "name_cn": "蛋白保护",
+                    "description": "What safeguards the process",
+                    "description_cn": "保护转化过程的因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Chalaza Anchor",
+                    "name_cn": "系带锚点",
+                    "description": "Stabilizing forces during change",
+                    "description_cn": "变化中的稳定力量"
+                },
+                {
+                    "position": 5,
+                    "name": "Germinal Disc",
+                    "name_cn": "胚盘焦点",
+                    "description": "Seed of new consciousness",
+                    "description_cn": "新意识的种子"
+                },
+                {
+                    "position": 6,
+                    "name": "Incubation Time",
+                    "name_cn": "孵化时序",
+                    "description": "Ideal timing for emergence",
+                    "description_cn": "破壳而出的最佳时机"
+                },
+                {
+                    "position": 7,
+                    "name": "Phoenix Potential",
+                    "name_cn": "凤凰潜能",
+                    "description": "Highest possible outcome",
+                    "description_cn": "可能达到的最高转化状态"
+                }
+            ],
+            "elements": ["aether", "fire", "water"],
+            "elements_cn": ["以太", "火", "水"]
+        },
+        "quantumMirror": {
+            "name": "Quantum Mirror Spread",
+            "name_cn": "量子镜像牌阵",
+            "card_count": 5,
+            "description": "Reveals multidimensional reflections of a situation",
+            "description_cn": "揭示问题在多维度的镜像反映",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Classical Reflection",
+                    "name_cn": "经典镜像",
+                    "description": "How the situation appears in 3D reality",
+                    "description_cn": "三维现实中的问题呈现"
+                },
+                {
+                    "position": 2,
+                    "name": "Superposition State",
+                    "name_cn": "叠加状态",
+                    "description": "All potential outcomes existing simultaneously",
+                    "description_cn": "同时存在的所有可能性"
+                },
+                {
+                    "position": 3,
+                    "name": "Observer Effect",
+                    "name_cn": "观察者效应",
+                    "description": "How your perception shapes reality",
+                    "description_cn": "你的观察如何塑造现实"
+                },
+                {
+                    "position": 4,
+                    "name": "Entangled Factor",
+                    "name_cn": "纠缠因子",
+                    "description": "Unexpected connection affecting outcomes",
+                    "description_cn": "影响结果的意外关联"
+                },
+                {
+                    "position": 5,
+                    "name": "Waveform Collapse",
+                    "name_cn": "波函数坍缩",
+                    "description": "Most probable manifested outcome",
+                    "description_cn": "最可能显化的结果"
+                }
+            ],
+            "elements": ["aether", "air"],
+            "elements_cn": ["以太", "风"]
+        },
+        "neuralMandala": {
+            "name": "Neural Mandala Spread",
+            "name_cn": "神经曼陀罗牌阵",
+            "card_count": 9,
+            "description": "Maps thought patterns using sacred geometry",
+            "description_cn": "运用神圣几何映射思维模式的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Central Node",
+                    "name_cn": "核心节点",
+                    "description": "Dominant thought at consciousness center",
+                    "description_cn": "意识中心的主导思维"
+                },
+                {
+                    "position": 2,
+                    "name": "Axon Pathways",
+                    "name_cn": "轴突路径",
+                    "description": "How ideas transmit",
+                    "description_cn": "想法传递的路径方式"
+                },
+                {
+                    "position": 3,
+                    "name": "Dendritic Branches",
+                    "name_cn": "树突分支",
+                    "description": "Incoming influences and connections",
+                    "description_cn": "接收的影响与连接"
+                },
+                {
+                    "position": 4,
+                    "name": "Myelin Sheath",
+                    "name_cn": "髓鞘保护",
+                    "description": "What strengthens neural pathways",
+                    "description_cn": "强化神经通路的因素"
+                },
+                {
+                    "position": 5,
+                    "name": "Synaptic Gap",
+                    "name_cn": "突触间隙",
+                    "description": "Missing connections needing bridges",
+                    "description_cn": "需要搭建桥梁的缺失连接"
+                },
+                {
+                    "position": 6,
+                    "name": "Neurotransmitters",
+                    "name_cn": "神经递质",
+                    "description": "Emotional tone of thoughts",
+                    "description_cn": "想法的情感基调"
+                },
+                {
+                    "position": 7,
+                    "name": "Default Network",
+                    "name_cn": "默认网络",
+                    "description": "Automatic thought patterns",
+                    "description_cn": "自动运行的思维模式"
+                },
+                {
+                    "position": 8,
+                    "name": "Plasticity Key",
+                    "name_cn": "可塑密钥",
+                    "description": "How to rewire patterns",
+                    "description_cn": "重塑模式的关键"
+                },
+                {
+                    "position": 9,
+                    "name": "Holographic Mind",
+                    "name_cn": "全息心智",
+                    "description": "Larger consciousness connection",
+                    "description_cn": "与更大意识的连接"
+                }
+            ],
+            "elements": ["air", "aether"],
+            "elements_cn": ["风", "以太"]
+        },
+        "alchemicalWedding": {
+            "name": "Alchemical Wedding Spread",
+            "name_cn": "炼金婚礼牌阵",
+            "card_count": 6,
+            "description": "Symbolic union of opposites for inner transformation",
+            "description_cn": "对立面结合实现内在转化的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Sun King",
+                    "name_cn": "太阳君王",
+                    "description": "Conscious masculine principle",
+                    "description_cn": "意识中的阳性法则"
+                },
+                {
+                    "position": 2,
+                    "name": "Moon Queen",
+                    "name_cn": "月亮皇后",
+                    "description": "Unconscious feminine principle",
+                    "description_cn": "潜意识中的阴性法则"
+                },
+                {
+                    "position": 3,
+                    "name": "Mercury Messenger",
+                    "name_cn": "水星信使",
+                    "description": "Communication between opposites",
+                    "description_cn": "对立面间的沟通桥梁"
+                },
+                {
+                    "position": 4,
+                    "name": "Nuptial Chamber",
+                    "name_cn": "婚房圣殿",
+                    "description": "Sacred space for union",
+                    "description_cn": "神圣结合的空间"
+                },
+                {
+                    "position": 5,
+                    "name": "Conjunctio",
+                    "name_cn": "神圣结合",
+                    "description": "Child of the union",
+                    "description_cn": "结合产生的新生能量"
+                },
+                {
+                    "position": 6,
+                    "name": "Rebis Stone",
+                    "name_cn": "双性灵石",
+                    "description": "Final integrated being",
+                    "description_cn": "最终整合的存在状态"
+                }
+            ],
+            "elements": ["fire", "water", "aether"],
+            "elements_cn": ["火", "水", "以太"]
+        },
+        "dnaActivation": {
+            "name": "DNA Activation Spread",
+            "name_cn": "DNA激活牌阵",
+            "card_count": 12,
+            "description": "Works with spiritual DNA strands for awakening",
+            "description_cn": "作用于灵性DNA链的觉醒牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Physical Blueprint",
+                    "name_cn": "物质蓝图",
+                    "description": "Bodily inheritance patterns",
+                    "description_cn": "身体层面的遗传模式"
+                },
+                {
+                    "position": 2,
+                    "name": "Emotional Encoding",
+                    "name_cn": "情感编码",
+                    "description": "Ancestral emotional legacy",
+                    "description_cn": "祖先的情感遗产"
+                },
+                {
+                    "position": 3,
+                    "name": "Mental Architect",
+                    "name_cn": "心智架构",
+                    "description": "Thought pattern inheritance",
+                    "description_cn": "思维模式的遗传"
+                },
+                {
+                    "position": 4,
+                    "name": "Spiritual Chromosome",
+                    "name_cn": "灵性染色体",
+                    "description": "Soul lineage connections",
+                    "description_cn": "灵魂血统连接"
+                },
+                {
+                    "position": 5,
+                    "name": "Junk DNA",
+                    "name_cn": "冗余DNA",
+                    "description": "Dormant potential awaiting activation",
+                    "description_cn": "等待激活的沉睡潜能"
+                },
+                {
+                    "position": 6,
+                    "name": "Telomere Clock",
+                    "name_cn": "端粒时钟",
+                    "description": "Karmic timing for awakenings",
+                    "description_cn": "觉醒的业力时机"
+                },
+                {
+                    "position": 7,
+                    "name": "Light Language",
+                    "name_cn": "光之语",
+                    "description": "Encoded messages in DNA",
+                    "description_cn": "DNA中的加密信息"
+                },
+                {
+                    "position": 8,
+                    "name": "Mutation Catalyst",
+                    "name_cn": "突变催化剂",
+                    "description": "What triggers transformation",
+                    "description_cn": "触发转变的因素"
+                },
+                {
+                    "position": 9,
+                    "name": "Helix Dance",
+                    "name_cn": "螺旋之舞",
+                    "description": "Balance between strands",
+                    "description_cn": "DNA链间的平衡状态"
+                },
+                {
+                    "position": 10,
+                    "name": "Plasmid Gift",
+                    "name_cn": "质粒礼物",
+                    "description": "Beneficial energy transfers",
+                    "description_cn": "有益的灵性能量传递"
+                },
+                {
+                    "position": 11,
+                    "name": "Epigenetic Key",
+                    "name_cn": "表观密钥",
+                    "description": "How to influence gene expression",
+                    "description_cn": "影响基因表达的方式"
+                },
+                {
+                    "position": 12,
+                    "name": "Cosmic Genome",
+                    "name_cn": "宇宙基因组",
+                    "description": "Connection to universal consciousness",
+                    "description_cn": "与宇宙意识的连接"
+                }
+            ],
+            "elements": ["aether", "earth", "fire", "water"],
+            "elements_cn": ["以太", "土", "火", "水"]
+        },
+		"dreamWeaver": {
+            "name": "Dream Weaver Spread",
+            "name_cn": "织梦者牌阵",
+            "card_count": 6,
+            "description": "Decodes dream messages and subconscious communication",
+            "description_cn": "解构梦境信息与潜意识沟通的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Dream Symbol",
+                    "name_cn": "梦境符号",
+                    "description": "Key symbol needing interpretation",
+                    "description_cn": "需要解读的核心梦境符号"
+                },
+                {
+                    "position": 2,
+                    "name": "Subconscious Whisper",
+                    "name_cn": "潜意识低语",
+                    "description": "Hidden message from your psyche",
+                    "description_cn": "心灵隐藏的讯息"
+                },
+                {
+                    "position": 3,
+                    "name": "Emotional Resonance",
+                    "name_cn": "情感共鸣",
+                    "description": "Why this dream emerged now",
+                    "description_cn": "此刻出现此梦境的情感动因"
+                },
+                {
+                    "position": 4,
+                    "name": "Past Life Echo",
+                    "name_cn": "前世回响",
+                    "description": "Karmic connection to the dream",
+                    "description_cn": "梦境与前世业力的关联"
+                },
+                {
+                    "position": 5,
+                    "name": "Waking Guidance",
+                    "name_cn": "醒世指引",
+                    "description": "Actionable insight for daily life",
+                    "description_cn": "可应用于现实生活的洞见"
+                },
+                {
+                    "position": 6,
+                    "name": "Lucid Potential",
+                    "name_cn": "清明潜能",
+                    "description": "How to harness this dream energy",
+                    "description_cn": "驾驭此梦境能量的方法"
+                }
+            ],
+            "elements": ["water", "aether"],
+            "elements_cn": ["水", "以太"]
+        },
+        "urbanRune": {
+            "name": "Urban Rune Spread",
+            "name_cn": "都市如尼牌阵",
+            "card_count": 5,
+            "description": "Modern divination for city dwellers using street symbolism",
+            "description_cn": "运用都市符号为城市居民设计的现代占卜牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Street Signs",
+                    "name_cn": "道路标识",
+                    "description": "What life is trying to tell you",
+                    "description_cn": "生活试图传达的信息"
+                },
+                {
+                    "position": 2,
+                    "name": "Subway Current",
+                    "name_cn": "地铁电流",
+                    "description": "Underlying energy flow",
+                    "description_cn": "潜藏的能量流动"
+                },
+                {
+                    "position": 3,
+                    "name": "Skyline Mirror",
+                    "name_cn": "天际线明镜",
+                    "description": "How the city reflects your psyche",
+                    "description_cn": "城市景观如何映照内心"
+                },
+                {
+                    "position": 4,
+                    "name": "Alleyway Shadow",
+                    "name_cn": "巷弄阴影",
+                    "description": "What needs to be brought to light",
+                    "description_cn": "需要被照亮的部分"
+                },
+                {
+                    "position": 5,
+                    "name": "Rooftop Vision",
+                    "name_cn": "屋顶视野",
+                    "description": "Higher perspective available",
+                    "description_cn": "可获得的更高视角"
+                }
+            ],
+            "elements": ["earth", "air"],
+            "elements_cn": ["土", "风"]
+        },
+        "bardicCircle": {
+            "name": "Bardic Circle Spread",
+            "name_cn": "吟游诗人圆阵",
+            "card_count": 8,
+            "description": "Storytelling spread for life narrative analysis",
+            "description_cn": "用于人生故事分析的叙事性牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Opening Line",
+                    "name_cn": "故事开篇",
+                    "description": "How your story begins",
+                    "description_cn": "你人生故事的起始点"
+                },
+                {
+                    "position": 2,
+                    "name": "Hero's Flaw",
+                    "name_cn": "英雄缺陷",
+                    "description": "Your tragic/comic weakness",
+                    "description_cn": "你的悲剧性/喜剧性弱点"
+                },
+                {
+                    "position": 3,
+                    "name": "Magical Gift",
+                    "name_cn": "魔法馈赠",
+                    "description": "Special talent to overcome trials",
+                    "description_cn": "克服考验的特殊天赋"
+                },
+                {
+                    "position": 4,
+                    "name": "Villain Shadow",
+                    "name_cn": "反派阴影",
+                    "description": "Externalized inner conflict",
+                    "description_cn": "外化的内在冲突"
+                },
+                {
+                    "position": 5,
+                    "name": "Quest Map",
+                    "name_cn": "冒险地图",
+                    "description": "Path through current challenge",
+                    "description_cn": "穿越当前挑战的路径"
+                },
+                {
+                    "position": 6,
+                    "name": "Mentor's Whisper",
+                    "name_cn": "导师耳语",
+                    "description": "Guidance from wise ones",
+                    "description_cn": "来自智者的指引"
+                },
+                {
+                    "position": 7,
+                    "name": "Plot Twist",
+                    "name_cn": "剧情转折",
+                    "description": "Unexpected development coming",
+                    "description_cn": "即将到来的意外发展"
+                },
+                {
+                    "position": 8,
+                    "name": "Finale Light",
+                    "name_cn": "终章曙光",
+                    "description": "Potential story resolution",
+                    "description_cn": "故事的潜在结局"
+                }
+            ],
+            "elements": ["fire", "air", "water"],
+            "elements_cn": ["火", "风", "水"]
+        },
+        "digitalAvatar": {
+            "name": "Digital Avatar Spread",
+            "name_cn": "数字化身牌阵",
+            "card_count": 5,
+            "description": "Analyzes online persona and virtual life impact",
+            "description_cn": "分析网络人格与虚拟生活影响的牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Profile Mask",
+                    "name_cn": "头像面具",
+                    "description": "What you present online",
+                    "description_cn": "你在网络展现的表象"
+                },
+                {
+                    "position": 2,
+                    "name": "Data Shadow",
+                    "name_cn": "数据阴影",
+                    "description": "Unconscious digital footprint",
+                    "description_cn": "无意识留下的数字痕迹"
+                },
+                {
+                    "position": 3,
+                    "name": "Firewall",
+                    "name_cn": "心灵防火墙",
+                    "description": "Healthy boundaries needed",
+                    "description_cn": "需要建立的健康界限"
+                },
+                {
+                    "position": 4,
+                    "name": "Virtual Alchemy",
+                    "name_cn": "虚拟炼金术",
+                    "description": "How to transform online energy",
+                    "description_cn": "转化网络能量的方法"
+                },
+                {
+                    "position": 5,
+                    "name": "Offline Echo",
+                    "name_cn": "线下回响",
+                    "description": "Digital life's real-world impact",
+                    "description_cn": "数字生活对现实的影响"
+                }
+            ],
+            "elements": ["air", "aether"],
+            "elements_cn": ["风", "以太"]
+        },
+        "ecoOracle": {
+            "name": "Eco-Oracle Spread",
+            "name_cn": "生态神谕牌阵",
+            "card_count": 7,
+            "description": "Gaia-centered reading for environmental harmony",
+            "description_cn": "以盖亚意识为核心的环境和谐牌阵",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Soil Wisdom",
+                    "name_cn": "土壤智慧",
+                    "description": "What the earth asks of you",
+                    "description_cn": "大地对你的期许"
+                },
+                {
+                    "position": 2,
+                    "name": "Water Memory",
+                    "name_cn": "水之记忆",
+                    "description": "Emotional connection to nature",
+                    "description_cn": "与自然的情感连接"
+                },
+                {
+                    "position": 3,
+                    "name": "Air Message",
+                    "name_cn": "风之讯息",
+                    "description": "What winds carry to you",
+                    "description_cn": "风带来的讯息"
+                },
+                {
+                    "position": 4,
+                    "name": "Fire Renewal",
+                    "name_cn": "火之重生",
+                    "description": "Where transformation is needed",
+                    "description_cn": "需要重生的领域"
+                },
+                {
+                    "position": 5,
+                    "name": "Species Bridge",
+                    "name_cn": "物种桥梁",
+                    "description": "Your spirit animal connection",
+                    "description_cn": "与灵性动物的连接"
+                },
+                {
+                    "position": 6,
+                    "name": "Root Network",
+                    "name_cn": "根脉网络",
+                    "description": "How you're supported by nature",
+                    "description_cn": "自然如何支持你"
+                },
+                {
+                    "position": 7,
+                    "name": "Seed Pact",
+                    "name_cn": "种子契约",
+                    "description": "Your promise to the planet",
+                    "description_cn": "你对地球的承诺"
+                }
+            ],
+            "elements": ["earth", "water", "air", "fire"],
+            "elements_cn": ["土", "水", "风", "火"]
+        },
+		"heartMind": {
+            "name": "Heart-Mind Spread",
+            "name_cn": "心智-心灵牌阵",
+            "card_count": 2,
+            "description": "Reveals alignment between logic and emotion",
+            "description_cn": "展现理性与情感的协调度",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Mind",
+                    "name_cn": "心智",
+                    "description": "Logical perspective",
+                    "description_cn": "理性观点"
+                },
+                {
+                    "position": 2,
+                    "name": "Heart",
+                    "name_cn": "心灵",
+                    "description": "Emotional truth",
+                    "description_cn": "情感真相"
+                }
+            ],
+            "elements": ["air", "water"],
+            "elements_cn": ["风", "水"]
+        },
+		"fourDirections": {
+            "name": "Four Directions",
+            "name_cn": "四方神圣牌阵",
+            "card_count": 4,
+            "description": "Native American inspired directional reading",
+            "description_cn": "受印第安文化启发的方位解读",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "East - New Beginnings",
+                    "name_cn": "东方-新生",
+                    "description": "Dawn and fresh starts",
+                    "description_cn": "黎明与新开始"
+                },
+                {
+                    "position": 2,
+                    "name": "South - Passion",
+                    "name_cn": "南方-激情",
+                    "description": "Energy and growth",
+                    "description_cn": "能量与成长"
+                },
+                {
+                    "position": 3,
+                    "name": "West - Introspection",
+                    "name_cn": "西方-内省",
+                    "description": "Emotions and reflection",
+                    "description_cn": "情感与反思"
+                },
+                {
+                    "position": 4,
+                    "name": "North - Wisdom",
+                    "name_cn": "北方-智慧",
+                    "description": "Knowledge and ancestors",
+                    "description_cn": "知识与祖先"
+                }
+            ],
+            "elements": ["air", "fire", "water", "earth"],
+            "elements_cn": ["风", "火", "水", "土"]
+        },
+		"obstacleAdvice": {
+            "name": "Obstacle-Advice",
+            "name_cn": "阻碍-建议",
+            "card_count": 2,
+            "description": "Identifies blocks and solutions",
+            "description_cn": "识别阻碍与解决方案",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Challenge",
+                    "name_cn": "阻碍",
+                    "description": "Current obstacle",
+                    "description_cn": "当前阻碍"
+                },
+                {
+                    "position": 2,
+                    "name": "Guidance",
+                    "name_cn": "建议",
+                    "description": "How to overcome",
+                    "description_cn": "克服方法"
+                }
+            ],
+            "elements": ["earth", "air"],
+            "elements_cn": ["土", "风"]
+        },
+		"morningInsight": {
+            "name": "Morning Insight",
+            "name_cn": "晨间洞察",
+            "card_count": 1,
+            "description": "Daily focus card",
+            "description_cn": "每日焦点牌",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Theme of the Day",
+                    "name_cn": "当日主题",
+                    "description": "Key energy for the day",
+                    "description_cn": "当天的关键能量"
+                }
+            ],
+            "elements": ["aether"],
+            "elements_cn": ["以太"]
+        },
+		"selfOther": {
+            "name": "Self-Other Relationship",
+            "name_cn": "自我-他人关系阵",
+            "card_count": 2,
+            "description": "Dynamics between two people",
+            "description_cn": "两人关系动态",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Your Position",
+                    "name_cn": "自我立场",
+                    "description": "Your role in the relationship",
+                    "description_cn": "你在关系中的角色"
+                },
+                {
+                    "position": 2,
+                    "name": "Other's Position",
+                    "name_cn": "对方立场",
+                    "description": "Other person's role",
+                    "description_cn": "对方在关系中的角色"
+                }
+            ],
+            "elements": ["water", "air"],
+            "elements_cn": ["水", "风"]
+        },
+		"situationActionOutcome": {
+            "name": "Situation-Action-Outcome",
+            "name_cn": "现状-行动-结果",
+            "card_count": 3,
+            "description": "Problem-solving structure",
+            "description_cn": "问题解决结构",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Situation",
+                    "name_cn": "现状",
+                    "description": "Current circumstances",
+                    "description_cn": "当前环境"
+                },
+                {
+                    "position": 2,
+                    "name": "Action",
+                    "name_cn": "行动",
+                    "description": "Recommended approach",
+                    "description_cn": "建议采取的行动"
+                },
+                {
+                    "position": 3,
+                    "name": "Outcome",
+                    "name_cn": "结果",
+                    "description": "Likely consequence",
+                    "description_cn": "可能结果"
+                }
+            ],
+            "elements": ["earth", "fire", "air"],
+            "elements_cn": ["土", "火", "风"]
+        },
+		"pastPresentFuture": {
+            "name": "Past-Present-Future",
+            "name_cn": "过去-现在-未来",
+            "card_count": 3,
+            "description": "Basic timeline reading",
+            "description_cn": "基础时间流解读",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past",
+                    "name_cn": "过去",
+                    "description": "Recent influences",
+                    "description_cn": "近期影响因素"
+                },
+                {
+                    "position": 2,
+                    "name": "Present",
+                    "name_cn": "现在",
+                    "description": "Current situation",
+                    "description_cn": "当前状况"
+                },
+                {
+                    "position": 3,
+                    "name": "Future",
+                    "name_cn": "未来",
+                    "description": "Probable outcome",
+                    "description_cn": "可能发展"
+                }
+            ],
+            "elements": ["water", "earth", "fire"],
+            "elements_cn": ["水", "土", "火"]
+        },
+        "yesNo": {
+            "name": "Yes/No Clarifier",
+            "name_cn": "是非澄清阵",
+            "card_count": 1,
+            "description": "Simple affirmative/negative response (upright/reversed)",
+            "description_cn": "简易是非判断（正/逆位）",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Answer",
+                    "name_cn": "答案",
+                    "description": "General tendency of response",
+                    "description_cn": "回答的总体倾向"
+                }
+            ],
+            "elements": ["aether"],
+            "elements_cn": ["以太"]
+        },
+		"twoPaths": {
+            "name": "Two Paths Spread",
+            "name_cn": "双路径牌阵",
+            "card_count": 2,
+            "description": "Compare two options or aspects",
+            "description_cn": "对比两个选项或方面",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Path A",
+                    "name_cn": "路径A",
+                    "description": "First option/energy",
+                    "description_cn": "第一个选项/能量"
+                },
+                {
+                    "position": 2,
+                    "name": "Path B",
+                    "name_cn": "路径B",
+                    "description": "Second option/energy",
+                    "description_cn": "第二个选项/能量"
+                }
+            ],
+            "elements": ["air"],
+            "elements_cn": ["风"]
+        },
+		"singleCard": {
+            "name": "Single Card Draw",
+            "name_cn": "单卡抽取",
+            "card_count": 1,
+            "description": "Daily guidance or quick answer focus",
+            "description_cn": "每日指引或快速聚焦答案",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Core Message",
+                    "name_cn": "核心讯息",
+                    "description": "Essential insight for current situation",
+                    "description_cn": "当前状况的核心洞察"
+                }
+            ],
+            "elements": ["aether"],
+            "elements_cn": ["以太"]
+        },
+        "soulJourney": {
+            "name": "Soul Journey Spread",
+            "name_cn": "灵魂之旅牌阵",
+            "card_count": 7,
+            "description": "A transformative journey through the soul's evolutionary stages",
+            "description_cn": "穿越灵魂进化阶段的蜕变之旅",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Call to Adventure",
+                    "name_cn": "冒险召唤",
+                    "description": "Your current spiritual awakening trigger",
+                    "description_cn": "当前灵性觉醒的触发点"
+                },
+                {
+                    "position": 2,
+                    "name": "Shadow Cave",
+                    "name_cn": "阴影洞穴",
+                    "description": "Subconscious patterns needing integration",
+                    "description_cn": "需要整合的潜意识模式"
+                },
+                {
+                    "position": 3,
+                    "name": "Wise Guide",
+                    "name_cn": "智慧向导",
+                    "description": "Inner resource or archetype assisting you",
+                    "description_cn": "协助你的内在资源或原型"
+                },
+                {
+                    "position": 4,
+                    "name": "Initiation Trial",
+                    "name_cn": "启蒙考验",
+                    "description": "Core challenge for soul growth",
+                    "description_cn": "灵魂成长的核心考验"
+                },
+                {
+                    "position": 5,
+                    "name": "Alchemical Fire",
+                    "name_cn": "炼金之火",
+                    "description": "What must be transformed within",
+                    "description_cn": "内在需要转化的部分"
+                },
+                {
+                    "position": 6,
+                    "name": "Soul Gift",
+                    "name_cn": "灵魂礼物",
+                    "description": "Divine talent emerging from the journey",
+                    "description_cn": "旅程中显现的神圣天赋"
+                },
+                {
+                    "position": 7,
+                    "name": "Homecoming Light",
+                    "name_cn": "归途明灯",
+                    "description": "Higher purpose being revealed",
+                    "description_cn": "正在揭示的更高使命"
+                }
+            ],
+            "elements": ["aether", "water", "fire"],
+            "elements_cn": ["以太", "水", "火"]
+        },
+        "karmicCycle": {
+            "name": "Karmic Cycle Spread",
+            "name_cn": "轮回业力牌阵",
+            "card_count": 5,
+            "description": "Reveals soul contracts and repeating patterns across lifetimes",
+            "description_cn": "揭示跨越多世的灵魂契约与重复模式",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past Life Echo",
+                    "name_cn": "前世回响",
+                    "description": "Most influential past incarnation",
+                    "description_cn": "影响最深的前世经历"
+                },
+                {
+                    "position": 2,
+                    "name": "Unfinished Lesson",
+                    "name_cn": "未竟课题",
+                    "description": "Karmic debt being reconciled",
+                    "description_cn": "正在清算的业力债务"
+                },
+                {
+                    "position": 3,
+                    "name": "Soul Recognition",
+                    "name_cn": "灵魂印记",
+                    "description": "Recurring soul signatures",
+                    "description_cn": "重复出现的灵魂特征"
+                },
+                {
+                    "position": 4,
+                    "name": "Present Manifestation",
+                    "name_cn": "今生显化",
+                    "description": "How karma manifests now",
+                    "description_cn": "业力在当下的呈现方式"
+                },
+                {
+                    "position": 5,
+                    "name": "Dharma Key",
+                    "name_cn": "业力钥匙",
+                    "description": "Key to breaking the cycle",
+                    "description_cn": "打破轮回的关键"
+                }
+            ],
+            "elements": ["water", "earth", "aether", "fire", "air"],
+            "elements_cn": ["水", "土", "以太", "火", "风"]
+        }
+    }
+}
