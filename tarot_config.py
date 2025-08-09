@@ -4,7 +4,7 @@ TAROT_DATA_PATH = "tarot_all_cn.json"
 DEFAULT_SPREAD_KEY = "threeCard"
 
 # 去AI味
-REPLACE_STRING_TO_EMPTY = ("首先","其次","但是","可是","接着","最后","因此","然后", "综上所述", "同时", "总之", "总的来说", "最重要的是")
+REPLACE_STRING_TO_EMPTY = ("首先","其次","但是","可是","接着","最后","因此","然后","然而", "综上所述", "同时", "总之", "总的来说", "最重要的是")
 
 # 问题询问的礼貌语
 USER_VL_MSG = "塔罗师您好,"
