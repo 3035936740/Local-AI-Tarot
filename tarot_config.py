@@ -1,8 +1,3 @@
-# 运行的URL
-URL = "http://192.168.0.103:11434"
-# 选择的模型
-MODEL = "llama3.2-vision:latest"
-
 TAROT_DATA_PATH = "tarot_all_cn.json"
 
 # 默认牌阵
