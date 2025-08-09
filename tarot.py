@@ -350,7 +350,7 @@ class Tarot:
             
             response = await self.client.chat(model=self.model, messages=messages)
             
-            out_texts = TarotUtils.replace_string(response["message"]["content"].strip()).split('。')
+            out_texts = re.split(r'[\n。]', TarotUtils.replace_string(response["message"]["content"].strip()))
             
             result_texts = []
             for text in out_texts:
