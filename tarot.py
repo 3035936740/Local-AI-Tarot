@@ -144,8 +144,9 @@ class Tarot:
         return datas
 
     # user_message想要询问的信息, a_mod是否开启占星模式
-    async def divination(self, user_message: str, a_mod: bool = False) -> TarotContent:
-        self.is_busy
+    async def divination(self, user_message: str, a_mod: bool = False, is_busy: bool = None) -> TarotContent:
+        if is_busy is not None:
+            self.is_busy = is_busy
         result: TarotContent = TarotContent()
         result_texts = None
         complete_text = None
