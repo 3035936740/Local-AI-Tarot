@@ -1,5 +1,7 @@
-import json, re, random, emoji, ollama
+import json, re, random, math, asyncio
 from tarot_config import *
+import emoji, ollama
+from PIL import Image
 
 class TarotContent:
     def __init__(self, failure_tips: str = None, complete_text: str = None, result_texts: list[str] = None, tarot_text: str = None, tarot_info: dict = None, is_complete: bool = False):
@@ -46,6 +48,53 @@ class TarotUtils:
         # 匹配非英文、非数字的字符并替换为空字符串
         return re.sub(r'[^a-zA-Z0-9]', '', text)
 
+class TarotDraw:
+    def __init__(self, tarot_dir: str):
+        self.tarot_dir: str = tarot_dir
+
+    async def draw(self, cards: list[dict], spread: dict, is_reversed_list: list) -> Image:
+        wallpaper_path = f"{self.tarot_dir}/wallpaper.png"
+        
+        base_img = Image.open(wallpaper_path).convert("RGBA")
+        
+        card_dir = f"{self.tarot_dir}/cards"
+        
+        # Process cards concurrently
+        card_tasks = []
+        for index, args in enumerate(spread["draw"]):
+            card = cards[index]
+            card_id = card["id"]
+            card_path = f"{card_dir}/{card_id}.jpg"
+            task = self._process_card(card_path, args, is_reversed_list[index])
+            card_tasks.append(task)
+        
+        processed_cards = await asyncio.gather(*card_tasks)
+        
+        # Composite all cards onto base image
+        for card_img, position in processed_cards:
+            base_img.alpha_composite(card_img, dest=position)
+        
+        return base_img
+
+    async def _process_card(self, card_path: str, args: dict, is_reversed: bool) -> tuple:
+        card_img = Image.open(card_path).convert("RGBA")
+        
+        position_args = args["position"]
+        rotate = args["rotate"]
+        scale = args["scale"]
+        
+        if is_reversed:
+            card_img = card_img.rotate(180, expand=True, resample=Image.Resampling.BICUBIC)
+        if not math.isclose(rotate, 0.0):
+            card_img = card_img.rotate(rotate, expand=True, resample=Image.Resampling.BICUBIC)
+        if not math.isclose(scale, 1.0):
+            new_size = (int(card_img.width * scale), int(card_img.height * scale))
+            resample = Image.Resampling.LANCZOS if scale < 1.0 else Image.Resampling.BICUBIC
+            card_img = card_img.resize(new_size, resample=resample)
+        
+        position = (int(position_args[0] - card_img.width / 2), int(position_args[1] - card_img.height / 2))
+        return (card_img, position)
+
 class Tarot:
     def __init__(self, url: str, model: str):
         self.is_busy = False # 是否繁忙
@@ -67,6 +116,7 @@ class Tarot:
         self.model = model
         self.client = ollama.AsyncClient(host=url)
 
+    # 属性文本处理
     def __handle_element_text(self, element, a_mod: bool = False, total_zodiacs_key: set = set()):
         result_text = ""
         
@@ -116,10 +166,11 @@ class Tarot:
         
         return out_spread_key
         
-    def __getTarotInfo(self, spread_key, card_keys, elem_keys, court_elem_corr_keys, ast_mod_keys, zodiacs_keys):
+    def __getTarotInfo(self, spread_key, card_keys, elem_keys, court_elem_corr_keys, ast_mod_keys, zodiacs_keys, is_reversed_list):
         datas = {
             "spread": self.tarot_data['spreads'][spread_key],
             "cards": {},
+            "is_reversed_list": is_reversed_list,
             "astrologyModality": {},
             "courtElementalCorrespondence": {},
             "zodiacs": {},
@@ -144,7 +195,9 @@ class Tarot:
         return datas
 
     # user_message想要询问的信息, a_mod是否开启占星模式
-    async def divination(self, user_message: str, a_mod: bool = False, is_busy: bool = None) -> TarotContent:
+    # is_busy为是否繁忙
+    # card_select为卡牌选择模式,默认为78张塔罗牌全部选择,1为22张大阿尔卡那,2为56张小阿尔卡那
+    async def divination(self, user_message: str, a_mod: bool = False, is_busy: bool = None, card_select: int = 0) -> TarotContent:
         if is_busy is not None:
             self.is_busy = is_busy
         result: TarotContent = TarotContent()
@@ -161,6 +214,8 @@ class Tarot:
         spreads = self.tarot_data['spreads']
         # 塔罗牌
         tarot_cards = self.tarot_data['cards']
+
+
         # 元素
         elements = self.tarot_data['elements']
         # 宫廷
@@ -173,6 +228,8 @@ class Tarot:
         # 十二星座
         zodiacs = self.tarot_data['zodiacs']
         # if True:
+        is_reversed_list = []
+
         try:
             if self.is_busy:
                 result.failure_text = random.choice(BUSY_TIPS)
@@ -200,7 +257,13 @@ class Tarot:
             spread_positions = spread["positions"]
             card_count = len(spread_positions)
             
-            random_cards = random.sample(list(tarot_cards.keys()), card_count)
+            tarot_cards_keys = list(tarot_cards.keys())
+            if card_select == 1:
+                tarot_cards_keys = tarot_cards_keys[:22]
+            if card_select == 2:
+                tarot_cards_keys = tarot_cards_keys[-56:]
+
+            random_cards = random.sample(tarot_cards_keys, card_count)
             
             # 塔罗
             tarot_texts = f"塔罗牌阵讯息:\n{spread_name}: {spread_description}\n"
@@ -218,6 +281,7 @@ class Tarot:
                 tarot_card_key = random_cards[index] # 塔罗牌索引
                 tarot_card = tarot_cards[tarot_card_key] # 塔罗牌
                 is_reversed = random.choice([True, False]) # 是否为逆位
+                is_reversed_list.append(is_reversed)
                 card_name = tarot_card["card_name_cn"] # 塔罗牌名字
                 card_id = tarot_card["id"]
 
@@ -358,7 +422,7 @@ class Tarot:
                     hand_txt = text.strip().strip("。,，.").lstrip("？?!！").strip()
                     result_texts.append(hand_txt)
             
-            datas = self.__getTarotInfo(spread_key, random_cards, total_elements, total_court_elemental_correspondence_keys, total_astrology_modality_keys, total_zodiacs_key)
+            datas = self.__getTarotInfo(spread_key, random_cards, total_elements, total_court_elemental_correspondence_keys, total_astrology_modality_keys, total_zodiacs_key, is_reversed_list)
             
             result.result_texts = result_texts
             result.tarot_text = show_text

@@ -15,7 +15,7 @@ $ pip install -r requirements.txt
 ## 配置塔罗牌AI  
 全部配置内容都在tarot_config.py中  
 
-## 牌来！启动！  
+## 塔罗！启动！  
 ```bash
-$ python3 main.py
+$ python3 example.py
 ```
