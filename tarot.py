@@ -3,6 +3,8 @@ from tarot_config import *
 import emoji, ollama
 from PIL import Image
 
+DEFAULT_CONNECT_URL = "localhost:11434"
+
 class TarotContent:
     def __init__(self, failure_tips: str = None, complete_text: str = None, result_texts: list[str] = None, tarot_text: str = None, tarot_info: dict = None, is_complete: bool = False):
         self.result_texts: list[str] = result_texts
@@ -97,7 +99,7 @@ class TarotDraw:
         return (card_img, position)
 
 class Tarot:
-    def __init__(self, url: str, model: str):
+    def __init__(self, model: str, url: str = DEFAULT_CONNECT_URL):
         self.is_busy = False # 是否繁忙
         self.tarot_data = None
         
@@ -113,7 +115,7 @@ class Tarot:
             self.tarot_data = json.load(file)
     
     # 更新链接客服端
-    def updateClient(self, url: str, model: str):
+    def updateClient(self, model: str, url: str = DEFAULT_CONNECT_URL):
         self.model = model
         self.client = ollama.AsyncClient(host=url)
 

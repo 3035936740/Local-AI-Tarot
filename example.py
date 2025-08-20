@@ -2,7 +2,7 @@ import asyncio, random
 from tarot import Tarot, TarotContent, TarotDraw
 
 # 运行的URL
-URL = "http://192.168.0.106:11434"
+URL = "192.168.0.106:11434"
 # 选择的模型
 MODEL = "llama3.2-vision:latest" # "llama3.1:latest" 
 
@@ -10,7 +10,7 @@ MODEL = "llama3.2-vision:latest" # "llama3.1:latest"
 MIN_AWAIT_TIME, MAX_AWAIT_TIME = 1, 3
 
 async def example_div():
-    tarot = Tarot(URL, MODEL)
+    tarot = Tarot(MODEL, URL)
     question = "我的重复梦境试图传达什么？" # 想要询问的问题
     is_astrology = False # 是否开启塔罗牌 + 占星，False为经典塔罗牌模式
     result: TarotContent = await tarot.divination(question, is_astrology, card_select=0)
