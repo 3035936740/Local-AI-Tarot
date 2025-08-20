@@ -61,6 +61,7 @@ class TarotDraw:
         
         # Process cards concurrently
         card_tasks = []
+        
         for index, args in enumerate(spread["draw"]):
             card = cards[index]
             card_id = card["id"]
@@ -332,14 +333,9 @@ class Tarot:
                     element = elements[court_element]
                     tarot_texts += f"\n宫廷元素:{court_element_cn},{court_name}含义:{court_meaning}," + self.__handle_element_text(element, a_mod, total_zodiacs_key)
             
-            spread_elements = spread["elements"]
-            tarot_texts += f"\n阵型元素:"
+            spread_interpretation = spread["interpretation_method_cn"]
+            tarot_texts += f"\n阵型解释:{spread_interpretation}"
             
-            for element_key in spread_elements:
-                total_elements.add(element_key)
-                element = elements[element_key]
-                tarot_texts += "\n" + self.__handle_element_text(element, a_mod, total_zodiacs_key)
-
             if "all" in total_zodiacs_key and a_mod:
                 total_zodiacs_key = {"Aries", "Leo", "Sagittarius", "Taurus","Virgo","Capricorn", "Gemini","Libra","Aquarius", "Cancer","Scorpio","Pisces"}
             

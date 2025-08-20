@@ -2955,9 +2955,9 @@
             "suitable_for": ["love relationships", "emotional issues"],
             "suitable_for_cn": ["爱情关系", "情感问题"]
         },
-        "romanticLuck": {
-            "name": "Romantic Luck",
-            "name_cn": "桃花运",
+        "fiveCardRomanticLuck": {
+            "name": "Five Card Romantic Luck",
+            "name_cn": "五张牌桃花运",
             "card_count": 5,
             "description_cn": "专门分析个人桃花运势的牌阵,揭示当前感情状态和发展趋势",
             "description": "A spread specifically designed to analyze one's romantic luck, revealing current relationship status and future trends",
@@ -4986,7 +4986,7 @@
             "name": "Composite Card Array",
             "name_cn": "复合交叉牌阵",
             "card_count": 9,
-            "description_cn": "深度复合分析牌阵，揭示双方真实想法与关系潜在可能性",
+            "description_cn": "深度复合分析牌阵,揭示双方真实想法与关系潜在可能性",
             "description": "In-depth reconciliation spread revealing true intentions and hidden relationship potentials",
             "positions": [
                 {
@@ -5113,7 +5113,7 @@
             "name": "Love Cross",
             "name_cn": "爱情十字牌阵",
             "card_count": 5,
-            "description_cn": "经典感情诊断牌阵，通过十字结构揭示恋爱关系的核心能量",
+            "description_cn": "经典感情诊断牌阵,通过十字结构揭示恋爱关系的核心能量",
             "description": "Classic relationship diagnostic spread revealing core energies through cross structure",
             "positions": [
                 {
@@ -5192,7 +5192,7 @@
             "name": "Both Parties' Inner Selves",
             "name_cn": "双方内心展开法",
             "card_count": 6,
-            "description_cn": "镜像透视牌阵，双向揭示恋爱关系中的潜意识与期待",
+            "description_cn": "镜像透视牌阵,双向揭示恋爱关系中的潜意识与期待",
             "description": "Mirror perspective spread revealing subconscious and expectations in relationships",
             "positions": [
                 {
@@ -5283,7 +5283,7 @@
             "name": "Directly Pointing to the Core",
             "name_cn": "直指核心展开法",
             "card_count": 4,
-            "description_cn": "极简问题诊断牌阵，快速定位核心矛盾与解决方案",
+            "description_cn": "极简问题诊断牌阵,快速定位核心矛盾与解决方案",
             "description": "Minimalist diagnostic spread for pinpointing core issues and solutions",
             "positions": [
                 {
@@ -5350,7 +5350,7 @@
             "name": "Pre-action Assessment",
             "name_cn": "行动前的衡量展开法",
             "card_count": 4,
-            "description_cn": "决策预判牌阵，量化行动前的风险与收益",
+            "description_cn": "决策预判牌阵,量化行动前的风险与收益",
             "description": "Pre-decision spread quantifying risks and rewards before action",
             "positions": [
                 {
@@ -5417,7 +5417,7 @@
             "name": "One out of Three",
             "name_cn": "三选一牌阵",
             "card_count": 10,
-            "description_cn": "多路径决策分析牌阵，量化比较三个选项的潜在发展轨迹",
+            "description_cn": "多路径决策分析牌阵,量化比较三个选项的潜在发展轨迹",
             "description": "Multi-path decision analysis spread quantifying three options' trajectories",
             "positions": [
                 {
@@ -5544,7 +5544,7 @@
                 }
             ],
             "drawing_method": "Draw ten cards in three columns: Center(1), Left(A2-4), Middle(B5-7), Right(C8-10)",
-            "drawing_method_cn": "抽取10张牌分三列摆放:中心位(1)，左列(A2-4)，中列(B5-7)，右列(C8-10)",
+            "drawing_method_cn": "抽取10张牌分三列摆放:中心位(1),左列(A2-4),中列(B5-7),右列(C8-10)",
             "interpretation_method": "1.Base → A2.Process 3.Blocks 4.Result → B5.Process 6.Blocks 7.Result → C8.Process 9.Blocks 10.Result",
             "interpretation_method_cn": "1.现状 → A2.发展 3.阻碍 4.结果 → B5.发展 6.阻碍 7.结果 → C8.发展 9.阻碍 10.结果",
             "elements": ["earth", "fire", "earth", "water", "fire", "earth", "water", "fire", "earth", "water"],
@@ -5556,7 +5556,7 @@
             "name": "Career Potential",
             "name_cn": "职业潜能展开法",
             "card_count": 10,
-            "description_cn": "职业发展全息诊断牌阵，立体分析职场竞争力与晋升路径",
+            "description_cn": "职业发展全息诊断牌阵,立体分析职场竞争力与晋升路径",
             "description": "Holographic career diagnostic spread analyzing workplace competitiveness and promotion paths",
             "positions": [
                 {
@@ -5695,7 +5695,7 @@
             "name": "Pet Card Array",
             "name_cn": "宠物展开法",
             "card_count": 6,
-            "description_cn": "宠物沟通诊断牌阵，解析毛孩子的身心健康与主宠关系",
+            "description_cn": "宠物沟通诊断牌阵,解析毛孩子的身心健康与主宠关系",
             "description": "Pet communication spread analyzing health and owner-pet relationship",
             "positions": [
                 {
@@ -5786,7 +5786,7 @@
             "name": "Future Lover",
             "name_cn": "未来恋人展开法",
             "card_count": 7,
-            "description_cn": "恋爱潜力预测牌阵，揭示命定伴侣的特征与发展轨迹",
+            "description_cn": "恋爱潜力预测牌阵,揭示命定伴侣的特征与发展轨迹",
             "description": "Romantic potential spread revealing soulmate characteristics and development path",
             "positions": [
                 {
@@ -5889,7 +5889,7 @@
             "name": "Dream Matrix",
             "name_cn": "梦境启示展开法",
             "card_count": 7,
-            "description_cn": "潜意识解码牌阵，通过梦境解析揭示内在智慧与现实指引",
+            "description_cn": "潜意识解码牌阵,通过梦境解析揭示内在智慧与现实指引",
             "description": "Subconscious decoding spread revealing inner wisdom through dream analysis",
             "positions": [
                 {
@@ -5987,6 +5987,4488 @@
             "elements_cn": ["以太", "水", "水", "以太", "土", "火", "风"],
             "suitable_for": ["dream analysis", "shadow work"],
             "suitable_for_cn": ["梦境解析", "阴影面工作"]
+        },
+        "luckyFiveWeek": {
+            "name": "Lucky Five Week Card Array",
+            "name_cn": "幸运五周展开法",
+            "card_count": 5,
+            "description_cn": "五周运势连续预测牌阵,把握能量流动的时间节点",
+            "description": "Five-week continuous forecast spread capturing energy flow through time nodes",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "This Week",
+                    "name_cn": "本周运势",
+                    "description": "Immediate energy flow and opportunities",
+                    "description_cn": "当前的能量流动与机遇"
+                },
+                {
+                    "position": 2,
+                    "name": "Next Week",
+                    "name_cn": "下周运势",
+                    "description": "Emerging trends in the near future",
+                    "description_cn": "近期将显现的趋势"
+                },
+                {
+                    "position": 3,
+                    "name": "Third Week",
+                    "name_cn": "第三周运势",
+                    "description": "Developments taking clearer form",
+                    "description_cn": "逐渐清晰的发展态势"
+                },
+                {
+                    "position": 4,
+                    "name": "Fourth Week",
+                    "name_cn": "第四周运势",
+                    "description": "Consolidation phase of energies",
+                    "description_cn": "能量整合阶段"
+                },
+                {
+                    "position": 5,
+                    "name": "Fifth Week",
+                    "name_cn": "第五周运势",
+                    "description": "Culmination and outcome preview",
+                    "description_cn": "能量累积与结果预览"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [160, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [280, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [520, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [640, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw five cards in chronological line from left to right",
+            "drawing_method_cn": "抽取5张牌按时间线从左至右顺序摆放",
+            "interpretation_method": "1.Now 2.Soon 3.Evolving 4.Stabilizing 5.Culminating",
+            "interpretation_method_cn": "1、当下 2、近期 3、发展 4、稳定 5、累积",
+            "elements": ["fire", "air", "water", "earth", "aether"],
+            "elements_cn": ["火", "风", "水", "土", "以太"],
+            "suitable_for": ["weekly planning", "energy tracking"],
+            "suitable_for_cn": ["周度规划", "能量追踪"]
+        },
+        "lifePartner": {
+            "name": "Life Partner",
+            "name_cn": "终身伴侣展开法",
+            "card_count": 5,
+            "description_cn": "灵魂伴侣深度探索牌阵,揭示命定关系的本质与成长路径",
+            "description": "Soulmate exploration spread revealing destined relationship essence and growth path",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Soulmate Type",
+                    "name_cn": "伴侣类型",
+                    "description": "Essential qualities of your destined partner",
+                    "description_cn": "命定伴侣的核心特质"
+                },
+                {
+                    "position": 2,
+                    "name": "Encounter Path",
+                    "name_cn": "相识方式",
+                    "description": "How and where you will meet this person",
+                    "description_cn": "相遇的方式与场景"
+                },
+                {
+                    "position": 3,
+                    "name": "Core Challenges",
+                    "name_cn": "核心困难",
+                    "description": "Key obstacles to overcome together",
+                    "description_cn": "需要共同克服的关键障碍"
+                },
+                {
+                    "position": 4,
+                    "name": "Transformation",
+                    "name_cn": "成长改变",
+                    "description": "How this relationship will transform you",
+                    "description_cn": "这段关系带来的蜕变成长"
+                },
+                {
+                    "position": 5,
+                    "name": "Divine Confidence",
+                    "name_cn": "天命信心",
+                    "description": "Spiritual assurance in this connection",
+                    "description_cn": "灵魂层面的确认与信心"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 180], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [280, 380], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [520, 380], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [160, 580], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [640, 580], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw five cards in pentagram formation: 1(top) 2(right) 3(left) 4(bottom-left) 5(bottom-right)",
+            "drawing_method_cn": "抽取5张牌按五角星形摆放:1(顶) 2(右) 3(左) 4(左下) 5(右下)",
+            "interpretation_method": "1.Who 2.How 3.Test 4.Change 5.Faith",
+            "interpretation_method_cn": "1、何人 2、何遇 3、何难 4、何变 5、何信",
+            "elements": ["aether", "air", "earth", "fire", "water"],
+            "elements_cn": ["以太", "风", "土", "火", "水"],
+            "suitable_for": ["soulmate searching", "destiny connection"],
+            "suitable_for_cn": ["灵魂伴侣寻找", "天命连接"]
+        },
+        "breakupJudgment": {
+            "name": "Breakup Judgment",
+            "name_cn": "分手判定展开法",
+            "card_count": 5,
+            "description_cn": "关系终结诊断牌阵,三层归因分析分手本质与结局",
+            "description": "Relationship termination diagnostic spread with three-layer attribution analysis",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Root Cause",
+                    "name_cn": "根本原因",
+                    "description": "Deep-seated underlying issue",
+                    "description_cn": "深层的根本性问题"
+                },
+                {
+                    "position": 2,
+                    "name": "Developmental Cause",
+                    "name_cn": "发展原因",
+                    "description": "Evolved complication over time",
+                    "description_cn": "随时间演变的发展性问题"
+                },
+                {
+                    "position": 3,
+                    "name": "Triggering Cause",
+                    "name_cn": "触发原因",
+                    "description": "Immediate catalyst for the breakup",
+                    "description_cn": "分手的直接触发因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Final Straw",
+                    "name_cn": "最终导火索",
+                    "description": "The last irreversible incident",
+                    "description_cn": "导致决裂的最后事件"
+                },
+                {
+                    "position": 5,
+                    "name": "Inevitable Outcome",
+                    "name_cn": "必然结局",
+                    "description": "Ultimate consequence of these causes",
+                    "description_cn": "这些原因导致的最终结局"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [160, 450], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [280, 450], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 450], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [520, 450], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [640, 280], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 5 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出5张牌,依序放在5处",
+            "interpretation_method": "1.Root 2.Evolution 3.Catalyst 4.LastStraw 5.Destiny",
+            "interpretation_method_cn": "1、根源 2、演变 3、催化剂 4、最后一根稻草 5、命运",
+            "elements": ["earth", "water", "fire", "air", "aether"],
+            "elements_cn": ["土", "水", "火", "风", "以太"],
+            "suitable_for": ["relationship autopsy", "closure seeking"],
+            "suitable_for_cn": ["关系复盘", "寻求解脱"]
+        },
+        "emotionalRealm": {
+            "name": "Emotional Realm",
+            "name_cn": "情感之境展开法",
+            "card_count": 5,
+            "description_cn": "情感能量镜像牌阵,双向映射关系现状与未来轨迹",
+            "description": "Emotional energy mirror spread mapping current status and future trajectory bidirectionally",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Your Current State",
+                    "name_cn": "你的当下状态",
+                    "description": "Your authentic emotional position and thoughts",
+                    "description_cn": "你真实的情感立场与想法"
+                },
+                {
+                    "position": 2,
+                    "name": "Their Current State",
+                    "name_cn": "对方当下状态",
+                    "description": "The other person's true feelings and mindset",
+                    "description_cn": "对方真实的情感与心态"
+                },
+                {
+                    "position": 3,
+                    "name": "Relationship Reality",
+                    "name_cn": "关系现状",
+                    "description": "Actual condition of your connection",
+                    "description_cn": "你们关系的实际状况"
+                },
+                {
+                    "position": 4,
+                    "name": "Emotional Trajectory",
+                    "name_cn": "情感走势",
+                    "description": "Likely emotional development path",
+                    "description_cn": "可能的情感发展路径"
+                },
+                {
+                    "position": 5,
+                    "name": "Ultimate Outcome",
+                    "name_cn": "最终结果",
+                    "description": "Final manifestation of this emotional journey",
+                    "description_cn": "这段情感旅程的最终呈现"
+                }
+            ],
+
+            "draw": [
+                {
+                    "position": [250, 250], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [550, 250], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [250, 550], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [550, 550], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 8 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出8张牌,依序放在8处",
+            "interpretation_method": "1.Self 2.Other 3.Reality 4.Flow 5.Destiny",
+            "interpretation_method_cn": "1、己心 2、他心 3、实境 4、流向 5、终局",
+            "elements": ["water", "water", "earth", "air", "fire"],
+            "elements_cn": ["水", "水", "土", "风", "火"],
+            "suitable_for": ["relationship analysis", "emotional clarity"],
+            "suitable_for_cn": ["感情分析", "情感明晰"]
+        },
+        "gypsyCrossArray": {
+            "name": "Gypsy Cross Array",
+            "name_cn": "吉普赛十字牌阵",
+            "card_count": 5,
+            "description_cn": "吉普赛传统关系牌阵,通过十字能量揭示情感真相",
+            "description": "Traditional Gypsy relationship spread revealing emotional truth through cross energy",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Their Mind",
+                    "name_cn": "对方想法",
+                    "description": "The other person's true thoughts and intentions",
+                    "description_cn": "对方真实的念头与意图"
+                },
+                {
+                    "position": 2,
+                    "name": "Your Heart",
+                    "name_cn": "你的想法",
+                    "description": "Your authentic feelings and desires",
+                    "description_cn": "你真实的情感与渴望"
+                },
+                {
+                    "position": 3,
+                    "name": "Core Issues",
+                    "name_cn": "核心问题",
+                    "description": "Essential challenges in the relationship",
+                    "description_cn": "关系中的本质性挑战"
+                },
+                {
+                    "position": 4,
+                    "name": "Social Context",
+                    "name_cn": "人文环境",
+                    "description": "Cultural and social influences at play",
+                    "description_cn": "起作用的文化与社会影响"
+                },
+                {
+                    "position": 5,
+                    "name": "Final Outcome",
+                    "name_cn": "最终结果",
+                    "description": "Inevitable conclusion of this connection",
+                    "description_cn": "这段连接的必然结局"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [250, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [550, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 5 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出5张牌,依序放在5处",
+            "interpretation_method": "1.TheirTruth 2.YourTruth 3.Problems 4.Environment 5.Destiny",
+            "interpretation_method_cn": "1、他心 2、己心 3、症结 4、环境 5、天命",
+            "elements": ["water", "water", "earth", "air", "fire"],
+            "elements_cn": ["水", "水", "土", "风", "火"],
+            "suitable_for": ["relationship truth", "cultural dynamics"],
+            "suitable_for_cn": ["感情真相", "文化动力"]
+        },
+        "loveProspects": {
+            "name": "Love Prospects",
+            "name_cn": "恋爱前景展开法",
+            "card_count": 5,
+            "description_cn": "恋情发展预测牌阵,揭示感情现状与未来走向",
+            "description": "Romantic development forecast spread revealing current status and future direction",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Your State",
+                    "name_cn": "你的状态",
+                    "description": "Your current emotional condition and readiness",
+                    "description_cn": "你当前的情感状态和准备程度"
+                },
+                {
+                    "position": 2,
+                    "name": "Their State",
+                    "name_cn": "TA的状态",
+                    "description": "The other person's true feelings and availability",
+                    "description_cn": "对方真实的情感状态和可交往性"
+                },
+                {
+                    "position": 3,
+                    "name": "Current Situation",
+                    "name_cn": "感情近况",
+                    "description": "Actual condition of the relationship dynamic",
+                    "description_cn": "关系动态的实际状况"
+                },
+                {
+                    "position": 4,
+                    "name": "Upcoming Challenges",
+                    "name_cn": "即将问题",
+                    "description": "Potential obstacles about to emerge",
+                    "description_cn": "即将出现的潜在障碍"
+                },
+                {
+                    "position": 5,
+                    "name": "Future Development",
+                    "name_cn": "未来发展",
+                    "description": "Most likely progression path",
+                    "description_cn": "最可能的发展路径"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [200, 480], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 480], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [600, 480], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [280, 240], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [520, 240], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 5 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出5张牌,依序放在5处",
+            "interpretation_method": "1.Self 2.Other 3.Now 4.Test 5.Destiny",
+            "interpretation_method_cn": "1、自身 2、对方 3、现状 4、考验 5、前程",
+            "elements": ["water", "water", "earth", "fire", "air"],
+            "elements_cn": ["水", "水", "土", "火", "风"],
+            "suitable_for": ["romantic forecast", "relationship timing"],
+            "suitable_for_cn": ["恋情预测", "关系时机"]
+        },
+        "romanticLuck": {
+            "name": "Romantic Luck",
+            "name_cn": "桃花运展开法",
+            "card_count": 6,
+            "description_cn": "半年桃花运势周期牌阵,按月预测感情机遇波动",
+            "description": "Six-month romantic cycle spread predicting love opportunities monthly",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "January",
+                    "name_cn": "一月",
+                    "description": "Romantic energy and opportunities in first month",
+                    "description_cn": "第一个月的感情能量与机遇"
+                },
+                {
+                    "position": 2,
+                    "name": "February",
+                    "name_cn": "二月",
+                    "description": "Love potential and developments in second month",
+                    "description_cn": "第二个月的感情潜力与发展"
+                },
+                {
+                    "position": 3,
+                    "name": "March",
+                    "name_cn": "三月",
+                    "description": "Relationship trends and encounters in third month",
+                    "description_cn": "第三个月的感情趋势与邂逅"
+                },
+                {
+                    "position": 4,
+                    "name": "April",
+                    "name_cn": "四月",
+                    "description": "Emotional connections and progress in fourth month",
+                    "description_cn": "第四个月的情感连接与进展"
+                },
+                {
+                    "position": 5,
+                    "name": "May",
+                    "name_cn": "五月",
+                    "description": "Romantic flowering or challenges in fifth month",
+                    "description_cn": "第五个月的爱情花开或挑战"
+                },
+                {
+                    "position": 6,
+                    "name": "June",
+                    "name_cn": "六月",
+                    "description": "Culmination and outcomes in sixth month",
+                    "description_cn": "第六个月的桃花成果与结局"
+                }
+            ],
+
+            "draw": [
+                {
+                    "position": [240, 240], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 240], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [560, 240], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [240, 480], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 480], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [560, 480], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出6张牌,依序放在6处",
+            "interpretation_method": "1.M1 2.M2 3.M3 4.M4 5.M5 6.M6",
+            "interpretation_method_cn": "1、一月 2、二月 3、三月 4、四月 5、五月 6、六月",
+            "elements": ["fire", "air", "water", "earth", "fire", "air"],
+            "elements_cn": ["火", "风", "水", "土", "火", "风"],
+            "suitable_for": ["romantic timing", "opportunity cycles"],
+            "suitable_for_cn": ["感情时机", "机遇周期"]
+        },
+        "loveRecovery": {
+            "name": "Love Recovery Deck",
+            "name_cn": "爱情挽回展开法",
+            "card_count": 5,
+            "description_cn": "关系修复诊断牌阵,分析伤害根源与挽回可能性",
+            "description": "Relationship repair diagnostic spread analyzing root causes and recovery potential",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Damage Caused",
+                    "name_cn": "造成的伤害",
+                    "description": "Core wounds and injuries in the relationship",
+                    "description_cn": "关系中的核心创伤与伤害"
+                },
+                {
+                    "position": 2,
+                    "name": "What Was Lost",
+                    "name_cn": "曾经拥有",
+                    "description": "Valuable elements that once existed",
+                    "description_cn": "曾经存在的美好价值"
+                },
+                {
+                    "position": 3,
+                    "name": "Destruction Pattern",
+                    "name_cn": "破坏模式",
+                    "description": "How the relationship was damaged",
+                    "description_cn": "关系被破坏的方式与模式"
+                },
+                {
+                    "position": 4,
+                    "name": "Healing Solution",
+                    "name_cn": "解决之道",
+                    "description": "Path to repair and reconciliation",
+                    "description_cn": "修复与和解的路径"
+                },
+                {
+                    "position": 5,
+                    "name": "Recovery Potential",
+                    "name_cn": "挽回可能",
+                    "description": "Probability and possibility of restoration",
+                    "description_cn": "关系恢复的概率与可能性"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [200, 280], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 280], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [600, 280], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [280, 500], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [520, 500], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 5 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出5张牌,依序放在5处",
+            "interpretation_method": "1.Wound 2.Memory 3.Break 4.Mend 5.Hope",
+            "interpretation_method_cn": "1、创伤 2、美好 3、破碎 4、修复 5、希望",
+            "elements": ["water", "fire", "earth", "air", "aether"],
+            "elements_cn": ["水", "火", "土", "风", "以太"],
+            "suitable_for": ["relationship repair", "reconciliation assessment"],
+            "suitable_for_cn": ["关系修复", "复合评估"]
+        },
+        "brokenMirrorReunion": {
+            "name": "Broken Mirror Reunion",
+            "name_cn": "破镜重圆牌阵",
+            "card_count": 11,
+            "description_cn": "复杂关系三角动力学牌阵,分析复合可能性与竞争关系",
+            "description": "Complex relational dynamics spread analyzing reunion potential and competitive factors",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Your Past",
+                    "name_cn": "你的过去",
+                    "description": "Your emotional history in this relationship",
+                    "description_cn": "你在这段关系中的情感历史"
+                },
+                {
+                    "position": 2,
+                    "name": "Your Present",
+                    "name_cn": "你的现状",
+                    "description": "Current state of your heart and mind",
+                    "description_cn": "你当前的心理情感状态"
+                },
+                {
+                    "position": 3,
+                    "name": "Your Outcome",
+                    "name_cn": "复合结果",
+                    "description": "Potential result for you if reconciled",
+                    "description_cn": "如果复合你可能的结局"
+                },
+                {
+                    "position": 4,
+                    "name": "Ex's Past",
+                    "name_cn": "前任过去",
+                    "description": "Their historical perspective on the relationship",
+                    "description_cn": "对方对关系的历史看法"
+                },
+                {
+                    "position": 5,
+                    "name": "Ex's Present",
+                    "name_cn": "前任现状",
+                    "description": "Their current feelings and situation",
+                    "description_cn": "对方当前的情感状态"
+                },
+                {
+                    "position": 6,
+                    "name": "Reunion Potential",
+                    "name_cn": "复合可能",
+                    "description": "Probability of successful reconciliation",
+                    "description_cn": "成功复合的概率"
+                },
+                {
+                    "position": 7,
+                    "name": "Rival's Past",
+                    "name_cn": "情敌过去",
+                    "description": "Third party's historical involvement",
+                    "description_cn": "第三方过去介入情况"
+                },
+                {
+                    "position": 8,
+                    "name": "Rival's Present",
+                    "name_cn": "情敌现状",
+                    "description": "Current status of the competitive situation",
+                    "description_cn": "竞争关系的现状"
+                },
+                {
+                    "position": 9,
+                    "name": "Future Conflict",
+                    "name_cn": "未来交锋",
+                    "description": "How the competitive dynamic will unfold",
+                    "description_cn": "竞争动态的发展趋势"
+                },
+                {
+                    "position": 10,
+                    "name": "Outcome 1",
+                    "name_cn": "结果一",
+                    "description": "Primary probable conclusion",
+                    "description_cn": "主要可能结局"
+                },
+                {
+                    "position": 11,
+                    "name": "Outcome 2",
+                    "name_cn": "结果二",
+                    "description": "Alternative possible resolution",
+                    "description_cn": "替代性可能结局"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [285, 160], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [515, 160], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [285, 330], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [400, 320], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [515, 330], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [285, 470], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [400, 440], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [515, 470], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [400, 560], 
+                    "rotate": 0,
+                    "scale": 0.18
+                },
+                {
+                    "position": [400, 680], 
+                    "rotate": 0,
+                    "scale": 0.18
+                }
+            ],
+            "drawing_method": "Draw 11 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出11张牌,依序放在11处",
+            "interpretation_method": "1.YourHistory 2.YourNow 3.YourFuture 4.TheirHistory 5.TheirNow 6.Potential 7.RivalHistory 8.RivalNow 9.Competition 10.Destiny1 11.Destiny2",
+            "interpretation_method_cn": "1、己往 2、己现 3、己果 4、彼往 5、彼现 6、可能 7、敌往 8、敌现 9、交锋 10、结局1 11、结局2",
+            "elements": ["water", "fire", "aether", "water", "fire", "aether", "earth", "earth", "air", "fire", "water"],
+            "elements_cn": ["水", "火", "以太", "水", "火", "以太", "土", "土", "风", "火", "水"],
+            "suitable_for": ["love triangle", "complex reconciliation"],
+            "suitable_for_cn": ["三角关系", "复杂复合"]
+        },
+        "successor": {
+            "name": "Successor",
+            "name_cn": "下一任展开法",
+            "card_count": 7,
+            "description_cn": "未来伴侣准备度牌阵,分析内在障碍与迎接新恋情的必要准备",
+            "description": "Future partner readiness spread analyzing internal obstacles and preparation for new love",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Personal State",
+                    "name_cn": "个人状态",
+                    "description": "Current readiness for a new relationship",
+                    "description_cn": "当前对新恋情的准备状态"
+                },
+                {
+                    "position": 2,
+                    "name": "Internal Factors",
+                    "name_cn": "内在因素",
+                    "description": "Psychological and emotional influences",
+                    "description_cn": "心理和情感层面的影响因素"
+                },
+                {
+                    "position": 3,
+                    "name": "Obstacle 1",
+                    "name_cn": "阻碍一",
+                    "description": "Primary blocking factor",
+                    "description_cn": "主要阻碍因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Obstacle 2",
+                    "name_cn": "阻碍二",
+                    "description": "Secondary blocking factor",
+                    "description_cn": "次要阻碍因素"
+                },
+                {
+                    "position": 5,
+                    "name": "Attention Needed",
+                    "name_cn": "注意事项",
+                    "description": "What requires special awareness",
+                    "description_cn": "需要特别留意的事项"
+                },
+                {
+                    "position": 6,
+                    "name": "Change Required",
+                    "name_cn": "需要改变",
+                    "description": "What needs to be transformed",
+                    "description_cn": "需要做出的改变"
+                },
+                {
+                    "position": 7,
+                    "name": "Preparation",
+                    "name_cn": "需要准备",
+                    "description": "What to prepare for the new relationship",
+                    "description_cn": "为新恋情需要做的准备"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 600], 
+                    "rotate": 0,
+                    "scale": 0.28
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.28
+                },
+                {
+                    "position": [275, 480], 
+                    "rotate": 0,
+                    "scale": 0.28
+                },
+                {
+                    "position": [525, 480], 
+                    "rotate": 0,
+                    "scale": 0.28
+                },
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.28
+                },
+                {
+                    "position": [200, 200], 
+                    "rotate": 0,
+                    "scale": 0.28
+                },
+                {
+                    "position": [600, 200], 
+                    "rotate": 0,
+                    "scale": 0.28
+                }
+            ],
+            "drawing_method": "Draw 7 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出7张牌,依序放在7处",
+            "interpretation_method": "1.Readiness 2.Inner 3.Block1 4.Block2 5.Awareness 6.Transformation 7.Preparation",
+            "interpretation_method_cn": "1、准备度 2、内在 3、阻碍一 4、阻碍二 5、留意 6、改变 7、准备",
+            "elements": ["fire", "water", "earth", "earth", "air", "fire", "aether"],
+            "elements_cn": ["火", "水", "土", "土", "风", "火", "以太"],
+            "suitable_for": ["new relationship readiness", "self-preparation"],
+            "suitable_for_cn": ["新恋情准备度", "自我成长"]
+        },
+        "lifeFortune": {
+            "name": "Life Fortune",
+            "name_cn": "人生运势展开法",
+            "card_count": 6,
+            "description_cn": "人生全息诊断牌阵,综合评估各领域发展态势与能量流向",
+            "description": "Holographic life diagnostic spread comprehensively evaluating development trends in all areas",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Current Situation",
+                    "name_cn": "现状",
+                    "description": "Overall life condition at present",
+                    "description_cn": "当前整体生活状况"
+                },
+                {
+                    "position": 2,
+                    "name": "Emotional Development",
+                    "name_cn": "感情发展",
+                    "description": "Trends and opportunities in relationships",
+                    "description_cn": "感情关系的趋势与机遇"
+                },
+                {
+                    "position": 3,
+                    "name": "Career Development",
+                    "name_cn": "事业发展",
+                    "description": "Professional growth and challenges",
+                    "description_cn": "职业成长与挑战"
+                },
+                {
+                    "position": 4,
+                    "name": "Material Resources",
+                    "name_cn": "物质资源",
+                    "description": "Financial and material abundance flow",
+                    "description_cn": "财务与物质丰盛流动"
+                },
+                {
+                    "position": 5,
+                    "name": "Status Achievement",
+                    "name_cn": "地位成就",
+                    "description": "Social recognition and personal accomplishments",
+                    "description_cn": "社会认可与个人成就"
+                },
+                {
+                    "position": 6,
+                    "name": "Life Synthesis",
+                    "name_cn": "人生总结",
+                    "description": "Comprehensive life direction and integration",
+                    "description_cn": "综合人生方向与整合"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 220], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [280, 280], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [520, 280], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [280, 520], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [520, 520], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 580], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出6张牌,依序放在8处",
+            "interpretation_method": "1.Now 2.Love 3.Work 4.Money 5.Fame 6.Destiny",
+            "interpretation_method_cn": "1、现状 2、感情 3、事业 4、财富 5、成就 6、天命",
+            "elements": ["aether", "water", "fire", "earth", "air", "aether"],
+            "elements_cn": ["以太", "水", "火", "土", "风", "以太"],
+            "suitable_for": ["life assessment", "comprehensive planning"],
+            "suitable_for_cn": ["人生评估", "综合规划"]
+        },
+        "academicFortune": {
+            "name": "Academic Fortune",
+            "name_cn": "学业运势展开法",
+            "card_count": 6,
+            "description_cn": "学业能量诊断牌阵,分析学习效率与环境影响因素",
+            "description": "Academic energy diagnostic spread analyzing learning efficiency and environmental factors",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Learning Status",
+                    "name_cn": "学习现状",
+                    "description": "Current academic performance and knowledge absorption",
+                    "description_cn": "当前学业表现与知识吸收状况"
+                },
+                {
+                    "position": 2,
+                    "name": "Environmental Impact",
+                    "name_cn": "环境影响",
+                    "description": "External factors affecting study efficiency",
+                    "description_cn": "影响学习效率的外部环境因素"
+                },
+                {
+                    "position": 3,
+                    "name": "Interpersonal Influence",
+                    "name_cn": "人际影响",
+                    "description": "Social relationships impacting academic progress",
+                    "description_cn": "影响学业进展的人际关系因素"
+                },
+                {
+                    "position": 4,
+                    "name": "Mental State",
+                    "name_cn": "学习状态",
+                    "description": "Psychological readiness and focus ability",
+                    "description_cn": "心理准备度与专注能力"
+                },
+                {
+                    "position": 5,
+                    "name": "Academic Outcome",
+                    "name_cn": "学业结果",
+                    "description": "Expected achievement based on current trajectory",
+                    "description_cn": "基于当前轨迹的预期成果"
+                },
+                {
+                    "position": 6,
+                    "name": "Improvement Advice",
+                    "name_cn": "提升建议",
+                    "description": "Actionable strategies for academic enhancement",
+                    "description_cn": "可操作的学业提升策略"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [550, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [250, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [250, 300], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [550, 300], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 500], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出6张牌,依序放在6处",
+            "interpretation_method": "1.Performance 2.Environment 3.Relations 4.Mindset 5.Result 6.Strategy",
+            "interpretation_method_cn": "1、表现 2、环境 3、人际 4、心态 5、结果 6、策略",
+            "elements": ["earth", "air", "water", "fire", "earth", "aether"],
+            "elements_cn": ["土", "风", "水", "火", "土", "以太"],
+            "suitable_for": ["academic planning", "study optimization"],
+            "suitable_for_cn": ["学业规划", "学习优化"]
+        },
+        "zhengyuanArray": {
+            "name": "ZHENGYUAN Card Array",
+            "name_cn": "正缘牌阵",
+            "card_count": 11,
+            "description_cn": "命定伴侣全方位预测牌阵,详细揭示正缘特征与相遇发展",
+            "description": "Destined partner comprehensive prediction spread detailing true love's characteristics and encounter",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Zodiac Sign",
+                    "name_cn": "星座",
+                    "description": "Astrological energy of your destined partner",
+                    "description_cn": "命定伴侣的星座能量"
+                },
+                {
+                    "position": 2,
+                    "name": "Appearance",
+                    "name_cn": "外貌",
+                    "description": "Physical characteristics and first impression",
+                    "description_cn": "外貌特征与第一印象"
+                },
+                {
+                    "position": 3,
+                    "name": "Personality",
+                    "name_cn": "性格",
+                    "description": "Core temperament and behavioral patterns",
+                    "description_cn": "核心脾气与行为模式"
+                },
+                {
+                    "position": 4,
+                    "name": "Character",
+                    "name_cn": "人品",
+                    "description": "Moral quality and ethical standards",
+                    "description_cn": "道德品质与伦理标准"
+                },
+                {
+                    "position": 5,
+                    "name": "Loyalty",
+                    "name_cn": "忠诚度",
+                    "description": "Faithfulness and commitment level",
+                    "description_cn": "忠诚度与承诺水平"
+                },
+                {
+                    "position": 6,
+                    "name": "Expectations",
+                    "name_cn": "伴侣要求",
+                    "description": "What they seek in a partner",
+                    "description_cn": "对理想伴侣的要求"
+                },
+                {
+                    "position": 7,
+                    "name": "Season",
+                    "name_cn": "相遇季节",
+                    "description": "Time of year for encounter",
+                    "description_cn": "相遇的时节"
+                },
+                {
+                    "position": 8,
+                    "name": "Setting",
+                    "name_cn": "相遇场景",
+                    "description": "Environment where you'll meet",
+                    "description_cn": "相遇的环境场景"
+                },
+                {
+                    "position": 9,
+                    "name": "Encounter",
+                    "name_cn": "相识方式",
+                    "description": "How the connection will begin",
+                    "description_cn": "缘分开始的方式"
+                },
+                {
+                    "position": 10,
+                    "name": "Development",
+                    "name_cn": "发展趋势",
+                    "description": "How the relationship will progress",
+                    "description_cn": "关系的发展轨迹"
+                },
+                {
+                    "position": 11,
+                    "name": "Final Outcome",
+                    "name_cn": "最终结果",
+                    "description": "Long-term destiny of this connection",
+                    "description_cn": "缘分的长期结局"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [155, 190], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [245, 190], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [335, 190], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [590, 220], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [495, 310], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [305, 490], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [210, 580], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [465, 610], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [555, 610], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [645, 610], 
+                    "rotate": 0,
+                    "scale": 0.2
+                }
+            ],
+            "drawing_method": "Draw 11 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出11张牌,依序放在11处",
+            "interpretation_method": "1.Zodiac 2.Looks 3.Nature 4.Character 5.Loyalty 6.Expect 7.When 8.Where 9.How 10.Growth 11.Destiny",
+            "interpretation_method_cn": "1、星座 2、外貌 3、性格 4、人品 5、忠诚 6、要求 7、何时 8、何地 9、何式 10、发展 11、结局",
+            "elements": ["air", "fire", "water", "earth", "water", "aether", "air", "earth", "fire", "water", "aether"],
+            "elements_cn": ["风", "火", "水", "土", "水", "以太", "风", "土", "火", "水", "以太"],
+            "suitable_for": ["soulmate prediction", "destiny connection"],
+            "suitable_for_cn": ["正缘预测", "天命连接"]
+        },
+        "wishArray": {
+            "name": "Wish Card Array",
+            "name_cn": "愿望牌阵",
+            "card_count": 9,
+            "description_cn": "愿望实现可能性诊断牌阵,分析当前处境与实现路径",
+            "description": "Wish fulfillment diagnostic spread analyzing current situation and realization path",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Fulfillment Possibility",
+                    "name_cn": "实现可能性",
+                    "description": "Likelihood of the wish coming true",
+                    "description_cn": "愿望成真的可能性"
+                },
+                {
+                    "position": 2,
+                    "name": "Current Situation",
+                    "name_cn": "现在处境",
+                    "description": "Present circumstances affecting the wish",
+                    "description_cn": "影响愿望实现的当前状况"
+                },
+                {
+                    "position": 3,
+                    "name": "Action Step 1",
+                    "name_cn": "行动步骤一",
+                    "description": "First concrete action to take",
+                    "description_cn": "需要采取的第一个具体行动"
+                },
+                {
+                    "position": 4,
+                    "name": "Action Step 2",
+                    "name_cn": "行动步骤二",
+                    "description": "Second important action required",
+                    "description_cn": "需要采取的第二个重要行动"
+                },
+                {
+                    "position": 5,
+                    "name": "Future Development",
+                    "name_cn": "未来发展",
+                    "description": "How the situation will evolve",
+                    "description_cn": "情况的未来发展趋势"
+                },
+                {
+                    "position": 6,
+                    "name": "Obstacle 1",
+                    "name_cn": "阻碍一",
+                    "description": "Primary obstacle to overcome",
+                    "description_cn": "需要克服的主要障碍"
+                },
+                {
+                    "position": 7,
+                    "name": "Obstacle 2",
+                    "name_cn": "阻碍二",
+                    "description": "Secondary challenge facing",
+                    "description_cn": "需要面对的次要挑战"
+                },
+                {
+                    "position": 8,
+                    "name": "Obstacle 3",
+                    "name_cn": "阻碍三",
+                    "description": "Third potential difficulty",
+                    "description_cn": "潜在的第三个困难"
+                },
+                {
+                    "position": 9,
+                    "name": "Final Outcome",
+                    "name_cn": "最终结果",
+                    "description": "Ultimate result of the wish endeavor",
+                    "description_cn": "愿望努力的最终结果"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [350, 205], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [450, 205], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [225, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [575, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [225, 480], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [575, 480], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [350, 595], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [450, 595], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 9 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出9张牌,依序放在9处",
+            "interpretation_method": "1.Possibility 2.Now 3.Action1 4.Action2 5.Future 6.Block1 7.Block2 8.Block3 9.Result",
+            "interpretation_method_cn": "1、可能 2、现状 3、行动一 4、行动二 5、发展 6、阻碍一 7、阻碍二 8、阻碍三 9、结果",
+            "elements": ["aether", "earth", "fire", "fire", "air", "earth", "water", "air", "aether"],
+            "elements_cn": ["以太", "土", "火", "火", "风", "土", "水", "风", "以太"],
+            "suitable_for": ["wish manifestation", "goal achievement"],
+            "suitable_for_cn": ["愿望显化", "目标达成"]
+        },
+        "zhengyuanTriangle": {
+            "name": "ZHENGYUAN Triangle Array",
+            "name_cn": "正缘大三角牌阵",
+            "card_count": 5,
+            "description_cn": "经典正缘诊断牌阵,三角能量揭示命定伴侣与成长课题",
+            "description": "Classic destined partner diagnostic spread revealing soulmate through triangular energy",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Soulmate Profile",
+                    "name_cn": "正缘特质",
+                    "description": "Essential qualities of your destined partner",
+                    "description_cn": "命定伴侣的核心特质"
+                },
+                {
+                    "position": 2,
+                    "name": "Manifestation Status",
+                    "name_cn": "出现状态",
+                    "description": "Whether this person has entered your life",
+                    "description_cn": "此人是否已出现在生命中"
+                },
+                {
+                    "position": 3,
+                    "name": "Core Challenges",
+                    "name_cn": "核心困难",
+                    "description": "Key obstacles to overcome before meeting",
+                    "description_cn": "相遇前需要克服的关键障碍"
+                },
+                {
+                    "position": 4,
+                    "name": "Required Changes",
+                    "name_cn": "需要改变",
+                    "description": "What needs transformation within yourself",
+                    "description_cn": "自身需要做出的改变"
+                },
+                {
+                    "position": 5,
+                    "name": "Essential Belief",
+                    "name_cn": "需要坚信",
+                    "description": "What to hold faith in during the journey",
+                    "description_cn": "旅程中需要保持的信念"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [200, 600], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [300, 400], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [500, 400], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [600, 600], 
+                    "rotate": 0,
+                    "scale": 0.27
+                }
+            ],
+            "drawing_method": "Draw 5 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出5张牌,依序放在5处",
+            "interpretation_method": "1.Who 2.When 3.Test 4.Change 5.Faith",
+            "interpretation_method_cn": "1、何人 2、何时 3、考验 4、改变 5、信念",
+            "elements": ["aether", "air", "earth", "fire", "water"],
+            "elements_cn": ["以太", "风", "土", "火", "水"],
+            "suitable_for": ["soulmate recognition", "destiny preparation"],
+            "suitable_for_cn": ["正缘识别", "天命准备"]
+        },
+        "loverReturns": {
+            "name": "Lover Returns",
+            "name_cn": "恋人回归展开法",
+            "card_count": 4,
+            "description_cn": "复合可能性快速诊断牌阵,精准分析对方心态与发展趋势",
+            "description": "Quick reconciliation diagnostic spread precisely analyzing the other's mindset and development trends",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Their Attitude",
+                    "name_cn": "对方态度",
+                    "description": "How they currently feel about you",
+                    "description_cn": "对方当前对你的感受"
+                },
+                {
+                    "position": 2,
+                    "name": "Reconciliation View",
+                    "name_cn": "复合看法",
+                    "description": "Their true thoughts about getting back together",
+                    "description_cn": "对方对复合的真实想法"
+                },
+                {
+                    "position": 3,
+                    "name": "Main Obstacle",
+                    "name_cn": "复合阻碍",
+                    "description": "Primary barrier to reconciliation",
+                    "description_cn": "复合的主要障碍"
+                },
+                {
+                    "position": 4,
+                    "name": "Development Trend",
+                    "name_cn": "复合发展",
+                    "description": "Likely progression of reconciliation efforts",
+                    "description_cn": "复合努力的可能进展"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [320, 280], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [480, 280], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [320, 520], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [480, 520], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 4 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出4张牌,依序放在4处",
+            "interpretation_method": "1.Feeling 2.Thought 3.Block 4.Flow",
+            "interpretation_method_cn": "1、感受 2、想法 3、阻碍 4、流向",
+            "elements": ["water", "air", "earth", "fire"],
+            "elements_cn": ["水", "风", "土", "火"],
+            "suitable_for": ["reconciliation assessment", "ex's mindset"],
+            "suitable_for_cn": ["复合评估", "ex心态分析"]
+        },
+        "careerPyramidCardArray": {
+            "name": "Career Pyramid Card Array",
+            "name_cn": "事业金字塔牌阵",
+            "card_count": 10,
+            "description_cn": "创业决策全方位诊断牌阵,金字塔结构评估事业各个维度",
+            "description": "Comprehensive entrepreneurial decision diagnostic spread evaluating all business dimensions in pyramid structure",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Entrepreneurial Viability",
+                    "name_cn": "创业可行性",
+                    "description": "Whether starting a business is suitable now",
+                    "description_cn": "当前是否适合创业"
+                },
+                {
+                    "position": 2,
+                    "name": "Partnership Suitability",
+                    "name_cn": "合作适宜性",
+                    "description": "If partnership is beneficial for this venture",
+                    "description_cn": "此项目是否适合合作经营"
+                },
+                {
+                    "position": 3,
+                    "name": "Market Acceptance",
+                    "name_cn": "市场接受度",
+                    "description": "How well your product/service will be received",
+                    "description_cn": "产品或服务的市场接受程度"
+                },
+                {
+                    "position": 4,
+                    "name": "Difficulty Level",
+                    "name_cn": "事业艰难度",
+                    "description": "Challenges and hardships expected",
+                    "description_cn": "预期的挑战与困难程度"
+                },
+                {
+                    "position": 5,
+                    "name": "Necessary Changes",
+                    "name_cn": "必要改变",
+                    "description": "Changes needed for success",
+                    "description_cn": "成功需要做出的改变"
+                },
+                {
+                    "position": 6,
+                    "name": "Overlooked Responsibilities",
+                    "name_cn": "忽略责任",
+                    "description": "Duties or aspects being neglected",
+                    "description_cn": "被忽视的职责或方面"
+                },
+                {
+                    "position": 7,
+                    "name": "Success Potential",
+                    "name_cn": "成功潜力",
+                    "description": "Likelihood of achieving success",
+                    "description_cn": "获得成功的可能性"
+                },
+                {
+                    "position": 8,
+                    "name": "Material Rewards",
+                    "name_cn": "物质回报",
+                    "description": "Financial and material gains expected",
+                    "description_cn": "预期的财务与物质回报"
+                },
+                {
+                    "position": 9,
+                    "name": "Marketing Strategy",
+                    "name_cn": "营销策略",
+                    "description": "Recommended advertising and promotion approach",
+                    "description_cn": "建议的广告宣传方式"
+                },
+                {
+                    "position": 10,
+                    "name": "Ultimate Outcome",
+                    "name_cn": "最终结果",
+                    "description": "Final business outcome and legacy",
+                    "description_cn": "事业的最终结果与遗产"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [250, 600], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [350, 600], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [450, 600], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [550, 600], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [315, 460], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 460], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [485, 460], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [350, 320], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [450, 320], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 185], 
+                    "rotate": 0,
+                    "scale": 0.2
+                }
+            ],
+            "drawing_method": "Draw 10 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出10张牌,依序放在10处",
+            "interpretation_method": "1.Start 2.Partner 3.Market 4.Difficulty 5.Change 6.Omission 7.Success 8.Reward 9.Marketing 10.Destiny",
+            "interpretation_method_cn": "1、启始 2、合作 3、市场 4、难度 5、改变 6、遗漏 7、成功 8、回报 9、营销 10、天命",
+            "elements": ["fire", "air", "water", "earth", "fire", "earth", "aether", "earth", "air", "aether"],
+            "elements_cn": ["火", "风", "水", "土", "火", "土", "以太", "土", "风", "以太"],
+            "suitable_for": ["business startup", "career decision"],
+            "suitable_for_cn": ["创业决策", "职业选择"]
+        },
+        "interpersonalRelationship": {
+            "name": "Interpersonal Relationship",
+            "name_cn": "人际关系展开法",
+            "card_count": 6,
+            "description_cn": "人际关系动态诊断牌阵,双向分析关系状态与发展趋势",
+            "description": "Relationship dynamic diagnostic spread analyzing bilateral status and development trends",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Querent's Mindset",
+                    "name_cn": "问卜者心态",
+                    "description": "Your true feelings and attitude in this relationship",
+                    "description_cn": "你在这段关系中的真实感受与态度"
+                },
+                {
+                    "position": 2,
+                    "name": "Other's Mindset",
+                    "name_cn": "对方心态",
+                    "description": "The other person's genuine thoughts and position",
+                    "description_cn": "对方的真实想法与立场"
+                },
+                {
+                    "position": 3,
+                    "name": "Past Dynamics",
+                    "name_cn": "过去状况",
+                    "description": "Historical patterns and previous interactions",
+                    "description_cn": "历史模式与过往互动"
+                },
+                {
+                    "position": 4,
+                    "name": "Current Situation",
+                    "name_cn": "现在状态",
+                    "description": "Present condition of the relationship",
+                    "description_cn": "关系的当前状况"
+                },
+                {
+                    "position": 5,
+                    "name": "Future Development",
+                    "name_cn": "未来发展",
+                    "description": "Likely progression and evolution",
+                    "description_cn": "可能的发展与演变"
+                },
+                {
+                    "position": 6,
+                    "name": "Environmental Factors",
+                    "name_cn": "环境因素",
+                    "description": "External influences affecting the relationship",
+                    "description_cn": "影响关系的外部环境因素"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 570], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 230], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [280, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [520, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [520, 570], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出6张牌,依序放在8处",
+            "interpretation_method": "1.Self 2.Other 3.History 4.Now 5.Future 6.Environment",
+            "interpretation_method_cn": "1、己心 2、他心 3、过往 4、现状 5、未来 6、环境",
+            "elements": ["water", "water", "earth", "fire", "air", "aether"],
+            "elements_cn": ["水", "水", "土", "火", "风", "以太"],
+            "suitable_for": ["relationship analysis", "conflict resolution"],
+            "suitable_for_cn": ["关系分析", "矛盾解决"]
+        },
+        "gypsyTraditional": {
+            "name": "Gypsy Card Array",
+            "name_cn": "吉普赛人传统牌阵",
+            "card_count": 21,
+            "description_cn": "吉普赛古老智慧全景牌阵,21张牌揭示生命各个维度的奥秘",
+            "description": "Ancient Gypsy wisdom panoramic spread revealing mysteries of all life dimensions with 21 cards",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Self Aspect 1",
+                    "name_cn": "自身情况一",
+                    "description": "First dimension of your current being",
+                    "description_cn": "你当前存在的第一个维度"
+                },
+                {
+                    "position": 2,
+                    "name": "Self Aspect 2",
+                    "name_cn": "自身情况二",
+                    "description": "Second dimension of your current being",
+                    "description_cn": "你当前存在的第二个维度"
+                },
+                {
+                    "position": 3,
+                    "name": "Self Aspect 3",
+                    "name_cn": "自身情况三",
+                    "description": "Third dimension of your current being",
+                    "description_cn": "你当前存在的第三个维度"
+                },
+                {
+                    "position": 4,
+                    "name": "Approaching 1",
+                    "name_cn": "接近事物一",
+                    "description": "First thing drawing near to you",
+                    "description_cn": "正在接近你的第一件事物"
+                },
+                {
+                    "position": 5,
+                    "name": "Approaching 2",
+                    "name_cn": "接近事物二",
+                    "description": "Second thing drawing near to you",
+                    "description_cn": "正在接近你的第二件事物"
+                },
+                {
+                    "position": 6,
+                    "name": "Approaching 3",
+                    "name_cn": "接近事物三",
+                    "description": "Third thing drawing near to you",
+                    "description_cn": "正在接近你的第三件事物"
+                },
+                {
+                    "position": 7,
+                    "name": "Fear 1",
+                    "name_cn": "恐惧一",
+                    "description": "Primary fear residing within",
+                    "description_cn": "内在的主要恐惧"
+                },
+                {
+                    "position": 8,
+                    "name": "Hope 1",
+                    "name_cn": "希望一",
+                    "description": "Core hope you cling to",
+                    "description_cn": "你坚守的核心希望"
+                },
+                {
+                    "position": 9,
+                    "name": "FearHope Balance",
+                    "name_cn": "恐惧希望平衡",
+                    "description": "Equilibrium between fear and hope",
+                    "description_cn": "恐惧与希望之间的平衡"
+                },
+                {
+                    "position": 10,
+                    "name": "Expectation 1",
+                    "name_cn": "预料事物一",
+                    "description": "First anticipated outcome",
+                    "description_cn": "预料中的第一个结果"
+                },
+                {
+                    "position": 11,
+                    "name": "Expectation 2",
+                    "name_cn": "预料事物二",
+                    "description": "Second anticipated outcome",
+                    "description_cn": "预料中的第二个结果"
+                },
+                {
+                    "position": 12,
+                    "name": "Expectation 3",
+                    "name_cn": "预料事物三",
+                    "description": "Third anticipated outcome",
+                    "description_cn": "预料中的第三个结果"
+                },
+                {
+                    "position": 13,
+                    "name": "Surprise 1",
+                    "name_cn": "意外事物一",
+                    "description": "First unexpected development",
+                    "description_cn": "第一个意外发展"
+                },
+                {
+                    "position": 14,
+                    "name": "Surprise 2",
+                    "name_cn": "意外事物二",
+                    "description": "Second unexpected development",
+                    "description_cn": "第二个意外发展"
+                },
+                {
+                    "position": 15,
+                    "name": "Surprise 3",
+                    "name_cn": "意外事物三",
+                    "description": "Third unexpected development",
+                    "description_cn": "第三个意外发展"
+                },
+                {
+                    "position": 16,
+                    "name": "PresentFuture 1",
+                    "name_cn": "当前未来一",
+                    "description": "First present-to-future trajectory",
+                    "description_cn": "第一个当前到未来的轨迹"
+                },
+                {
+                    "position": 17,
+                    "name": "PresentFuture 2",
+                    "name_cn": "当前未来二",
+                    "description": "Second present-to-future trajectory",
+                    "description_cn": "第二个当前到未来的轨迹"
+                },
+                {
+                    "position": 18,
+                    "name": "PresentFuture 3",
+                    "name_cn": "当前未来三",
+                    "description": "Third present-to-future trajectory",
+                    "description_cn": "第三个当前到未来的轨迹"
+                },
+                {
+                    "position": 19,
+                    "name": "DistantFuture 1",
+                    "name_cn": "长远未来一",
+                    "description": "First long-term future aspect",
+                    "description_cn": "长远未来的第一个方面"
+                },
+                {
+                    "position": 20,
+                    "name": "DistantFuture 2",
+                    "name_cn": "长远未来二",
+                    "description": "Second long-term future aspect",
+                    "description_cn": "长远未来的第二个方面"
+                },
+                {
+                    "position": 21,
+                    "name": "DistantFuture 3",
+                    "name_cn": "长远未来三",
+                    "description": "Third long-term future aspect",
+                    "description_cn": "长远未来的第三个方面"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [625, 260], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [625, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [625, 540], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [550, 260], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [550, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [550, 540], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [475, 260], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [475, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [475, 540], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 260], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 540], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [325, 260], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [325, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [325, 540], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [250, 260], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [250, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [250, 540], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [175, 260], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [175, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [175, 540], 
+                    "rotate": 0,
+                    "scale": 0.2
+                }
+            ],
+            "drawing_method": "Draw 21 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出21张牌,依序放在21处",
+            "interpretation_method": "1.Self1 2.Self2 3.Self3 4.Approach1 5.Approach2 6.Approach3 7.Fear 8.Hope 9.Balance 10.Expect1 11.Expect2 12.Expect3 13.Surprise1 14.Surprise2 15.Surprise3 16.NowFuture1 17.NowFuture2 18.NowFuture3 19.Far1 20.Far2 21.Far3",
+            "interpretation_method_cn": "1、自身1 2、自身2 3、自身3 4、接近1 5、接近2 6、接近3 7、恐惧 8、希望 9、平衡 10、预料1 11、预料2 12、预料3 13、意外1 14、意外2 15、意外3 16、今未1 17、今未2 18、今未3 19、远未1 20、远未2 21、远未3",
+            "elements": ["aether", "aether", "aether", "air", "air", "air", "water", "fire", "aether", "earth", "earth", "earth", "air", "air", "air", "fire", "fire", "fire", "aether", "aether", "aether"],
+            "elements_cn": ["以太", "以太", "以太", "风", "风", "风", "水", "火", "以太", "土", "土", "土", "风", "风", "风", "火", "火", "火", "以太", "以太", "以太"],
+            "suitable_for": ["life panorama", "gypsy wisdom"],
+            "suitable_for_cn": ["生命全景", "吉普赛智慧"]
+        },
+        "fourSeasonsArray": {
+            "name": "Four Seasons Card Array",
+            "name_cn": "四季牌阵",
+            "card_count": 8,
+            "description_cn": "四季能量循环牌阵,揭示计划在自然周期中的生长与收获",
+            "description": "Seasonal energy cycle spread revealing growth and harvest in natural cycles",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Spring - Seed Planting",
+                    "name_cn": "春季-播种",
+                    "description": "New beginnings and initial actions, like planting a seed",
+                    "description_cn": "新的开始与初步行动,如同播下种子"
+                },
+                {
+                    "position": 2,
+                    "name": "Summer - Growth Phase 1",
+                    "name_cn": "夏季-成长一",
+                    "description": "First growth stage where plans proceed smoothly",
+                    "description_cn": "计划顺利进行的第一个成长阶段"
+                },
+                {
+                    "position": 3,
+                    "name": "Summer - Growth Phase 2",
+                    "name_cn": "夏季-成长二",
+                    "description": "Second growth stage leading to good results",
+                    "description_cn": "带来良好结果的第二个成长阶段"
+                },
+                {
+                    "position": 4,
+                    "name": "Autumn - Change Phase 1",
+                    "name_cn": "秋季-变化一",
+                    "description": "First phase of transformation and decision-making",
+                    "description_cn": "转变与决策的第一个阶段"
+                },
+                {
+                    "position": 5,
+                    "name": "Autumn - Change Phase 2",
+                    "name_cn": "秋季-变化二",
+                    "description": "Second phase where outcomes undergo changes",
+                    "description_cn": "结果发生变化的第二个阶段"
+                },
+                {
+                    "position": 6,
+                    "name": "Winter - Harvest Phase 1",
+                    "name_cn": "冬季-收获一",
+                    "description": "First harvest period yielding desired outcomes",
+                    "description_cn": "产出预期成果的第一个收获期"
+                },
+                {
+                    "position": 7,
+                    "name": "Winter - Harvest Phase 2",
+                    "name_cn": "冬季-收获二",
+                    "description": "Second harvest representing lessons learned",
+                    "description_cn": "代表所学教训的第二个收获期"
+                },
+                {
+                    "position": 8,
+                    "name": "Annual Cycle Synthesis",
+                    "name_cn": "年度循环整合",
+                    "description": "Integration of the entire yearly cycle",
+                    "description_cn": "整个年度循环的整合"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [200, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [600, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 600], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [300, 500], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [500, 500], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [300, 300], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [500, 300], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 8 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出8张牌,依序放在8处",
+            "interpretation_method": "1.Seed 2.Grow1 3.Grow2 4.Change1 5.Change2 6.Harvest1 7.Harvest2 8.Cycle",
+            "interpretation_method_cn": "1、播种 2、成长1 3、成长2 4、变化1 5、变化2 6、收获1 7、收获2 8、循环",
+            "elements": ["air", "fire", "fire", "water", "water", "earth", "earth", "aether"],
+            "elements_cn": ["风", "火", "火", "水", "水", "土", "土", "以太"],
+            "suitable_for": ["project planning", "seasonal cycles"],
+            "suitable_for_cn": ["项目规划", "季节周期"]
+        },
+        "sixStarSpoon": {
+            "name": "Six Star Spoon Card Array",
+            "name_cn": "六星勺子牌阵",
+            "card_count": 6,
+            "description_cn": "问题深度剖析牌阵,勺子形状揭示隐藏层与显现层的真相",
+            "description": "Problem depth analysis spread revealing hidden and visible truths in spoon formation",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Anxiety Core",
+                    "name_cn": "焦虑核心",
+                    "description": "The contentious or anxious aspect of the problem",
+                    "description_cn": "问题带来的争议或焦虑核心"
+                },
+                {
+                    "position": 2,
+                    "name": "Hidden Layer",
+                    "name_cn": "隐藏层面",
+                    "description": "What remains concealed beneath the surface",
+                    "description_cn": "表面之下隐藏的事物"
+                },
+                {
+                    "position": 3,
+                    "name": "Emerging Truth",
+                    "name_cn": "浮现真相",
+                    "description": "What is beginning to surface and become apparent",
+                    "description_cn": "开始浮现并变得明显的事物"
+                },
+                {
+                    "position": 4,
+                    "name": "Visible Reality",
+                    "name_cn": "可见现实",
+                    "description": "What has already manifested and is observable",
+                    "description_cn": "已经发生且可见的现实"
+                },
+                {
+                    "position": 5,
+                    "name": "Developing Awareness",
+                    "name_cn": "逐渐认知",
+                    "description": "Facts you are gradually becoming aware of",
+                    "description_cn": "你渐渐发现的一些事实"
+                },
+                {
+                    "position": 6,
+                    "name": "Decision Impact",
+                    "name_cn": "决定影响",
+                    "description": "How handling the situation will affect you",
+                    "description_cn": "处理决定后对你的影响"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [155, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [255, 530], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [355, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [455, 270], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [555, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [655, 530], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw six cards in spoon constellation: 1(handle) 2-3(bowl) 4-5-6(stars)",
+            "drawing_method_cn": "抽取6张牌按勺子星座形摆放: 1(勺柄) 2-3(勺碗) 4-5-6(星点)",
+            "interpretation_method": "1.Stress 2.Shadow 3.Emerge 4.Seen 5.Realize 6.Effect",
+            "interpretation_method_cn": "1、压力 2、阴影 3、浮现 4、可见 5、觉悟 6、影响",
+            "elements": ["fire", "water", "air", "earth", "aether", "aether"],
+            "elements_cn": ["火", "水", "风", "土", "以太", "以太"],
+            "suitable_for": ["problem analysis", "decision making"],
+            "suitable_for_cn": ["问题分析", "决策制定"]
+        },
+        "futureDoorplateArray": {
+            "name": "Future Doorplate Array",
+            "name_cn": "未来之门牌阵",
+            "card_count": 9,
+            "description_cn": "多维度未来预测牌阵,门板结构展示不同路径与选择建议",
+            "description": "Multi-dimensional future prediction spread showing different paths and choices in doorplate structure",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past Foundation",
+                    "name_cn": "过去基础",
+                    "description": "Historical influences shaping the present",
+                    "description_cn": "塑造现状的历史影响"
+                },
+                {
+                    "position": 2,
+                    "name": "Current Reality",
+                    "name_cn": "现状实相",
+                    "description": "Present circumstances and conditions",
+                    "description_cn": "当前的实际情况"
+                },
+                {
+                    "position": 3,
+                    "name": "Default Future",
+                    "name_cn": "默认未来",
+                    "description": "Future outcome if no changes are made",
+                    "description_cn": "不做任何改变的默认未来"
+                },
+                {
+                    "position": 4,
+                    "name": "Alternative Future 1",
+                    "name_cn": "替代未来一",
+                    "description": "First possible altered future path",
+                    "description_cn": "第一个可能的替代未来路径"
+                },
+                {
+                    "position": 5,
+                    "name": "Advice 1",
+                    "name_cn": "建议一",
+                    "description": "Guidance for achieving first alternative",
+                    "description_cn": "实现第一个替代未来的指引"
+                },
+                {
+                    "position": 6,
+                    "name": "Advice 2",
+                    "name_cn": "建议二",
+                    "description": "Additional guidance for the path",
+                    "description_cn": "该路径的附加指引"
+                },
+                {
+                    "position": 7,
+                    "name": "Alternative Future 2",
+                    "name_cn": "替代未来二",
+                    "description": "Second possible altered future path",
+                    "description_cn": "第二个可能的替代未来路径"
+                },
+                {
+                    "position": 8,
+                    "name": "Advice 3",
+                    "name_cn": "建议三",
+                    "description": "Guidance for achieving second alternative",
+                    "description_cn": "实现第二个替代未来的指引"
+                },
+                {
+                    "position": 9,
+                    "name": "Advice 4",
+                    "name_cn": "建议四",
+                    "description": "Additional guidance for second path",
+                    "description_cn": "第二条路径的附加指引"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [200, 400], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [600, 400], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [300, 300], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [500, 300], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [400, 600], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [300, 500], 
+                    "rotate": 0,
+                    "scale": 0.225
+                },
+                {
+                    "position": [500, 500], 
+                    "rotate": 0,
+                    "scale": 0.225
+                }
+            ],
+            "drawing_method": "Draw 9 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出9张牌,依序放在9处",
+            "interpretation_method": "1.Past 2.Now 3.Future 4.Alt1 5.Tip1 6.Tip2 7.Alt2 8.Tip3 9.Tip4",
+            "interpretation_method_cn": "1、过去 2、现在 3、未来 4、替未1 5、建议1 6、建议2 7、替未2 8、建议3 9、建议4",
+            "elements": ["earth", "fire", "air", "water", "aether", "aether", "fire", "aether", "aether"],
+            "elements_cn": ["土", "火", "风", "水", "以太", "以太", "火", "以太", "以太"],
+            "suitable_for": ["future planning", "decision pathways"],
+            "suitable_for_cn": ["未来规划", "决策路径"]
+        },
+        "advancedHorseshoeArray": {
+            "name": "Advanced Horseshoe Array",
+            "name_cn": "大马蹄牌阵",
+            "card_count": 9,
+            "description_cn": "高级马蹄形能量场牌阵,全方位分析内在与外在的互动影响",
+            "description": "Advanced horseshoe energy field spread analyzing internal and external interactions comprehensively",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Current Situation",
+                    "name_cn": "当前现状",
+                    "description": "Your present circumstances and state of being",
+                    "description_cn": "你当前的处境和存在状态"
+                },
+                {
+                    "position": 2,
+                    "name": "External Influence",
+                    "name_cn": "他人影响",
+                    "description": "How other people are affecting you",
+                    "description_cn": "他人对你的影响方式"
+                },
+                {
+                    "position": 3,
+                    "name": "Environmental Impact",
+                    "name_cn": "环境影响",
+                    "description": "How surroundings and circumstances influence you",
+                    "description_cn": "环境和情境对你的影响"
+                },
+                {
+                    "position": 4,
+                    "name": "Your Response",
+                    "name_cn": "对外响应",
+                    "description": "How you react to external stimuli",
+                    "description_cn": "你对刺激的反应方式"
+                },
+                {
+                    "position": 5,
+                    "name": "Required Reflection",
+                    "name_cn": "需要思考",
+                    "description": "What you need to contemplate deeply",
+                    "description_cn": "你需要深入思考的内容"
+                },
+                {
+                    "position": 6,
+                    "name": "Emotional State",
+                    "name_cn": "当下感受",
+                    "description": "Your current emotional experience",
+                    "description_cn": "你当前的情感体验"
+                },
+                {
+                    "position": 7,
+                    "name": "Core Belief",
+                    "name_cn": "深层信念",
+                    "description": "What you deeply believe to be true",
+                    "description_cn": "你深信不疑的核心信念"
+                },
+                {
+                    "position": 8,
+                    "name": "Near Future",
+                    "name_cn": "近期未来",
+                    "description": "Immediate future developments",
+                    "description_cn": "不久将来的发展"
+                },
+                {
+                    "position": 9,
+                    "name": "Distant Future",
+                    "name_cn": "遥远未来",
+                    "description": "Long-term future outcomes",
+                    "description_cn": "长远未来的结果"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [250, 630], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [190, 470], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [190, 300], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [290, 185], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 185], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [505, 327], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [610, 470], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [550, 630], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 630], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 9 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出9张牌,依序放在8处",
+            "interpretation_method": "1.Now 2.People 3.Environment 4.Reaction 5.Thoughts 6.Feelings 7.Beliefs 8.Soon 9.Later",
+            "interpretation_method_cn": "1、现状 2、人际 3、环境 4、反应 5、思考 6、感受 7、信念 8、近期 9、远期",
+            "elements": ["earth", "air", "earth", "fire", "air", "water", "aether", "fire", "aether"],
+            "elements_cn": ["土", "风", "土", "火", "风", "水", "以太", "火", "以太"],
+            "suitable_for": ["comprehensive analysis", "energy field reading"],
+            "suitable_for_cn": ["综合分析", "能量场解读"]
+        },
+        "workProblemArray": {
+            "name": "Work Problem Card Array",
+            "name_cn": "工作问题展开法",
+            "card_count": 6,
+            "description_cn": "职场综合评估牌阵,全方位分析工作满意度与发展潜力",
+            "description": "Comprehensive workplace evaluation spread analyzing job satisfaction and development potential",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Competence Level",
+                    "name_cn": "胜任能力",
+                    "description": "Your ability to handle job responsibilities",
+                    "description_cn": "处理工作职责的能力"
+                },
+                {
+                    "position": 2,
+                    "name": "Benefits Package",
+                    "name_cn": "福利待遇",
+                    "description": "Vacation and benefits provided",
+                    "description_cn": "提供的假期和福利待遇"
+                },
+                {
+                    "position": 3,
+                    "name": "Financial Income",
+                    "name_cn": "财务收入",
+                    "description": "Salary and financial compensation",
+                    "description_cn": "薪资和财务报酬"
+                },
+                {
+                    "position": 4,
+                    "name": "Supervisor Relationship",
+                    "name_cn": "上级关系",
+                    "description": "Relationship with superiors and their support",
+                    "description_cn": "与上级的关系及获得的支持"
+                },
+                {
+                    "position": 5,
+                    "name": "Colleague Relationship",
+                    "name_cn": "同事关系",
+                    "description": "Relationship with colleagues and their support",
+                    "description_cn": "与同事的关系及获得的支持"
+                },
+                {
+                    "position": 6,
+                    "name": "Growth Opportunities",
+                    "name_cn": "发展机遇",
+                    "description": "Competition space and career advancement chances",
+                    "description_cn": "竞争空间和职业晋升机会"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [310, 195], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [220, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [580, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [490, 195], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 605], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出6张牌,依序放在6处",
+            "interpretation_method": "1.Skill 2.Benefit 3.Money 4.Boss 5.Team 6.Opportunity",
+            "interpretation_method_cn": "1、能力 2、福利 3、收入 4、上级 5、同事 6、机遇",
+            "elements": ["fire", "water", "earth", "air", "water", "fire"],
+            "elements_cn": ["火", "水", "土", "风", "水", "火"],
+            "suitable_for": ["career assessment", "job evaluation"],
+            "suitable_for_cn": ["职业评估", "工作评价"]
+        },
+        "hopeStarArray": {
+            "name": "Hope Star Array",
+            "name_cn": "希望之星牌阵",
+            "card_count": 15,
+            "description_cn": "希望导向决策牌阵,星形结构分析行动与不行动的后果路径",
+            "description": "Hope-oriented decision spread analyzing consequences of action and inaction in star formation",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Personality Trait 1",
+                    "name_cn": "性格特质一",
+                    "description": "First personality characteristic relevant to the situation",
+                    "description_cn": "与状况相关的第一个性格特质"
+                },
+                {
+                    "position": 2,
+                    "name": "Personality Trait 2",
+                    "name_cn": "性格特质二",
+                    "description": "Second personality characteristic affecting the outcome",
+                    "description_cn": "影响结果的第二个性格特质"
+                },
+                {
+                    "position": 3,
+                    "name": "Relevant Knowledge",
+                    "name_cn": "相关知识",
+                    "description": "Existing knowledge pertaining to this matter",
+                    "description_cn": "与此事相关的现有知识"
+                },
+                {
+                    "position": 4,
+                    "name": "Inaction Path 1",
+                    "name_cn": "无为路径一",
+                    "description": "First consequence of not taking action",
+                    "description_cn": "不采取行动的第一个后果"
+                },
+                {
+                    "position": 5,
+                    "name": "Inaction Path 2",
+                    "name_cn": "无为路径二",
+                    "description": "Second consequence of maintaining status quo",
+                    "description_cn": "保持现状的第二个后果"
+                },
+                {
+                    "position": 6,
+                    "name": "Inaction Path 3",
+                    "name_cn": "无为路径三",
+                    "description": "Third outcome if no changes are made",
+                    "description_cn": "不做任何改变的第三个结果"
+                },
+                {
+                    "position": 7,
+                    "name": "Action Path 1",
+                    "name_cn": "行动路径一",
+                    "description": "First potential outcome if action is taken",
+                    "description_cn": "采取行动的第一个可能结果"
+                },
+                {
+                    "position": 8,
+                    "name": "Action Path 2",
+                    "name_cn": "行动路径二",
+                    "description": "Second development upon taking initiative",
+                    "description_cn": "主动行动的第二个发展"
+                },
+                {
+                    "position": 9,
+                    "name": "Action Path 3",
+                    "name_cn": "行动路径三",
+                    "description": "Third result of implementing changes",
+                    "description_cn": "实施改变的第三个结果"
+                },
+                {
+                    "position": 10,
+                    "name": "Support Info 1",
+                    "name_cn": "支持信息一",
+                    "description": "First helpful information for persistence",
+                    "description_cn": "坚持行动的第一个有帮助信息"
+                },
+                {
+                    "position": 11,
+                    "name": "Support Info 2",
+                    "name_cn": "支持信息二",
+                    "description": "Second useful guidance for action",
+                    "description_cn": "行动的第二个有用指引"
+                },
+                {
+                    "position": 12,
+                    "name": "Support Info 3",
+                    "name_cn": "支持信息三",
+                    "description": "Third beneficial insight for commitment",
+                    "description_cn": "承诺的第三个有益洞察"
+                },
+                {
+                    "position": 13,
+                    "name": "External Force 1",
+                    "name_cn": "外部力量一",
+                    "description": "First uncontrollable external factor",
+                    "description_cn": "第一个不可控的外部因素"
+                },
+                {
+                    "position": 14,
+                    "name": "External Force 2",
+                    "name_cn": "外部力量二",
+                    "description": "Second factor beyond your control",
+                    "description_cn": "第二个超出控制的因素"
+                },
+                {
+                    "position": 15,
+                    "name": "External Force 3",
+                    "name_cn": "外部力量三",
+                    "description": "Third uncontrollable influence",
+                    "description_cn": "第三个不可控的影响"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [250, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [550, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [460, 530], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [540, 570], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [620, 610], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [180, 610], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [260, 570], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [340, 530], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [460, 270], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [540, 230], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [620, 190], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [180, 190], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [260, 230], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [340, 270], 
+                    "rotate": 0,
+                    "scale": 0.2
+                }
+            ],
+            "drawing_method": "Draw 15 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出15张牌,依序放在15处",
+            "interpretation_method": "1.Self1 2.Self2 3.Knowledge 4.Static1 5.Static2 6.Static3 7.Action1 8.Action2 9.Action3 10.Help1 11.Help2 12.Help3 13.Force1 14.Force2 15.Force3",
+            "interpretation_method_cn": "1、自我1 2、自我2 3、知识 4、静止1 5、静止2 6、静止3 7、行动1 8、行动2 9、行动3 10、帮助1 11、帮助2 12、帮助3 13、外力1 14、外力2 15、外力3",
+            "elements": ["aether", "aether", "air", "water", "water", "water", "fire", "fire", "fire", "air", "air", "air", "earth", "earth", "earth"],
+            "elements_cn": ["以太", "以太", "风", "水", "水", "水", "火", "火", "火", "风", "风", "风", "土", "土", "土"],
+            "suitable_for": ["decision analysis", "consequence mapping"],
+            "suitable_for_cn": ["决策分析", "后果推演"]
+        },
+        "minervasWisdomArray": {
+            "name": "Minerva's Wisdom Card Array",
+            "name_cn": "密涅瓦的智慧牌阵",
+            "card_count": 8,
+            "description_cn": "智慧女神启迪牌阵,探索内在真理与灵性觉醒的八个维度",
+            "description": "Goddess of wisdom enlightenment spread exploring eight dimensions of inner truth and spiritual awakening",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Unique Vision",
+                    "name_cn": "独特视野",
+                    "description": "What you can see that others cannot perceive",
+                    "description_cn": "你能看到而他人无法觉察的事物"
+                },
+                {
+                    "position": 2,
+                    "name": "Shadow Insight",
+                    "name_cn": "阴影洞察",
+                    "description": "What emerges when you gaze into darkness",
+                    "description_cn": "当你凝视黑暗时浮现的真相"
+                },
+                {
+                    "position": 3,
+                    "name": "Life Comprehension",
+                    "name_cn": "生命理解",
+                    "description": "Your fundamental understanding of existence",
+                    "description_cn": "你对生命本质的根本理解"
+                },
+                {
+                    "position": 4,
+                    "name": "Self-Knowledge",
+                    "name_cn": "自我认知",
+                    "description": "Deep awareness of your own being",
+                    "description_cn": "对自我存在的深层觉知"
+                },
+                {
+                    "position": 5,
+                    "name": "Soul Purpose",
+                    "name_cn": "灵魂目的",
+                    "description": "Why you have come into this incarnation",
+                    "description_cn": "你此次生命降临的目的"
+                },
+                {
+                    "position": 6,
+                    "name": "Inherent Knowledge",
+                    "name_cn": "内在知识",
+                    "description": "Wisdom you already possess within",
+                    "description_cn": "你内在已然拥有的智慧"
+                },
+                {
+                    "position": 7,
+                    "name": "Receptive Openness",
+                    "name_cn": "接收敞开",
+                    "description": "How to open yourself to receive higher wisdom",
+                    "description_cn": "如何敞开心扉接收更高智慧"
+                },
+                {
+                    "position": 8,
+                    "name": "Liberation Path",
+                    "name_cn": "自由之路",
+                    "description": "How to release the mind and attain freedom",
+                    "description_cn": "如何释放心灵获得真正自由"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [265, 275], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [340, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [265, 525], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [190, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [535, 275], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [460, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [535, 525], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [610, 400], 
+                    "rotate": 0,
+                    "scale": 0.2
+                }
+            ],
+            "drawing_method": "Draw 8 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出8张牌,依序放在8处",
+            "interpretation_method": "1.Vision 2.Shadow 3.Life 4.Self 5.Purpose 6.Wisdom 7.Receive 8.Free",
+            "interpretation_method_cn": "1、视野 2、阴影 3、生命 4、自我 5、目的 6、智慧 7、接收 8、自由",
+            "elements": ["aether", "aether", "aether", "aether", "aether", "aether", "aether", "aether"],
+            "elements_cn": ["以太", "以太", "以太", "以太", "以太", "以太", "以太", "以太"],
+            "suitable_for": ["spiritual awakening", "inner wisdom"],
+            "suitable_for_cn": ["灵性觉醒", "内在智慧"]
+        },
+        "heartOfMarriage": {
+            "name": "The Heart of Marriage",
+            "name_cn": "婚姻之星展开法",
+            "card_count": 8,
+            "description_cn": "婚姻前景深度诊断牌阵,全方位分析伴侣特质与婚姻稳定性",
+            "description": "In-depth marriage prospect diagnostic spread analyzing partner traits and marital stability",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Encounter Status",
+                    "name_cn": "相遇状态",
+                    "description": "Whether you have met the marriage partner",
+                    "description_cn": "是否已遇见婚姻伴侣"
+                },
+                {
+                    "position": 2,
+                    "name": "Partner's Zodiac",
+                    "name_cn": "对方星座",
+                    "description": "Astrological sign of the potential partner",
+                    "description_cn": "潜在伴侣的星座"
+                },
+                {
+                    "position": 3,
+                    "name": "Personality Traits",
+                    "name_cn": "性格特质",
+                    "description": "Character and temperament of the partner",
+                    "description_cn": "伴侣的性格与脾气"
+                },
+                {
+                    "position": 4,
+                    "name": "Financial Status",
+                    "name_cn": "财富状况",
+                    "description": "Economic condition and wealth potential",
+                    "description_cn": "经济状况与财富潜力"
+                },
+                {
+                    "position": 5,
+                    "name": "Loyalty Reliability",
+                    "name_cn": "忠诚可靠",
+                    "description": "Faithfulness and trustworthiness level",
+                    "description_cn": "忠诚度与可靠性"
+                },
+                {
+                    "position": 6,
+                    "name": "Intimacy Harmony",
+                    "name_cn": "亲密和谐",
+                    "description": "Sexual and emotional intimacy compatibility",
+                    "description_cn": "性与情感亲密关系的和谐度"
+                },
+                {
+                    "position": 7,
+                    "name": "Married Life",
+                    "name_cn": "婚后生活",
+                    "description": "Quality of daily life after marriage",
+                    "description_cn": "婚后日常生活的质量"
+                },
+                {
+                    "position": 8,
+                    "name": "Divorce Potential",
+                    "name_cn": "离婚可能",
+                    "description": "Likelihood of separation or divorce",
+                    "description_cn": "分居或离婚的可能性"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [300, 240], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 240], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [500, 240], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [600, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [500, 500], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 600], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [300, 500], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [200, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 8 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出8张牌,依序放在8处",
+            "interpretation_method": "1.Met 2.Zodiac 3.Nature 4.Wealth 5.Loyal 6.Intimacy 7.Marriage 8.Divorce",
+            "interpretation_method_cn": "1、相遇 2、星座 3、性格 4、财富 5、忠诚 6、亲密 7、婚姻 8、离婚",
+            "elements": ["air", "air", "water", "earth", "water", "fire", "earth", "air"],
+            "elements_cn": ["风", "风", "水", "土", "水", "火", "土", "风"],
+            "suitable_for": ["marriage prediction", "partner analysis"],
+            "suitable_for_cn": ["婚姻预测", "伴侣分析"]
+        },
+        "holyFlowerCatArray": {
+            "name": "Holy Flower Cat Card Array",
+            "name_cn": "圣花猫经典牌阵",
+            "card_count": 6,
+            "description_cn": "时间流智慧牌阵,猫形布局揭示过去现在未来的能量流动",
+            "description": "Timeline wisdom spread revealing energy flow through past-present-future in cat formation",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past Foundation",
+                    "name_cn": "过去基础",
+                    "description": "Historical influences shaping current situation",
+                    "description_cn": "塑造现状的历史影响"
+                },
+                {
+                    "position": 2,
+                    "name": "Present Manifestation",
+                    "name_cn": "现在显现",
+                    "description": "Current circumstances and manifestations",
+                    "description_cn": "当前的状况和显现"
+                },
+                {
+                    "position": 3,
+                    "name": "Immediate Future",
+                    "name_cn": "近期未来",
+                    "description": "What is developing in the near future",
+                    "description_cn": "近期正在发展的事物"
+                },
+                {
+                    "position": 4,
+                    "name": "Evolving Future",
+                    "name_cn": "演变未来",
+                    "description": "How the situation will transform over time",
+                    "description_cn": "情况随时间的演变"
+                },
+                {
+                    "position": 5,
+                    "name": "Future Development",
+                    "name_cn": "未来发展",
+                    "description": "Long-term development trajectory",
+                    "description_cn": "长期的发展轨迹"
+                },
+                {
+                    "position": 6,
+                    "name": "Final Outcome",
+                    "name_cn": "最终结果",
+                    "description": "Ultimate culmination and resolution",
+                    "description_cn": "最终的结局和解决"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [310, 140], 
+                    "rotate": 0,
+                    "scale": 0.26
+                },
+                {
+                    "position": [490, 140], 
+                    "rotate": 0,
+                    "scale": 0.26
+                },
+                {
+                    "position": [400, 310], 
+                    "rotate": 0,
+                    "scale": 0.26
+                },
+                {
+                    "position": [400, 490], 
+                    "rotate": 0,
+                    "scale": 0.26
+                },
+                {
+                    "position": [310, 660], 
+                    "rotate": 0,
+                    "scale": 0.26
+                },
+                {
+                    "position": [490, 660], 
+                    "rotate": 0,
+                    "scale": 0.26
+                }
+            ],
+            "drawing_method": "Draw six cards in cat silhouette: 1-2(ears) 3-4(body) 5-6(tail)",
+            "drawing_method_cn": "抽取6张牌按猫形轮廓摆放: 1-2(耳朵) 3-4(身体) 5-6(尾巴)",
+            "interpretation_method": "1.Past 2.Now 3.Soon 4.Evolving 5.Developing 6.Destiny",
+            "interpretation_method_cn": "1、过去 2、现在 3、近期 4、演变 5、发展 6、天命",
+            "elements": ["earth", "fire", "air", "water", "air", "aether"],
+            "elements_cn": ["土", "火", "风", "水", "风", "以太"],
+            "suitable_for": ["timeline reading", "energy flow"],
+            "suitable_for_cn": ["时间流解读", "能量流动"]
+        },
+        "thisLifeArray": {
+            "name": "This Life Card Array",
+            "name_cn": "前世今生展开法",
+            "card_count": 9,
+            "description_cn": "轮回智慧探索牌阵,揭示前世业力与今生课题的灵性连接",
+            "description": "Reincarnation wisdom exploration spread revealing karmic connections between past lives and present lessons",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Past Life Identity",
+                    "name_cn": "前世身份",
+                    "description": "Who you were in previous incarnation",
+                    "description_cn": "你在前世的身份角色"
+                },
+                {
+                    "position": 2,
+                    "name": "Past Lessons",
+                    "name_cn": "前世所学",
+                    "description": "Wisdom acquired in past life",
+                    "description_cn": "前世获得的智慧"
+                },
+                {
+                    "position": 3,
+                    "name": "Past Challenges",
+                    "name_cn": "前世挑战",
+                    "description": "What remained unresolved previously",
+                    "description_cn": "前世未解决的课题"
+                },
+                {
+                    "position": 4,
+                    "name": "Present Identity",
+                    "name_cn": "今生身份",
+                    "description": "Who you are in this lifetime",
+                    "description_cn": "你今生的身份角色"
+                },
+                {
+                    "position": 5,
+                    "name": "Current Ease",
+                    "name_cn": "今生易事",
+                    "description": "What comes naturally in this life",
+                    "description_cn": "今生自然擅长的事物"
+                },
+                {
+                    "position": 6,
+                    "name": "Current Difficulties",
+                    "name_cn": "今生难事",
+                    "description": "Challenges facing in present life",
+                    "description_cn": "今生面临的困难"
+                },
+                {
+                    "position": 7,
+                    "name": "Recurring Patterns",
+                    "name_cn": "重复模式",
+                    "description": "Frequently occurring issues",
+                    "description_cn": "经常出现的问题模式"
+                },
+                {
+                    "position": 8,
+                    "name": "Resolution Path",
+                    "name_cn": "解决之道",
+                    "description": "How to resolve karmic patterns",
+                    "description_cn": "解决业力模式的方法"
+                },
+                {
+                    "position": 9,
+                    "name": "Soul Purpose",
+                    "name_cn": "灵魂目标",
+                    "description": "Learning objectives for this incarnation",
+                    "description_cn": "今生投胎的学习目标"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [520, 570], 
+                    "rotate": 20,
+                    "scale": 0.25
+                },
+                {
+                    "position": [590, 460], 
+                    "rotate": 20,
+                    "scale": 0.25
+                },
+                {
+                    "position": [660, 360], 
+                    "rotate": 20,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 480], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [280, 160], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 160], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [520, 160], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 9 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出9张牌,依序放在9处",
+            "interpretation_method": "1.WhoWas 2.Learned 3.Failed 4.WhoIs 5.Easy 6.Hard 7.Pattern 8.Solution 9.Purpose",
+            "interpretation_method_cn": "1、前世谁 2、前世学 3、前世败 4、今生谁 5、今生易 6、今生难 7、模式 8、解决 9、目标",
+            "elements": ["earth", "water", "earth", "fire", "air", "earth", "water", "fire", "aether"],
+            "elements_cn": ["土", "水", "土", "火", "风", "土", "水", "火", "以太"],
+            "suitable_for": ["karmic exploration", "soul evolution"],
+            "suitable_for_cn": ["业力探索", "灵魂进化"]
+        },
+        "pharaohsGateArray": {
+            "name": "The Pharaoh's Gate",
+            "name_cn": "法老王之门牌阵",
+            "card_count": 11,
+            "description_cn": "古埃及智慧启示牌阵,通过十一重门揭示愿望实现的完整路径",
+            "description": "Ancient Egyptian wisdom revelation spread unveiling complete wish fulfillment path through eleven gates",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Heart's Desire",
+                    "name_cn": "心中愿望",
+                    "description": "What you hope to achieve - your core idea",
+                    "description_cn": "你希望达成的核心想法"
+                },
+                {
+                    "position": 2,
+                    "name": "Obstacles Ahead",
+                    "name_cn": "前方阻碍",
+                    "description": "Challenges your idea will encounter",
+                    "description_cn": "想法将会遇到的阻碍"
+                },
+                {
+                    "position": 3,
+                    "name": "Subconscious Blocks",
+                    "name_cn": "潜意识压抑",
+                    "description": "What and why you suppress yourself",
+                    "description_cn": "压抑自己的事情及原因"
+                },
+                {
+                    "position": 4,
+                    "name": "Achievements Gained",
+                    "name_cn": "已有成就",
+                    "description": "Accomplishments from past to present",
+                    "description_cn": "从过去到现在的成就"
+                },
+                {
+                    "position": 5,
+                    "name": "Supportive Forces",
+                    "name_cn": "助力资源",
+                    "description": "What will assist you in achievement",
+                    "description_cn": "协助你达成目标的资源"
+                },
+                {
+                    "position": 6,
+                    "name": "Receiving Assistance",
+                    "name_cn": "获得协助",
+                    "description": "How to receive or utilize help",
+                    "description_cn": "如何获得或运用帮助"
+                },
+                {
+                    "position": 7,
+                    "name": "Expression Method",
+                    "name_cn": "表达方式",
+                    "description": "How to communicate ideas for acceptance",
+                    "description_cn": "如何表达想法让他人接受"
+                },
+                {
+                    "position": 8,
+                    "name": "Beneficiaries",
+                    "name_cn": "受益人群",
+                    "description": "Who will benefit from your idea",
+                    "description_cn": "谁会在你的想法中受惠"
+                },
+                {
+                    "position": 9,
+                    "name": "Action Plan",
+                    "name_cn": "行动计划",
+                    "description": "Next steps to implement the idea",
+                    "description_cn": "实施想法的下一步行动"
+                },
+                {
+                    "position": 10,
+                    "name": "Core Insight",
+                    "name_cn": "核心洞察",
+                    "description": "Key conclusions about the idea",
+                    "description_cn": "关于想法的关键结论"
+                },
+                {
+                    "position": 11,
+                    "name": "Fulfillment Key",
+                    "name_cn": "实现密钥",
+                    "description": "Ultimate key to wish fulfillment",
+                    "description_cn": "愿望实现的终极密钥"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 160], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [280, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [220, 480], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [160, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [280, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [520, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [640, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [580, 480], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [520, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 11 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出11张牌,依序放在11处",
+            "interpretation_method": "1.Desire 2.Obstacle 3.Block 4.Achieve 5.Support 6.Receive 7.Express 8.Benefit 9.Action 10.Insight 11.Key",
+            "interpretation_method_cn": "1、愿望 2、阻碍 3、压抑 4、成就 5、助力 6、获助 7、表达 8、受益 9、行动 10、洞察 11、密钥",
+            "elements": ["fire", "earth", "water", "earth", "air", "air", "air", "water", "fire", "aether", "aether"],
+            "elements_cn": ["火", "土", "水", "土", "风", "风", "风", "水", "火", "以太", "以太"],
+            "suitable_for": ["wish manifestation", "strategic planning"],
+            "suitable_for_cn": ["愿望显化", "战略规划"]
+        },
+        "pearlNecklaceArray": {
+            "name": "Pearl Necklace Brand Array",
+            "name_cn": "珍珠项链占卜法",
+            "card_count": 7,
+            "description_cn": "优雅问题解决牌阵,珍珠串联揭示问题核心与优雅解决方案",
+            "description": "Elegant problem-solving spread revealing core issues and graceful solutions through pearl connections",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Inner Motivation",
+                    "name_cn": "内心动机",
+                    "description": "True motivation behind your actions",
+                    "description_cn": "行动背后的真实动机"
+                },
+                {
+                    "position": 2,
+                    "name": "Core Issue",
+                    "name_cn": "核心问题",
+                    "description": "Essential problem needing resolution",
+                    "description_cn": "需要解决的本质问题"
+                },
+                {
+                    "position": 3,
+                    "name": "Blind Spot",
+                    "name_cn": "盲点指引",
+                    "description": "What you're failing to see clearly",
+                    "description_cn": "你未能清晰看见的盲点"
+                },
+                {
+                    "position": 4,
+                    "name": "Recommended Action",
+                    "name_cn": "建议行动",
+                    "description": "Action you should take",
+                    "description_cn": "你应该采取的行动"
+                },
+                {
+                    "position": 5,
+                    "name": "Optimal Approach",
+                    "name_cn": "最佳方法",
+                    "description": "Best way to handle the situation",
+                    "description_cn": "处理问题的最佳方式"
+                },
+                {
+                    "position": 6,
+                    "name": "Long-term Guidance",
+                    "name_cn": "长期指引",
+                    "description": "Guidance for long-term development",
+                    "description_cn": "长期发展的相关指引"
+                },
+                {
+                    "position": 7,
+                    "name": "Final Outcome",
+                    "name_cn": "最终结果",
+                    "description": "Eventual result of the situation",
+                    "description_cn": "情况的最终结果"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [240, 235], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [295, 355], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [360, 475], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [440, 475], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [505, 355], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [565, 235], 
+                    "rotate": 0,
+                    "scale": 0.2
+                },
+                {
+                    "position": [400, 600], 
+                    "rotate": 0,
+                    "scale": 0.2
+                }
+            ],
+            "drawing_method": "Draw seven cards in necklace formation: 1-2-3-4-5-6-7(linear string)",
+            "drawing_method_cn": "抽取7张牌按项链形直线摆放: 1-2-3-7-4-5-6",
+            "interpretation_method": "1.Motive 2.Problem 3.Blind 4.Action 5.Method 6.Guidance 7.Result",
+            "interpretation_method_cn": "1、动机 2、问题 3、盲点 4、行动 5、方法 6、指引 7、结果",
+            "elements": ["water", "earth", "air", "fire", "aether", "aether", "aether"],
+            "elements_cn": ["水", "土", "风", "火", "以太", "以太", "以太"],
+            "suitable_for": ["elegant solutions", "problem clarity"],
+            "suitable_for_cn": ["优雅解决", "问题明晰"]
+        },
+        "twelveMonthArray": {
+            "name": "Twelve Month Card Array",
+            "name_cn": "全年占卜法",
+            "card_count": 13,
+            "description_cn": "年度能量循环牌阵,十三个月揭示完整年度运势与能量流动",
+            "description": "Annual energy cycle spread revealing complete year's fortune and energy flow through thirteen months",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "January Fortune",
+                    "name_cn": "一月运势",
+                    "description": "Energy and opportunities in January",
+                    "description_cn": "一月的能量与机遇"
+                },
+                {
+                    "position": 2,
+                    "name": "February Fortune",
+                    "name_cn": "二月运势",
+                    "description": "Energy and opportunities in February",
+                    "description_cn": "二月的能量与机遇"
+                },
+                {
+                    "position": 3,
+                    "name": "March Fortune",
+                    "name_cn": "三月运势",
+                    "description": "Energy and opportunities in March",
+                    "description_cn": "三月的能量与机遇"
+                },
+                {
+                    "position": 4,
+                    "name": "April Fortune",
+                    "name_cn": "四月运势",
+                    "description": "Energy and opportunities in April",
+                    "description_cn": "四月的能量与机遇"
+                },
+                {
+                    "position": 5,
+                    "name": "May Fortune",
+                    "name_cn": "五月运势",
+                    "description": "Energy and opportunities in May",
+                    "description_cn": "五月的能量与机遇"
+                },
+                {
+                    "position": 6,
+                    "name": "June Fortune",
+                    "name_cn": "六月运势",
+                    "description": "Energy and opportunities in June",
+                    "description_cn": "六月的能量与机遇"
+                },
+                {
+                    "position": 7,
+                    "name": "July Fortune",
+                    "name_cn": "七月运势",
+                    "description": "Energy and opportunities in July",
+                    "description_cn": "七月的能量与机遇"
+                },
+                {
+                    "position": 8,
+                    "name": "August Fortune",
+                    "name_cn": "八月运势",
+                    "description": "Energy and opportunities in August",
+                    "description_cn": "八月的能量与机遇"
+                },
+                {
+                    "position": 9,
+                    "name": "September Fortune",
+                    "name_cn": "九月运势",
+                    "description": "Energy and opportunities in September",
+                    "description_cn": "九月的能量与机遇"
+                },
+                {
+                    "position": 10,
+                    "name": "October Fortune",
+                    "name_cn": "十月运势",
+                    "description": "Energy and opportunities in October",
+                    "description_cn": "十月的能量与机遇"
+                },
+                {
+                    "position": 11,
+                    "name": "November Fortune",
+                    "name_cn": "十一月运势",
+                    "description": "Energy and opportunities in November",
+                    "description_cn": "十一月的能量与机遇"
+                },
+                {
+                    "position": 12,
+                    "name": "December Fortune",
+                    "name_cn": "十二月运势",
+                    "description": "Energy and opportunities in December",
+                    "description_cn": "十二月的能量与机遇"
+                },
+                {
+                    "position": 13,
+                    "name": "Annual Overview",
+                    "name_cn": "全年总览",
+                    "description": "Overall energy and theme for the entire year",
+                    "description_cn": "整年的整体能量与主题"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [175, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [325, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [475, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [625, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [175, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [325, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [475, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [625, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [175, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [325, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [475, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [625, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [675, 120], 
+                    "rotate": 45,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 13 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出13张牌,依序放在13处",
+            "interpretation_method": "1.Jan 2.Feb 3.Mar 4.Apr 5.May 6.Jun 7.Jul 8.Aug 9.Sep 10.Oct 11.Nov 12.Dec 13.Year",
+            "interpretation_method_cn": "1、一月 2、二月 3、三月 4、四月 5、五月 6、六月 7、七月 8、八月 9、九月 10、十月 11、十一月 12、十二月 13、全年",
+            "elements": ["earth", "water", "air", "earth", "fire", "water", "fire", "earth", "air", "water", "earth", "air", "aether"],
+            "elements_cn": ["土", "水", "风", "土", "火", "水", "火", "土", "风", "水", "土", "风", "以太"],
+            "suitable_for": ["yearly planning", "energy forecasting"],
+            "suitable_for_cn": ["年度规划", "能量预测"]
+        },
+        "newLoveFormation": {
+            "name": "New Love Card Formation",
+            "name_cn": "新恋情展开法",
+            "card_count": 6,
+            "description_cn": "三个月恋情预测牌阵,精准分析新恋情的可能性与发展轨迹",
+            "description": "Three-month romance prediction spread accurately analyzing new relationship potential and development path",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Three-Month Potential",
+                    "name_cn": "三月内恋情",
+                    "description": "Likelihood of new romance within three months",
+                    "description_cn": "三个月内发生新恋情的可能性"
+                },
+                {
+                    "position": 2,
+                    "name": "Partner's Zodiac",
+                    "name_cn": "对方星座",
+                    "description": "Astrological sign of potential partner",
+                    "description_cn": "潜在伴侣的星座"
+                },
+                {
+                    "position": 3,
+                    "name": "Compatibility Level",
+                    "name_cn": "相处融洽度",
+                    "description": "How well you will get along together",
+                    "description_cn": "双方相处的和谐程度"
+                },
+                {
+                    "position": 4,
+                    "name": "Relationship Durability",
+                    "name_cn": "关系持久性",
+                    "description": "Long-term sustainability of the connection",
+                    "description_cn": "关系的长期维持能力"
+                },
+                {
+                    "position": 5,
+                    "name": "Desired Outcome",
+                    "name_cn": "期望结果",
+                    "description": "What you hope to achieve from this relationship",
+                    "description_cn": "你希望从关系中获得的结果"
+                },
+                {
+                    "position": 6,
+                    "name": "Actual Outcome",
+                    "name_cn": "实际结果",
+                    "description": "How the relationship will actually unfold",
+                    "description_cn": "关系实际发展的结果"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [180, 190], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [620, 190], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [180, 610], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [327, 610], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [473, 610], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出6张牌,依序放在6处",
+            "interpretation_method": "1.Potential 2.Zodiac 3.Harmony 4.Last 5.Hope 6.Reality",
+            "interpretation_method_cn": "1、可能 2、星座 3、和谐 4、持久 5、期望 6、现实",
+            "elements": ["fire", "air", "water", "earth", "water", "aether"],
+            "elements_cn": ["火", "风", "水", "土", "水", "以太"],
+            "suitable_for": ["new romance", "relationship forecast"],
+            "suitable_for_cn": ["新恋情", "关系预测"]
+        },
+        "chooseOneArray": {
+            "name": "Choose One Card Array",
+            "name_cn": "应该或不应该展开法",
+            "card_count": 9,
+            "description_cn": "二元决策分析牌阵,全面对比行动与不行动的后果路径",
+            "description": "Binary decision analysis spread comprehensively comparing consequences of action and inaction paths",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Action Outcome 1",
+                    "name_cn": "行动结果一",
+                    "description": "First possible outcome if you take action",
+                    "description_cn": "如果你行动的第一个可能结果"
+                },
+                {
+                    "position": 2,
+                    "name": "Action Outcome 2",
+                    "name_cn": "行动结果二",
+                    "description": "Second potential result of taking action",
+                    "description_cn": "行动的第二个潜在结果"
+                },
+                {
+                    "position": 3,
+                    "name": "Action Outcome 3",
+                    "name_cn": "行动结果三",
+                    "description": "Third consequence of making the change",
+                    "description_cn": "做出改变的第三个后果"
+                },
+                {
+                    "position": 4,
+                    "name": "Inaction Outcome 1",
+                    "name_cn": "无为结果一",
+                    "description": "First possible outcome if you maintain status quo",
+                    "description_cn": "保持现状的第一个可能结果"
+                },
+                {
+                    "position": 5,
+                    "name": "Inaction Outcome 2",
+                    "name_cn": "无为结果二",
+                    "description": "Second result of not making changes",
+                    "description_cn": "不做改变的第二个结果"
+                },
+                {
+                    "position": 6,
+                    "name": "Inaction Outcome 3",
+                    "name_cn": "无为结果三",
+                    "description": "Third consequence of remaining unchanged",
+                    "description_cn": "保持不变的第三个后果"
+                },
+                {
+                    "position": 7,
+                    "name": "Action Synthesis",
+                    "name_cn": "行动综合",
+                    "description": "Overall result if you choose to make changes",
+                    "description_cn": "选择改变的整体结果"
+                },
+                {
+                    "position": 8,
+                    "name": "Inaction Synthesis",
+                    "name_cn": "无为综合",
+                    "description": "Overall result if you choose to remain unchanged",
+                    "description_cn": "选择不变的整体结果"
+                },
+                {
+                    "position": 9,
+                    "name": "Essential Awareness",
+                    "name_cn": "必要认知",
+                    "description": "What you must understand before deciding",
+                    "description_cn": "决定前必须明白的事项"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [160, 180], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [280, 180], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 180], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [160, 620], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [280, 620], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 620], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [640, 180], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [640, 620], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [520, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 9 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出9张牌,依序放在9处",
+            "interpretation_method": "1.Act1 2.Act2 3.Act3 4.Static1 5.Static2 6.Static3 7.ActSum 8.StaticSum 9.Awareness",
+            "interpretation_method_cn": "1、动1 2、动2 3、动3 4、静1 5、静2 6、静3 7、动合 8、静合 9、觉悟",
+            "elements": ["fire", "fire", "fire", "water", "water", "water", "aether", "aether", "aether"],
+            "elements_cn": ["火", "火", "火", "水", "水", "水", "以太", "以太", "以太"],
+            "suitable_for": ["binary decisions", "consequence analysis"],
+            "suitable_for_cn": ["二元决策", "后果分析"]
+        },
+        "searchingForItemsArray": {
+            "name": "Searching for Items Card Array",
+            "name_cn": "导物展开法",
+            "card_count": 9,
+            "description_cn": "失物寻找指引牌阵,系统分析物品下落与寻找策略",
+            "description": "Lost item guidance spread systematically analyzing item location and search strategies",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Lost Item Status",
+                    "name_cn": "失物状态",
+                    "description": "Current condition and situation of the lost item",
+                    "description_cn": "失物当前的状况和状态"
+                },
+                {
+                    "position": 2,
+                    "name": "Essential Knowledge",
+                    "name_cn": "必要认知",
+                    "description": "What you need to understand about the loss",
+                    "description_cn": "关于失物需要明白的重要信息"
+                },
+                {
+                    "position": 3,
+                    "name": "Search Starting Point 1",
+                    "name_cn": "寻找起点一",
+                    "description": "First recommended place to begin searching",
+                    "description_cn": "建议的第一个开始寻找的地点"
+                },
+                {
+                    "position": 4,
+                    "name": "Search Starting Point 2",
+                    "name_cn": "寻找起点二",
+                    "description": "Second potential starting location",
+                    "description_cn": "第二个可能的开始寻找地点"
+                },
+                {
+                    "position": 5,
+                    "name": "Helpful Assistance",
+                    "name_cn": "协助力量",
+                    "description": "Who or what will provide help in the search",
+                    "description_cn": "在寻找过程中会提供帮助的人或事物"
+                },
+                {
+                    "position": 6,
+                    "name": "Consideration Factor 1",
+                    "name_cn": "考虑因素一",
+                    "description": "First important factor to consider during search",
+                    "description_cn": "寻找时需要考虑的第一个重要因素"
+                },
+                {
+                    "position": 7,
+                    "name": "Consideration Factor 2",
+                    "name_cn": "考虑因素二",
+                    "description": "Second crucial factor to examine",
+                    "description_cn": "需要审视的第二个关键因素"
+                },
+                {
+                    "position": 8,
+                    "name": "Search Outcome 1",
+                    "name_cn": "寻找结果一",
+                    "description": "First possible outcome of the search",
+                    "description_cn": "寻找的第一个可能结果"
+                },
+                {
+                    "position": 9,
+                    "name": "Search Outcome 2",
+                    "name_cn": "寻找结果二",
+                    "description": "Second potential search result",
+                    "description_cn": "第二个可能的寻找结果"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [164, 197], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [400, 197], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [254, 378], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [359, 378], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [193, 616], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [384, 616], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [494, 616], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [636, 244], 
+                    "rotate": 0,
+                    "scale": 0.27
+                },
+                {
+                    "position": [636, 460], 
+                    "rotate": 0,
+                    "scale": 0.27
+                }
+            ],
+            "drawing_method": "Draw 9 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出9张牌,依序放在9处",
+            "interpretation_method": "1.Item 2.Understand 3.Start1 4.Start2 5.Help 6.Factor1 7.Factor2 8.Result1 9.Result2",
+            "interpretation_method_cn": "1、物品 2、认知 3、起点1 4、起点2 5、帮助 6、因素1 7、因素2 8、结果1 9、结果2",
+            "elements": ["earth", "air", "air", "air", "water", "earth", "earth", "fire", "fire"],
+            "elements_cn": ["土", "风", "风", "风", "水", "土", "土", "火", "火"],
+            "suitable_for": ["lost item recovery", "search guidance"],
+            "suitable_for_cn": ["失物寻找", "搜索指引"]
+        },
+        "beliefPowerArray": {
+            "name": "Belief Power Card Array",
+            "name_cn": "信念力展开法",
+            "card_count": 5,
+            "description_cn": "信念能量转化牌阵,揭示限制性信念与赋能新思维的转变路径",
+            "description": "Belief energy transformation spread revealing limiting beliefs and empowering new thought patterns",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Heart's Desire",
+                    "name_cn": "内心愿望",
+                    "description": "Your true aspiration and deepest wish",
+                    "description_cn": "你真正的渴望和最深层的愿望"
+                },
+                {
+                    "position": 2,
+                    "name": "Limiting Belief",
+                    "name_cn": "限制信念",
+                    "description": "Core negative belief blocking your achievement",
+                    "description_cn": "阻碍你成就的核心负面信念"
+                },
+                {
+                    "position": 3,
+                    "name": "Transition Thought",
+                    "name_cn": "过渡思维",
+                    "description": "Bridge thought connecting old and new beliefs",
+                    "description_cn": "连接新旧信念的桥梁思维"
+                },
+                {
+                    "position": 4,
+                    "name": "Empowering Belief",
+                    "name_cn": "赋能信念",
+                    "description": "New positive belief emerging in your life",
+                    "description_cn": "即将出现在你生命中的新积极信念"
+                },
+                {
+                    "position": 5,
+                    "name": "Transformation Result",
+                    "name_cn": "转化结果",
+                    "description": "Outcome brought by the new empowering belief",
+                    "description_cn": "新赋能信念带来的转化结果"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [600, 580], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [600, 220], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [200, 220], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [200, 580], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 8 cards randomly and place them in order",
+            "drawing_method_cn": "随意取出8张牌,依序放在8处",
+            "interpretation_method": "1.Wish 2.Block 3.Bridge 4.New 5.Result",
+            "interpretation_method_cn": "1、愿望 2、阻碍 3、桥梁 4、新生 5、结果",
+            "elements": ["fire", "earth", "water", "air", "aether"],
+            "elements_cn": ["火", "土", "水", "风", "以太"],
+            "suitable_for": ["belief transformation", "mindset shift"],
+            "suitable_for_cn": ["信念转化", "思维转变"]
+        },
+        "adjustPressure": {
+            "name": "Adjust pressure",
+            "name_cn": "调节压力展开法",
+            "card_count": 6,
+            "description_cn": "用于分析和调节当前面临的压力状况",
+            "description": "Used to analyze and adjust current pressure situations",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Essence of the Problem",
+                    "name_cn": "问题的本质",
+                    "description": "The core nature and root cause of the issue",
+                    "description_cn": "问题的核心本质和根本原因"
+                },
+                {
+                    "position": 2,
+                    "name": "Current Situation",
+                    "name_cn": "当前状况",
+                    "description": "Present circumstances and environment",
+                    "description_cn": "当前的处境和环境状况"
+                },
+                {
+                    "position": 3,
+                    "name": "Specific Phase",
+                    "name_cn": "特定阶段状况",
+                    "description": "Situation at a particular stage or time period",
+                    "description_cn": "某个特定阶段或时间段的状况"
+                },
+                {
+                    "position": 4,
+                    "name": "Pre-awareness Feelings",
+                    "name_cn": "明白前的感受",
+                    "description": "Feelings about the situation before gaining clarity",
+                    "description_cn": "在明白一些事情之前对处境的感受"
+                },
+                {
+                    "position": 5,
+                    "name": "Related People",
+                    "name_cn": "相关的人",
+                    "description": "People connected to or influencing the situation",
+                    "description_cn": "与处境有关联或产生影响的人"
+                },
+                {
+                    "position": 6,
+                    "name": "Final Outcome",
+                    "name_cn": "最后结果",
+                    "description": "The ultimate result or conclusion",
+                    "description_cn": "最终的結果或结局"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [200, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 250], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [600, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [200, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [400, 550], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [600, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in positions 1 to 6 in sequence",
+            "drawing_method_cn": "随意抽取6张牌,依序放在1到6处",
+            "interpretation_method": "Interpret each position's meaning in order to understand the pressure sources and adjustment methods",
+            "interpretation_method_cn": "按顺序解读每个位置的含义,理解压力来源和调节方法",
+            "elements": ["earth", "water", "air", "fire", "aether"],
+            "elements_cn": ["土", "水", "风", "火", "以太"],
+            "suitable_for": ["stress management", "emotional adjustment", "situational analysis"],
+            "suitable_for_cn": ["压力管理", "情绪调节", "处境分析"]
+        },
+        "keycardArray": {
+            "name": "Keycard array",
+            "name_cn": "钥匙展开法",
+            "card_count": 9,
+            "description_cn": "用于分析问题中的关键因素和各方影响",
+            "description": "Used to analyze key factors and various influences in the question",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Querent's Situation",
+                    "name_cn": "询问者的境遇",
+                    "description": "The querent's circumstances in the question raised",
+                    "description_cn": "询问者在他所提问题中的境遇"
+                },
+                {
+                    "position": 2,
+                    "name": "Favorable Environment",
+                    "name_cn": "顺利的环境",
+                    "description": "Favorable circumstances and environment",
+                    "description_cn": "顺利的环境和境遇"
+                },
+                {
+                    "position": 3,
+                    "name": "Querent's Condition",
+                    "name_cn": "询问者的状况",
+                    "description": "The querent's situation in the question raised",
+                    "description_cn": "询问者在他所提问题中的境遇"
+                },
+                {
+                    "position": 4,
+                    "name": "Smooth Circumstances",
+                    "name_cn": "顺利的境遇",
+                    "description": "Smooth environment and circumstances",
+                    "description_cn": "顺利的环境和境遇"
+                },
+                {
+                    "position": 5,
+                    "name": "Helper",
+                    "name_cn": "帮助者",
+                    "description": "Person who will provide help to the querent",
+                    "description_cn": "将给与询问者帮助的人"
+                },
+                {
+                    "position": 6,
+                    "name": "Past",
+                    "name_cn": "过去",
+                    "description": "Represents the past influences",
+                    "description_cn": "代表过去的影响"
+                },
+                {
+                    "position": 7,
+                    "name": "Recent Events",
+                    "name_cn": "近期事件",
+                    "description": "Represents recent events",
+                    "description_cn": "代表最近的事件"
+                },
+                {
+                    "position": 8,
+                    "name": "Adverse Situation",
+                    "name_cn": "不利情况",
+                    "description": "Represents unfavorable circumstances",
+                    "description_cn": "代表不利的情况"
+                },
+                {
+                    "position": 9,
+                    "name": "Opponent",
+                    "name_cn": "反对者",
+                    "description": "Person who will oppose the querent",
+                    "description_cn": "将反对他的人"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [350, 160], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [350, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [350, 480], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [350, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [450, 160], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [450, 320], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [450, 480], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [450, 640], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [565, 565], 
+                    "rotate": 0,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 9 cards randomly and place them in positions 1 to 9 in sequence",
+            "drawing_method_cn": "随意抽取9张牌,依序放在1到9处",
+            "interpretation_method": "Analyze the relationships between different positions to understand the overall situation and key influencing factors",
+            "interpretation_method_cn": "分析各位置间的关系,理解整体状况和关键影响因素",
+            "elements": ["aether", "air", "water", "fire", "earth"],
+            "elements_cn": ["以太", "风", "水", "火", "土"],
+            "suitable_for": ["situational analysis", "conflict resolution", "relationship issues"],
+            "suitable_for_cn": ["处境分析", "冲突解决", "人际关系问题"]
+        },
+        "loveStarArray": {
+            "name": "Love Star Array",
+            "name_cn": "爱之星",
+            "card_count": 6,
+            "description_cn": "用于分析爱情关系的经典牌阵,揭示双方情感状态和发展趋势",
+            "description": "A classic spread for analyzing love relationships, revealing the emotional states and development trends of both parties",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Current Situation",
+                    "name_cn": "现状",
+                    "description": "The present state of the relationship",
+                    "description_cn": "关系的当前状况"
+                },
+                {
+                    "position": 2,
+                    "name": "Woman's Feelings",
+                    "name_cn": "女方心情",
+                    "description": "The woman's emotional state and inner feelings",
+                    "description_cn": "女方的情绪状态和内心感受"
+                },
+                {
+                    "position": 3,
+                    "name": "Man's Feelings",
+                    "name_cn": "男方心情",
+                    "description": "The man's emotional state and inner feelings",
+                    "description_cn": "男方的情绪状态和内心感受"
+                },
+                {
+                    "position": 4,
+                    "name": "Past",
+                    "name_cn": "过去",
+                    "description": "Past influences and experiences in the relationship",
+                    "description_cn": "关系中过去的影响和经历"
+                },
+                {
+                    "position": 5,
+                    "name": "Your Expectations",
+                    "name_cn": "你的期望",
+                    "description": "Your hopes and expectations for the relationship",
+                    "description_cn": "你对这段关系的希望和期待"
+                },
+                {
+                    "position": 6,
+                    "name": "Result",
+                    "name_cn": "结果",
+                    "description": "The likely outcome or future development",
+                    "description_cn": "可能的结果或未来发展"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [400, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [200, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [600, 400], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 600], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 200], 
+                    "rotate": 0,
+                    "scale": 0.25
+                },
+                {
+                    "position": [400, 431], 
+                    "rotate": 90,
+                    "scale": 0.25
+                }
+            ],
+            "drawing_method": "Draw 6 cards randomly and place them in positions 1 to 6 in sequence",
+            "drawing_method_cn": "随意抽取6张牌,依序放在1到6处",
+            "interpretation_method": "Interpret the emotional interaction between both parties and the development trend of the relationship based on the positions",
+            "interpretation_method_cn": "根据各位置解读双方的情感互动和关系发展趋势",
+            "elements": ["water", "fire", "air", "earth", "aether"],
+            "elements_cn": ["水", "火", "风", "土", "以太"],
+            "suitable_for": ["love relationships", "emotional issues", "relationship development"],
+            "suitable_for_cn": ["爱情关系", "情感问题", "关系发展"]
+        },
+        "passiveLove": {
+            "name": "Passive love",
+            "name_cn": "被动的爱",
+            "card_count": 8,
+            "description_cn": "用于分析被动型爱情关系,了解对方在关系中的真实想法和期望",
+            "description": "Used to analyze passive love relationships and understand the other person's true thoughts and expectations in the relationship",
+            "positions": [
+                {
+                    "position": 1,
+                    "name": "Liked Aspect 1",
+                    "name_cn": "喜欢的部分1",
+                    "description": "The first aspect of the relationship that TA likes",
+                    "description_cn": "TA在这段关系中喜欢的第一个方面"
+                },
+                {
+                    "position": 2,
+                    "name": "Liked Aspect 2",
+                    "name_cn": "喜欢的部分2",
+                    "description": "The second aspect of the relationship that TA likes",
+                    "description_cn": "TA在这段关系中喜欢的第二个方面"
+                },
+                {
+                    "position": 3,
+                    "name": "Liked Aspect 3",
+                    "name_cn": "喜欢的部分3",
+                    "description": "The third aspect of the relationship that TA likes",
+                    "description_cn": "TA在这段关系中喜欢的第三个方面"
+                },
+                {
+                    "position": 4,
+                    "name": "Liked Aspect 4",
+                    "name_cn": "喜欢的部分4",
+                    "description": "The fourth aspect of the relationship that TA likes",
+                    "description_cn": "TA在这段关系中喜欢的第四个方面"
+                },
+                {
+                    "position": 5,
+                    "name": "Desired Outcome 1",
+                    "name_cn": "期望的事情1",
+                    "description": "The first thing TA wants to see happen in this relationship",
+                    "description_cn": "TA想要在这段关系中看见发生的第一件事情"
+                },
+                {
+                    "position": 6,
+                    "name": "Desired Outcome 2",
+                    "name_cn": "期望的事情2",
+                    "description": "The second thing TA wants to see happen in this relationship",
+                    "description_cn": "TA想要在这段关系中看见发生的第二件事情"
+                },
+                {
+                    "position": 7,
+                    "name": "Current Situation 1",
+                    "name_cn": "当前处境1",
+                    "description": "The first aspect of the current situation in this relationship",
+                    "description_cn": "这段关系当前处境的第一个方面"
+                },
+                {
+                    "position": 8,
+                    "name": "Current Situation 2",
+                    "name_cn": "当前处境2",
+                    "description": "The second aspect of the current situation in this relationship",
+                    "description_cn": "这段关系当前处境的第二个方面"
+                }
+            ],
+            "draw": [
+                {
+                    "position": [200, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [320, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [480, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [600, 200], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [340, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [460, 400], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [340, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                },
+                {
+                    "position": [460, 600], 
+                    "rotate": 0,
+                    "scale": 0.3
+                }
+            ],
+            "drawing_method": "Draw 8 cards randomly and place them in positions 1 to 8 in sequence",
+            "drawing_method_cn": "随意抽取8张牌,依序放在1到8处",
+            "interpretation_method": "Analyze the other person's preferences, expectations, and the current state of the relationship from a passive perspective",
+            "interpretation_method_cn": "从被动角度分析对方的喜好、期望以及关系当前的状态",
+            "elements": ["water", "fire", "air", "earth", "aether"],
+            "elements_cn": ["水", "火", "风", "土", "以太"],
+            "suitable_for": ["passive relationships", "unexpressed feelings", "understanding partner's thoughts"],
+            "suitable_for_cn": ["被动型关系", "未表达的情感", "了解伴侣想法"]
         }
     }
 }

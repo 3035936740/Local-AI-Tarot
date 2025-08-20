@@ -2,9 +2,9 @@ import asyncio, random
 from tarot import Tarot, TarotContent, TarotDraw
 
 # 运行的URL
-URL = "http://localhost:11434"
+URL = "http://192.168.0.106:11434"
 # 选择的模型
-MODEL = "llama3.1:latest"
+MODEL = "llama3.2-vision:latest" # "llama3.1:latest" 
 
 # 模拟塔罗师发消息
 MIN_AWAIT_TIME, MAX_AWAIT_TIME = 1, 3
@@ -17,6 +17,10 @@ async def example_div():
     
     data = result.tarot_info
     print(data)
+    cards_list = [value for __,value in data["cards"].items()]
+    tarot_draw = TarotDraw("resources")
+    result_draw = await tarot_draw.draw(cards_list, data["spread"], data["is_reversed_list"])
+    result_draw.save("output.png")
     
     if result.is_complete:
         print(result.tarot_text)
@@ -29,34 +33,8 @@ async def example_div():
     else:
         print(result.failure_text)
 
-async def example_draw():
-    from tarot_config import TAROT_DATA_PATH
-    import json
-    with open(TAROT_DATA_PATH, 'r', encoding='utf-8') as file:
-        tarot_data = json.load(file)
-    
-    spread_key = "dreamMatrix"
-    # 阵法
-    spreads = tarot_data['spreads']
-    # 塔罗牌
-    tarot_cards = tarot_data['cards']
-
-    spread = spreads[spread_key]
-    tarot_cards_keys = list(tarot_cards.keys())
-    spread_positions = spread["positions"]
-    card_count = len(spread_positions)
-    random_cards = random.sample(tarot_cards_keys, card_count)
-
-    cards = [tarot_cards[random_card] for random_card in random_cards]
-    is_reversed_list = random.choices([True, False], k=card_count)
-
-    tarot_draw = TarotDraw("resources")
-    result = await tarot_draw.draw(cards, spread, is_reversed_list)
-    result.save("output.png")
-
 async def main():
-    await example_draw() # 绘图
-    # await example_div() # 占比
+    await example_div() # 占卜
 
 if __name__ == "__main__":
     asyncio.run(main())
