@@ -1,7 +1,7 @@
 TAROT_DATA_PATH = "tarot_all_cn.json"
 
 # 默认牌阵
-DEFAULT_SPREAD_KEY = "threeCard"
+DEFAULT_SPREAD_KEY = "universalThreeCard"
 
 # 去AI味
 REPLACE_STRING_TO_EMPTY = ("首先","其次","但是","可是","接着","最后","因此","然后","然而", "综上所述", "同时", "总之", "总的来说", "最重要的是")
