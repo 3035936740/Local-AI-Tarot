@@ -323,8 +323,8 @@ class Tarot:
                     tarot_texts += f"\n第一元素:{first_element_cn}," + self.__handle_element_text(element, a_mod, total_zodiacs_key)
                 if second_element:
                     second_element_cn = tarot_card["second_element_cn"]
-                    total_elements.add(first_element)
-                    element = elements[first_element]
+                    total_elements.add(second_element)
+                    element = elements[second_element]
                     tarot_texts += f"\n第二元素:{second_element_cn}," + self.__handle_element_text(element, a_mod, total_zodiacs_key)
                 if court_elemental:
                     court_name = court_elemental["nameCN"]
