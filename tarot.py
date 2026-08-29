@@ -442,8 +442,153 @@ class Tarot:
             drawn_keys = random.sample(deck_keys, card_count)
             is_reversed_list = [random.choice([True, False]) for _ in range(card_count)]
 
+<<<<<<< HEAD
             tarot_texts, show_text, total_elements, total_zodiacs, court_keys = self._build_spread_context(
                 spread, drawn_keys, is_reversed_list, a_mod
+=======
+            random_cards = random.sample(tarot_cards_keys, card_count)
+            
+            # 塔罗
+            tarot_texts = f"塔罗牌阵讯息:\n{spread_name}: {spread_description}\n"
+            
+            show_text = f"{spread_name}: {spread_description}"
+            
+            total_court_elemental_correspondence_keys = set()
+            total_elements = set()
+            total_zodiacs_key = set()
+            
+            for index, card in enumerate(spread_positions):
+                name_cn = card["name_cn"]
+                description_cn = card["description_cn"]
+                tarot_texts += f"\n{index + 1}. {name_cn}: {description_cn}"
+                tarot_card_key = random_cards[index] # 塔罗牌索引
+                tarot_card = tarot_cards[tarot_card_key] # 塔罗牌
+                is_reversed = random.choice([True, False]) # 是否为逆位
+                is_reversed_list.append(is_reversed)
+                card_name = tarot_card["card_name_cn"] # 塔罗牌名字
+                card_id = tarot_card["id"]
+
+
+                # 第一元素
+                first_element = tarot_card["first_element"]
+                # 第二元素
+                second_element = tarot_card["second_element"]
+                # 宫廷元素
+                court_elemental = None
+
+                court_elemental_correspondence_keys = court_elemental_correspondence.keys()
+                
+                for court_elemental_correspondence_key in court_elemental_correspondence_keys:
+                    total_court_elemental_correspondence_keys.add(court_elemental_correspondence_key)
+                    # 宫廷牌属性
+                    if tarot_card_key.lower().startswith(court_elemental_correspondence_key):
+                        court_elemental = court_elemental_correspondence[court_elemental_correspondence_key]
+
+                card_description = ""
+
+                if is_reversed: # 逆位
+                    card_description = tarot_card["reversed_cn"]
+                    card_name = "逆" + card_name
+                else: # 正位
+                    card_description = tarot_card["upright_cn"]
+                    card_name = "正" + card_name
+                
+                show_text += f"\n#{index + 1} {name_cn}: {description_cn}\n{card_name}"
+                tarot_texts += f"\n{card_name}: {card_description}"
+                
+                if first_element:
+                    first_element_cn = tarot_card["first_element_cn"]
+                    total_elements.add(first_element)
+                    element = elements[first_element]
+                    tarot_texts += f"\n第一元素:{first_element_cn}," + self.__handle_element_text(element, a_mod, total_zodiacs_key)
+                if second_element:
+                    second_element_cn = tarot_card["second_element_cn"]
+                    total_elements.add(second_element)
+                    element = elements[second_element]
+                    tarot_texts += f"\n第二元素:{second_element_cn}," + self.__handle_element_text(element, a_mod, total_zodiacs_key)
+                if court_elemental:
+                    court_name = court_elemental["nameCN"]
+                    court_element = court_elemental["element"]
+                    court_element_cn = court_elemental["elementCN"]
+                    court_meaning = court_elemental["meaning"]
+                    total_elements.add(court_element)
+                    element = elements[court_element]
+                    tarot_texts += f"\n宫廷元素:{court_element_cn},{court_name}含义:{court_meaning}," + self.__handle_element_text(element, a_mod, total_zodiacs_key)
+            
+            spread_interpretation = spread["interpretation_method_cn"]
+            tarot_texts += f"\n阵型解释:{spread_interpretation}"
+            
+            if "all" in total_zodiacs_key and a_mod:
+                total_zodiacs_key = {"Aries", "Leo", "Sagittarius", "Taurus","Virgo","Capricorn", "Gemini","Libra","Aquarius", "Cancer","Scorpio","Pisces"}
+            
+            # 占星
+            zodiacs_text = ""
+            
+            total_astrology_modality_keys = set()
+            
+            
+            if a_mod:
+                zodiacs_text = "占星讯息:"
+                zodiacs_text_info = ""
+                for zodiacs_key in total_zodiacs_key:
+                    zodiac = zodiacs[zodiacs_key]
+                    astrology_modality_key = zodiac['astrologyModality'] # 占星模式
+                    total_astrology_modality_keys.add(astrology_modality_key)
+                    
+                    zodiac_name = zodiac['zodiacCN'] # 星座名称
+                    astrology_modality_cn = zodiac['astrologyModalityCN'] # 占星模式cn
+                    element_cn = zodiac['elementCN'] # 元素
+                    season_cn = zodiac['seasonCN'] # 季节
+                    nature = zodiac['nature'] # 本质 
+                    ruling_body_modern = zodiac['rulingBodyModern'] # 现代守护星
+                    ruling_body_traditional = zodiac['rulingBodyTraditional'] # 古典守护星
+                    
+                    zodiacs_text_info += f"\n{zodiac_name}: {astrology_modality_cn}\n元素:{element_cn},季节:{season_cn},本质:{nature}"
+                    
+                    if ruling_body_traditional:
+                        zodiacs_text_info += f",现代守护星: {ruling_body_modern}, 古典守护星: {ruling_body_traditional}"
+                    else:
+                        zodiacs_text_info += f",守护星: {ruling_body_modern}"
+                
+                astrology_modality_info = ""
+                for total_astrology_modality_key in total_astrology_modality_keys:
+                    astrology_modality_value = astrology_modality[total_astrology_modality_key]
+                    name_cn = astrology_modality_value["name_cn"] # 占星模式cn
+                    card = astrology_modality_value["cardCN"] # 对应宫廷牌
+                    attribute = astrology_modality_value["attribute"] # 属性
+                    meaning = astrology_modality_value["meaning"] # 含义
+                    
+                    astrology_modality_info += f"\n{name_cn},对应宫廷牌:{card},属性:{attribute},含义:{meaning}"
+                
+                zodiacs_text += astrology_modality_info + zodiacs_text_info
+            
+            messages = [
+                {
+                    "role": "system",
+                    "content": TAROT_MASTER_CONTENT(a_mod), # 系统提示词
+                },
+                {
+                
+                    "role": "user",
+                    "content": USER_VL_MSG + user_message
+                }
+            ]
+            
+            messages.append({
+                    "role": "assistant",
+                    "content": zodiacs_text # 占星讯息
+            })
+            
+            messages.extend([{
+                    "role": "assistant",
+                    "content": tarot_texts # 塔罗牌讯息
+                },
+                {
+                
+                    "role": "user",
+                    "content": USER_RA_MSG + user_message
+                }]
+>>>>>>> ef872432feddde1906cb2a63cb79720578d9fe85
             )
 
             zodiacs_text = ""
