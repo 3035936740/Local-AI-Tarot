@@ -1,4 +1,58 @@
-TAROT_DATA_PATH = "tarot_all_cn.json"
+import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+PROJECT_ROOT = Path(__file__).resolve().parent
+TAROT_DATA_PATH = PROJECT_ROOT / "tarot_all_cn.json"
+RESOURCES_DIR = PROJECT_ROOT / "resources"
+
+load_dotenv(PROJECT_ROOT / ".env")
+
+
+def parse_env_str(raw: str | None, default: str) -> str:
+    if raw is None or not raw.strip():
+        return default
+    return raw.strip()
+
+
+def parse_env_int(raw: str | None, default: int) -> int:
+    if raw is None or not raw.strip():
+        return default
+    return int(raw)
+
+
+def parse_env_csv(raw: str | None, default: tuple[str, ...]) -> tuple[str, ...]:
+    if raw is None or not raw.strip():
+        return default
+    items = tuple(part.strip() for part in raw.split(",") if part.strip())
+    return items or default
+
+
+TAROT_PROVIDER = parse_env_str(os.getenv("TAROT_PROVIDER"), "ollama").lower()
+TAROT_URL = parse_env_str(os.getenv("TAROT_URL"), "localhost:11434")
+TAROT_MODEL = parse_env_str(os.getenv("TAROT_MODEL"), "llama3.1:latest")
+TAROT_API_KEY = (
+    parse_env_str(os.getenv("TAROT_API_KEY"), "")
+    or parse_env_str(os.getenv("OPENAI_API_KEY"), "")
+    or None
+)
+MAJOR_ARCANA_MAX_ID = parse_env_int(os.getenv("TAROT_MAJOR_ARCANA_MAX_ID"), 21)
+ALL_ZODIAC_KEYS = set(
+    parse_env_csv(
+        os.getenv("TAROT_ZODIAC_KEYS"),
+        (
+            "Aries", "Leo", "Sagittarius",
+            "Taurus", "Virgo", "Capricorn",
+            "Gemini", "Libra", "Aquarius",
+            "Cancer", "Scorpio", "Pisces",
+        ),
+    )
+)
+NAME_SUFFIXES = parse_env_csv(
+    os.getenv("TAROT_NAME_SUFFIXES"),
+    ("牌阵", "展开法", "展开", "阵列"),
+)
 
 # 默认牌阵
 DEFAULT_SPREAD_KEY = "universalThreeCard"
@@ -111,23 +165,14 @@ A_MODE = "所有时间描述改为\"当[任意一个天体]运行至[任意一�
 
 # 设定提示
 def TAROT_MASTER_CONTENT(a_mode: bool = False):
-    return f"""你现在是一名专业的塔罗牌师,下面会提供牌阵和对应的元素,以及牌阵中每张牌的位置含义,请根据用户的问题,结合牌阵和位置含义,给出专业的塔罗牌解读,并且结合塔罗牌的元素属性进行分析
-这是你的设定
-你是一个严肃的赫尔墨斯学派末裔塔罗师
-你经常使用古语、占星术语,神秘学内容
-对轻浮提问者会严厉警告
+    return f"""你现在是一名塔罗牌师。下面会提供牌阵、位置含义和元素，请结合用户的问题给出解读。
+用短句，少形容，读起来像当面说话。可以带一点古语或占星术语，但不要堆砌。
 {A_MODE if a_mode else T_MODE}
-核心规则:
-永远保持神秘威严的语气
-回答必须包含至少1个专业术语
-对无效输入要给予神秘学解释
-
-但是注意!
-使用口语化、接地气、人情味、富有情感等等语气
-要使用短句，不要使用长句，不要冗长描述，便于阅读和理解
-段落过度要自然、逻辑清晰
-文章中可以试着加入更多具体的例子、故事来阐述观点、或生动的描述和感官细节等
-注意：不要使用“首先、其次、再次、然后、最后”这些副词和过渡词"""
+规则:
+- 至少用到 1 个塔罗或占星术语
+- 对空泛、玩笑式提问，先点明问题本身含糊，再给解读
+- 不要使用「首先、其次、再次、然后、最后、总之、综上所述」这类套话
+- 不要长篇排比，一段不用超过三句"""
 
 # 选择牌阵提示
 TAROT_SPREADS = "你现在是一名塔罗牌师,根据用户提出的问题,选择下面的其中一个牌阵,且只需输出阵型key即可(纯英文),不需要输出其他多余内容\n"
